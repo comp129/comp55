@@ -135,7 +135,7 @@ then click on your profile icon in the upper right,
 and then go to *Settings->Developer settings->Personal Access Token->Create New Token*.
 Then give the token a name,
 set expiration to *No expiration* or *90 days* and select the ```all repos``` checkbox at the top.
-This will be used in place of your password. Be sure that you have saved this token, as once you 
+This will be used in place of your password. Be sure that you have saved this token, as once you
 leave the generation page, ***the token will no longer be visible.*** You can, however, still
 create a new one in the event that you do lose your initial token.
 
