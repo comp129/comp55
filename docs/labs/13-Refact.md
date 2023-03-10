@@ -310,7 +310,7 @@ your final project grade.</u>**
 
 That said, it is equally important to ensure that any code you write is easily understandable.
 If you find that anything you write is not immediately clear,
-take the time to add comments that explain the purpose and function of the code in question.
+take the time to add comments that explain the code's purpose/intent.
 
 #### 6. Use data instead of logic to store variations
 
