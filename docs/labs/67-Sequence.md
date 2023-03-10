@@ -95,7 +95,7 @@ Obj2-->Obj1 : <i>[returnedObject]</i>
 
 Here is an example diagram:
 
-![example](lab67media/example1.png)
+![basic_plantuml_diagram](lab67media/basic_plantuml_diagram.png)
 
 **Ensure that you have at least one return statement
 that would make sense from one of the method calls you created previously**.
@@ -118,7 +118,7 @@ but I tend not to use them too much
 because then we get into this idea of having lots of logic in our sequence diagrams,
 which then makes it more difficult to understand.
 But this is the potential if we use ```alt``` and ```else``` in our sequence diagrams:
-![altex](lab67media/altuml.png)
+![advanced_plantuml_diagram](lab67media/advanced_plantuml_diagram.png)
 
 ## Getting credit
 
