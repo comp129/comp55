@@ -118,7 +118,7 @@ but I tend not to use them too much
 because then we get into this idea of having lots of logic in our sequence diagrams,
 which then makes it more difficult to understand.
 But this is the potential if we use ```alt``` and ```else``` in our sequence diagrams:
-![advanced_plantuml_diagram](lab67media/advanced_plantuml_diagram.png)
+![advanced sequence diagram with alt and else](lab67media/advanced_plantuml_diagram.png)
 
 ## Getting credit
 
