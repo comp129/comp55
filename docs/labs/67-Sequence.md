@@ -95,7 +95,7 @@ Obj2-->Obj1 : <i>[returnedObject]</i>
 
 Here is an example diagram:
 
-![basic_plantuml_diagram](lab67media/basic_plantuml_diagram.png)
+![basic sequence diagram](lab67media/basic_plantuml_diagram.png)
 
 **Ensure that you have at least one return statement
 that would make sense from one of the method calls you created previously**.
