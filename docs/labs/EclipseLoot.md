@@ -220,10 +220,8 @@ What's also handy though
 is adding an ```if``` statement to your code specifically to help you debug,
 something that says
 
-```java
-if (i == 67) {
-    System.out.println("reached 67th time");
-```
+    if (i == 67) {
+        System.out.println("reached 67th time");
 
 and then placing a breakpoint on that ```println``` line.
 It makes things much easier
