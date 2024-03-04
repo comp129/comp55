@@ -119,7 +119,7 @@ will be called an
 **<span class="smallcaps">object</span>**.
 You can have many objects that follow the same class blueprints.
 
-## In Java, there is no pointer notation
+## In Java, there is no pointer notation. Or is there?
 
 Remember this?
 
@@ -156,6 +156,19 @@ You have to think of this as if just like in C++,
 you created a variable that holds a pointer only,
 but you didn't create space for the Fraction object itself.
 By calling ```new```.
+
+The reason why you hear people saying Java doesn't have pointers,
+is because of semantics.
+The term ***pointer*** is strongly associated with C/C++ concepts,
+which are variables that explicitly store memory addresses,
+and which can be modified arithmetically to point to any arbitrary address.
+But in Java, pointers exist as an **implementation detail for references**,
+
+In other words, Java ***does*** have pointers,
+but they can't be manipulated via pointer arithmetic like C/C++ can.
+
+If you want to read more, visit [this wiki page](https://en.wikipedia.org/wiki/Pointer_%28computer_programming%29#Making_pointers_safer)
+to understand a bit more about pointers.
 
 ### Functions, passing by reference and passing by value
 
