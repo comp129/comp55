@@ -81,14 +81,15 @@ use you.
     If it won't let you, continue the pull and merge.
 
     Here is what a conflicting merge looks like:
-   
+
     ![Egit-0 10-merge-conflict](https://github.com/comp129/comp55/assets/76021136/2ffb97bc-4b48-4e98-a12d-9afdac298a02)
 
-   When there are conflicting merges, this means that you'll have to choose between your changes or the changes from the branch you're merging with.
+   When there are conflicting merges, this means that you'll have to choose between
+   your changes or the changes from the branch you're merging with.
    Make sure you're selecting one set of changes instead of combining both changes.
-    To get a better understanding of this, you can go to step 8 in [here](https://github.com/comp129/comp55/blob/main/docs/labs/9-Github.md).
+   To get a better understanding of this, you can go to step 8 in [here](https://github.com/comp129/comp55/blob/main/docs/labs/9-Github.md).
 
-6. If you're having issues with the repository,
+5. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
    right-click on the project,
