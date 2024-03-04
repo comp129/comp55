@@ -244,8 +244,7 @@ If hackslash does have the > sign on their project,
 have them do a hard reset as we did in step 2 before pulling.
 
 As the image below shows, to pull, hover your mouse over the project you wish
-to pull, then right click, hover your mouse over "Team", then click "pull",
-do not select "pull...".
+to pull, then *right-click*, hover your mouse over *Team*, then click ***Pull***, (**not** *Pull...*)
 
 ![pulling from github](lab9media/media/git-pull.png)
 
