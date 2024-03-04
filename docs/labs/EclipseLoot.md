@@ -102,9 +102,10 @@ It's smart about what parameters are required.
   
     ![Removing_EclipseLoot](https://github.com/comp129/comp55/assets/148159945/1848723a-3e5e-4e42-9fe9-4e14ded1e3fe)
   
-        Figure: Removing projects from Eclipse is a key way to keep one's workspace clean and helps with navigating through
-          Package Explorer without scrolling to find projects, classes, etc. In addition, we recommend to not "Delete Content
-          From Disk" since it helps keep one's workspace clean without the nerve of losing progress when it is located in your filesystem.
+        > Removing projects from Eclipse is a key way to keep one's workspace clean and helps with navigating through
+        > Package Explorer without scrolling to find projects, classes, etc.
+        > In addition, we recommend to ***uncheck*** the option *Delete Content From Disk*
+        > since leaving the project helps keep one's workspace clean without risking losing any progress since it stays on your computer.
 - When you close eclipse and open it back up it will revert back to the view you were last in.
 
 ### Debugging features review
