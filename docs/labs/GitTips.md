@@ -84,12 +84,12 @@ use you.
 
     ![Egit-0 10-merge-conflict](https://github.com/comp129/comp55/assets/76021136/2ffb97bc-4b48-4e98-a12d-9afdac298a02)
 
-    You will have to coordinate with your team which lines to keep and which lines to delete.
-    You will also have to remove the  `<<<<< HEAD`, `======`, and `>>>>>>`.
-    These markers delineate the conflicting changes.
-    After you have done that, you can successfully push the code.
+    When there are conflicting merges, this means that you'll have to choose between your changes or the changes from the branch you're merging with.
+   Make sure you're selecting one set of changes instead of combining both changes.
+    To get a better understanding of this, you can go to step 8 in [here](https://github.com/comp129/comp55/blob/main/docs/labs/9-Github.md).
+    
 
-5. If you're having issues with the repository,
+6. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
    right-click on the project,
