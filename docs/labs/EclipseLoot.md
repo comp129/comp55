@@ -84,8 +84,8 @@ It's smart about what parameters are required.
   which some people prefer to make it faster.
   To do this,
   *right-click* the project and select *Close*
-  
-    ![Closing_EclipseLoot](https://github.com/comp129/comp55/assets/148159945/7b00a40e-a86f-40e1-bcec-4bcb9fa9e8dc)
+
+  ![Closing_EclipseLoot](https://github.com/comp129/comp55/assets/148159945/7b00a40e-a86f-40e1-bcec-4bcb9fa9e8dc)
 
         > Closing Tabs and Package Explorer can help keep one's workspace clean.
         > Not only that, but it can help with being productive with classes currently being worked on
@@ -99,8 +99,8 @@ It's smart about what parameters are required.
   but leaves its directory, files, etc.
   intact out in the filesystem.
   I would recommend you close instead of remove.
-  
-    ![Removing_EclipseLoot](https://github.com/comp129/comp55/assets/148159945/1848723a-3e5e-4e42-9fe9-4e14ded1e3fe)
+
+![Removing_EclipseLoot](https://github.com/comp129/comp55/assets/148159945/1848723a-3e5e-4e42-9fe9-4e14ded1e3fe)
   
         > Removing projects from Eclipse is a key way to keep one's workspace clean and helps with navigating through
         > Package Explorer without scrolling to find projects, classes, etc.
@@ -221,9 +221,10 @@ well ```println``` is handy for showing a time series like that.
 What's also handy though
 is adding an ```if``` statement to your code specifically to help you debug,
 something that says
-    ```java
-    if (i == 67) {
-        System.out.println("reached 67th time"); ```
+```java
+ if (i == 67) {
+    System.out.println("reached 67th time"); 
+```
 and then placing a breakpoint on that ```println``` line.
 It makes things much easier
 when you can narrow down when something is happening.
