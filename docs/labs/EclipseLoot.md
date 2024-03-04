@@ -90,6 +90,7 @@ It's smart about what parameters are required.
         > Closing Tabs and Package Explorer can help keep one's workspace clean.
         > Not only that, but it can help with being productive with classes currently being worked on
         > and is a way to effectively close tabs.
+  
 - You can also remove the project from Eclipse,
   *right-click* the project and select *Delete*.
   This should prompt with a *do not delete contents*,
@@ -106,6 +107,7 @@ It's smart about what parameters are required.
         > Package Explorer without scrolling to find projects, classes, etc.
         > In addition, we recommend to ***uncheck*** the option *Delete Content From Disk*
         > since leaving the project helps keep one's workspace clean without risking losing any progress since it stays on your computer.
+        
 - When you close eclipse and open it back up it will revert back to the view you were last in.
 
 ### Debugging features review
