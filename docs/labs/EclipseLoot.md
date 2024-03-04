@@ -87,8 +87,9 @@ It's smart about what parameters are required.
   
     ![Closing_EclipseLoot](https://github.com/comp129/comp55/assets/148159945/7b00a40e-a86f-40e1-bcec-4bcb9fa9e8dc)
 
-        Figure: Closing Tabs and Package Explorer can help keep one's workspace clean. Not only that, but it can help
-           with being productive with classes currently being worked on and is a way to effectively close tabs.
+        > Closing Tabs and Package Explorer can help keep one's workspace clean.
+        > Not only that, but it can help with being productive with classes currently being worked on
+        > and is a way to effectively close tabs.
 - You can also remove the project from Eclipse,
   *right-click* the project and select *Delete*.
   This should prompt with a *do not delete contents*,
