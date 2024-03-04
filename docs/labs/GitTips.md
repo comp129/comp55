@@ -86,7 +86,7 @@ use you.
 
    When there are conflicting merges, this means that you'll have to choose between
    your changes or the changes from the branch you're merging with.
-   Make sure you're selecting one set of changes instead of combining both changes.
+   Typically, you'll select one set of changes but on occasion you may need to select changes from both.
    To get a better understanding of this, you can go to step 8 in [here](https://github.com/comp129/comp55/blob/main/docs/labs/9-Github.md).
 
 5. If you're having issues with the repository,
