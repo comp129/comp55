@@ -284,7 +284,8 @@ The way to compile your code also differs between a Java and C++ File
 
 Say we have 2 files HelloWorld.java and HelloWorld.cpp and both output the phrase "HELLO WORLD"
 
-To compile and run these files, in the Command Line Terminal go to the directory that the files are stored in your system
+To compile and run these files
+In the Command Line Terminal go to the directory where the files are stored in your system
 
   cd path/to/your/directory
 
@@ -301,10 +302,9 @@ now with the C++ file enter this command to compile
   g++ HelloWorld.cpp -o HelloWorld
 
 now compared to java, the way to run the c++ file will differ between what system you are on
-for example, the run command is 
+for example, the run command is
   ./HelloWorld   # On Unix-based systems
   HelloWorld.exe   # On Windows
-
 
 ## There is much to learn still
 
