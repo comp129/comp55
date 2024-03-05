@@ -10,6 +10,7 @@
 - [Output/Input stuff has changed](#outputinput-stuff-has-changed)
 - [Const/Final variables](#constfinal-variables)
 - [Java has programmed many things for you](#java-has-programmed-many-things-for-you)
+- [Compile your files](#compile-your-files)
 - [There is much to learn still](#there-is-much-to-learn-still)
 
 ## Overall Comparison
@@ -275,6 +276,38 @@ just go to this link.
 
 Those are all java files that have been implemented,
 are stable and get leveraged by folks who work in Java so that they don't reinvent the wheel.
+
+## Compile Your Files
+
+Compiling refers to step in turning your code into a program you can excecute on your computer!
+The way to compile your code also differs between a Java and C++ File
+
+Say we have 2 files HelloWorld.java and HelloWorld.cpp and both output the phrase "HELLO WORLD"
+
+To compile and run these files,in the Command Line Terminal go to the direcotry that the file are stored is in you system
+```
+cd path/to/your/directory
+```
+To compile the java code first enter this command
+```
+javac HelloWorld.java
+```
+then enter this command to run the file
+```
+java HelloWorld
+```
+
+now with the C++ file enter this command tocompile
+```
+g++ HelloWorld.cpp -o HelloWorld
+```
+now compared to java, the way to run the c++ file will differ between what system you are on
+
+for example, the run command is 
+```
+./HelloWorld   # On Unix-based systems
+HelloWorld.exe   # On Windows
+```
 
 ## There is much to learn still
 
