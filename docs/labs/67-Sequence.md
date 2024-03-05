@@ -96,6 +96,26 @@ Obj2-->Obj1 : <i>[returnedObject]</i>
 **Ensure that you have at least one return statement
 that would make sense from one of the method calls you created previously**.
 
+## Example Sequence Diagram Code in PlantUML:
+```plantuml
+@startuml
+actor Player as player
+
+participant Game as game
+participant Level as level
+participant Grid as grid
+
+player -> game: start()
+
+game -> level: initialize()
+level -> grid: generate()
+grid --> level: [generatedGrid]
+level --> game: [initializedLevel]
+game --> player: started()
+@enduml
+```
+![Screenshot of PlantUML with the following code above.](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ## Fancy options
 
 Lastly,
