@@ -116,7 +116,7 @@ game --> player: started()
 @enduml
 ```
 
-![Screenshot of PlantUML with the following code above.](plantUML.png)
+![Screenshot of PlantUML with the following code above.](lab67media/plantUML.png)
 
 ## Fancy options
 
