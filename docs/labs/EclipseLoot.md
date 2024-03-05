@@ -8,6 +8,7 @@ then I would encourage you to ask me or others about them or see if you need any
 - [Cool Eclipse Features](#cool-eclipse-features)
     - [Closing/Removing/Quitting](#closingremovingquitting)
     - [Debugging features review](#debugging-features-review)
+- [Cool Eclipse Keyboard shortcuts](#cool-eclipse-keyboard-shortcuts)
     - [One Final Tip](#one-final-tip)
 
 ## Cool Eclipse Features
@@ -85,6 +86,12 @@ It's smart about what parameters are required.
   To do this,
   *right-click* the project and select *Close*
 
+  ![Animation of closing Eclipse Project](https://github.com/comp129/comp55/assets/148159945/7b00a40e-a86f-40e1-bcec-4bcb9fa9e8dc)
+
+  > *Closing Tabs and Package Explorer can help keep one's workspace clean.
+  > Not only that, but it can help with being productive with classes currently being worked on
+  > and is a way to effectively close tabs.*
+
 - You can also remove the project from Eclipse,
   *right-click* the project and select *Delete*.
   This should prompt with a *do not delete contents*,
@@ -94,6 +101,15 @@ It's smart about what parameters are required.
   but leaves its directory, files, etc.
   intact out in the filesystem.
   I would recommend you close instead of remove.
+
+  ![Animation of deleting project](https://github.com/comp129/comp55/assets/148159945/1848723a-3e5e-4e42-9fe9-4e14ded1e3fe)
+
+  > *Removing projects from Eclipse is a key way to keep one's workspace clean
+  > and helps with navigating through
+  > Package Explorer without scrolling to find projects, classes, etc.
+  > In addition, we recommend to **uncheck** the option **Delete Content From Disk**
+  > since leaving the project helps keep one's workspace clean
+  > without risking losing any progress since it stays on your computer.*
 
 - When you close eclipse and open it back up it will revert back to the view you were last in.
 
