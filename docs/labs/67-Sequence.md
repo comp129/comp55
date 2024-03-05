@@ -116,7 +116,7 @@ game --> player: started()
 @enduml
 ```
 
-![Screenshot of PlantUML with the following code above.](https://myoctocat.com/assets/images/base-octocat.svg)
+![Screenshot of PlantUML with the following code above.](plantUML.png)
 
 ## Fancy options
 
