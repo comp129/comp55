@@ -22,6 +22,11 @@ I would say that they fit these pictures pretty well
 | ![http://www.pxleyes.com/images/users/S/Sarah06/3485/fullsize/4e5f610b59f3a.jpg](diffjavacpp/media/image1.jpeg) | ![http://www.cityofws.org/portals/0/images/police/storytime2\_233.jpg](diffjavacpp/media/image2.jpeg) |
 Source: left - *pxleyes.com*, right - *[cityofws](http://www.cityofws.org)*
 
+## Similarities to Past Education
+This following table will show just how similar Java and C++ really are,
+the simmilarities are great to see when coming into what seems like a big switch,
+this switch won't be as hard as you may assume, just look below.
+
 | Feature               | C++                  | Java                 |
 |-----------------------|----------------------|----------------------|
 | Syntax                | C-based syntax       | C-based syntax       |
