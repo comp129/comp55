@@ -362,6 +362,17 @@ you can call ```getWidth()``` or ```getHeight()```.
 You can use this in combination with a ```setLocation(x, y)```
 that will change the object's location if you want the object to be placed in a particular area.
 
+There are different types of Images that can be imported. Some include:
+
+1. Portable Network Graphics (.png)
+2. Joint Photographic Experts Group (.jpg)
+3. Graphics Interchange Format (.gif)
+
+What is the point of all these different file types?
+
+1. PNG - is compatible as a clear background, so if you want an image to blend with your design use a png.
+2. JPG - is usually the best quality image, so use it if you do not need to blend images.
+3. GIF - is nice to use as an easy animation. A way to implement this is create a video then turn it into a gif, and you have a nice little animation.
 ```java
 GImage image = new GImage("media/photo.png", START_X, START_Y);
 image.setSize(400, 400);
