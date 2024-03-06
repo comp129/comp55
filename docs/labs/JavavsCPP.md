@@ -38,8 +38,6 @@ Source: left - *pxleyes.com*, right - *[cityofws](http://www.cityofws.org)*
 | Multithreading        | Yes                  | Yes                  |
 | Platform Independence | Depends on platform  | Write Once, Run      |
 |                       |                      | Anywhere (WORA)      |
-
-
 Most of what you have learned in C++ is still applicable in Java, the only major change is how convery your knowledge to the program. 
 C++ just lets you do whatever you want,
 which is exciting
