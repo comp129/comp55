@@ -137,7 +137,7 @@ Then give the token a name,
 set expiration to *No expiration* or *90 days* and select the ```all repos``` checkbox at the top.
 This will be used in place of your password.
 
-![generating a token](lab8media/media/generatetoken.png)
+![generating a token animaton](lab8media/media/generatetoken.gif)
 
 Because you'll need to enter your credentials often,
 it may make sense to just store them in the secure store,
