@@ -88,8 +88,16 @@ use you.
    your changes or the changes from the branch you're merging with.
    Typically, you'll select one set of changes but on occasion you may need to select changes from both.
    To get a better understanding of this, you can go to [step 8 of the GitHub Lab](9-Github.html#step-8-martyr--hackslash---commit-and-push-the-same-line).
+   
+6. If you are having project issues after a pull:
+    1) Gradle > Refresh Gradle
+    Sometimes, after pulling changes from the program, the Gradle configuration might need to be refreshed to ensure that the project's dependencies are correctly synchronized.
+    2) Build Path > Use as Source Folder
+    This ensures that the pull is being recognized as source code by the IDE, allowing them to be compiled and executed correctly. This step helps in maintaining consistency between the working project and the changes you've pulled.
+    3) Make sure all unstaged are dragged to staged changes when you commit and push
+    By dragging all unstaged changes to staged and then committing, you are ensuring that your local changes are ready to be pushed into the program. Pushing the commit then updates the remote repository with the new changes. 
 
-5. If you're having issues with the repository,
+7. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
    right-click on the project,
