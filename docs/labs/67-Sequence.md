@@ -116,10 +116,9 @@ game --> player: started()
 @enduml
 ```
 
-The following code represents the sequence of interactions between a player,
-game, level, and grid components when the player initiates the game, including
-initialization and what gets returned between these components.
-(Layout structure is similar to the trafic jam made in COMP 055)
+The following code represents a diagram similar to initializing Traffic Jam.
+It includes interactions between the Player, Game, Level, and Grid components,
+such as what happens during initialization and what gets returned between them.
 
 ![Screenshot of PlantUML with the following code above.](lab67media/plantUML.png)
 
