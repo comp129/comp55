@@ -53,13 +53,16 @@ I would reccomend just using your school email, so just click on "Continue with 
 
 _If you want to use your personal email you can jump to [here](#personal-email)_
 
-Then Click on your signed in school account.
+#### Google Button
+Continuing from before..
+
+Click on your signed in school account.
 
 Then it should take you into your home screen.
 
 Now you have successfully created your Figma account.
 
-[Click here to skip ahead](#creating-your-first-figma-project)
+[Click here to skip ahead](#finalizing-account)
 
 #### Personal Email
 
@@ -69,11 +72,48 @@ You will need to type in your email address and a password for this new account.
 
 I would reccomend to disable the figma emailing list, but that's up to you to keep.
 
+You will be provided with a message sent to that email, in which you will need to click to verify your account.
 
+Go ahead and click it.
+
+After following it your account will be verified and you will need to log in.
+
+#### Finalizing account
+
+About here is where both routes of creating an account come together.
+
+Fill out the forms that are provided
+
+When you get to a step regarding a plan, pick the free one, as most of the premium features aren't needed.
+
+On the final step it will tell you to create a new file, go ahead and decline this.
+
+Make sure to navigate to the home page before moving to the next step.
 
 ## Creating Your First Figma Project
+
+At this point if you're inside of a project, go ahead and click on the logo in the top left and then go back to files.
+
+Once you're in the home page you can click on "design file" in the top right.
+// design file gif
+
+You will now be inside of your project and can move onto the next step.
+
 ## Adding Elements to Project
+
+Now that we are inside of an empty project we can begin adding objects to our board.
+
+### Adding a Frame
+
+Figma's main power is to help you orient objects in reference to the top left corner, which is how ACM orients objects.
+
+To simulate a screen space for our graphics window we will select a frame and then click and drag to create a new frame
+
+Drag this to about 1240 x 1080 so, a standard screen resolution.
+// gif to create a frame ?
+
 ### Adding a Rectangle
+
 ### Adding a Circle
 ### Adding a Label
 ## Adjusting Properties
