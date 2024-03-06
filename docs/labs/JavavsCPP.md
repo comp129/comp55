@@ -23,6 +23,7 @@ I would say that they fit these pictures pretty well
 Source: left - *pxleyes.com*, right - *[cityofws](http://www.cityofws.org)*
 
 ## Similarities to Past Education
+
 This following table will show just how similar Java and C++ really are,
 the simmilarities are great to see when coming into what seems like a big switch,
 this switch won't be as hard as you may assume, just look below.
