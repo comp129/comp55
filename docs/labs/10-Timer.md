@@ -63,7 +63,7 @@ We create timers using similar syntax that we've used previously to create other
 ```java
 import javax.swing.*;
 Timer someTimerVar = new Timer(1000, objectToBeWokenUp);
-```
+``` 
 
 - Make sure that you're importing the `javax.swing.Timer` class.
 There are multiple classes that are named `Timer`.
@@ -99,6 +99,7 @@ public class ClassName implements ActionListener {
 	}
 }
 ```
+
 Any class that would like to be responsible for
 handling the alarm must implement the `ActionListener` interface.
 `ActionListener` is part of `java.awt.event`, so you may need to `import java.awt.event.*` to use it.
