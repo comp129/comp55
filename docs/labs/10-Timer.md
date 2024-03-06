@@ -90,6 +90,16 @@ There are two arguments for a `Timer`:
 
 Setup event handlers - `ActionListener` and `actionPerformed` - in the appropriate class
 
+```java
+public class ClassName implements ActionListener {
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+	}
+
+}
+```
 Any class that would like to be responsible for
 handling the alarm must implement the `ActionListener` interface.
 `ActionListener` is part of `java.awt.event`, so you may need to `import java.awt.event.*` to use it.
@@ -128,9 +138,11 @@ To start the timer so that it repeatedly calls `actionPerformed`,
 you must tell that particular timer to start,
 by calling its `start` method.
 So to start the Timer,
-you'll see a line like this shortly after creating a `Timer` object.
+it would look like this,
+with the method shortly after creating a `Timer` object with `this` refering to the class that it is in. 
 
 ```java
+Timer someTimerVar = new Timer(1000, this);
 someTimerVar.start();
 ```
 
