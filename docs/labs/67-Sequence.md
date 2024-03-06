@@ -96,6 +96,32 @@ Obj2-->Obj1 : <i>[returnedObject]</i>
 **Ensure that you have at least one return statement
 that would make sense from one of the method calls you created previously**.
 
+## Example Sequence Diagram Code in PlantUML
+
+```plantuml
+@startuml
+actor Player as player
+
+participant Game as game
+participant Level as level
+participant Grid as grid
+
+player -> game: start()
+
+game -> level: initialize()
+level -> grid: generate()
+grid --> level: [generatedGrid]
+level --> game: [initializedLevel]
+game --> player: started()
+@enduml
+```
+
+The following code represents a diagram similar to initializing Traffic Jam.
+It includes interactions between the Player, Game, Level, and Grid components,
+such as what happens during initialization and what gets returned between them.
+
+![Screenshot of PlantUML with the following code above.](lab67media/plantUML.png)
+
 ## Fancy options
 
 Lastly,
