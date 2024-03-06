@@ -92,12 +92,11 @@ Setup event handlers - `ActionListener` and `actionPerformed` - in the appropria
 
 ```java
 public class ClassName implements ActionListener {
-	
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
-	}
 
+	}
 }
 ```
 Any class that would like to be responsible for
