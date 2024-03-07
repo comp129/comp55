@@ -609,6 +609,7 @@ For example,
 you could add a label that is continually updated or set in `actionPerformed`
 that would update the number of green squares that you have removed from the screen
 (see the version on the left).
+
 ```java
 public void actionPerformed(ActionEvent e) {
     ...
@@ -618,11 +619,13 @@ public void actionPerformed(ActionEvent e) {
     ...
 }
 ```
+
 If you are struggling tracking the players score  or updating the label, try declaring a global variable that is updated when the enemy is killed (hint: when are they removed?). Remember that the main idea for displaying the score is to constantly display the score being tracked.
 Or you could instead (or in addition)
 add in checks to say if there are more than `MAX_ENEMIES` on the screen,
 then stop the timer,
 remove everything and add a message telling them they lost. Here's what an example for losing looks like. However, it will be up to you to choose where to add this code.
+
 ```java
 if (enemies.size() == MAX_ENEMIES) {
     GLabel lose = new GLabel("lose message",xLoc,yLoc);
@@ -631,6 +634,7 @@ if (enemies.size() == MAX_ENEMIES) {
     movement.stop();
 }
 ```
+
 Lastly,
 it's fairly simple to give them some indicator of progress or score.
 On game over, present them with the `numTimes` variable,
