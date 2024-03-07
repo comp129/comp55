@@ -12,7 +12,9 @@
 - [STEP 9: Submit confirmation by uploading a picture to Canvas](#step-9-submit-confirmation-by-uploading-a-picture-to-canvas)
 
 If you are using a school computer skip down to Step 5.
+
 ## STEP 1: Remove any previous installations of Java that you have
+
 Uninstall any previous Java versions from your computer to avoid version conflicts.
 We all benefit when we use the same version of java.
 .
