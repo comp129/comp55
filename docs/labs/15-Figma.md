@@ -1,4 +1,4 @@
-# Figma Lab 
+# Figma Lab
 
 - [Overview](#overview)
 - [Creating Your Figma Account](#creating-your-figma-account)
@@ -26,13 +26,17 @@
 
 ## Overview
 
-Have you heard of Figma before this class? If so, this lab is for you. 
+Have you heard of Figma before this class? If so, this lab is for you.
 
-This lab will be teaching you the simplest core functions of figma to help you create a seamless connected UI across all screens in your Comp 55 Projects.
+This lab will be teaching you the simplest core functions of figma to 
+help you create a seamless connected UI across all screens in your Comp 55 Projects.
 
-Figma is a powerful tool to help you line up your ideas before you begin coding them, which is a nice thing to do if you generally like to jump in and begin programming.
+Figma is a powerful tool to help you line up your ideas before you 
+begin coding them, which is a nice thing to do if you generally like 
+to jump in and begin programming.
 
 Upon completing this lab you will know how to:
+
 - Create a figma project
 - Add objects onto your figma project
 - Edit object's properties
@@ -43,7 +47,8 @@ Submission for this lab will be:
 
 ## Creating Your Figma Account
 
-To Get Started with this lab, we will assume you've never touched figma before and need to start from the first opening of the website.
+To Get Started with this lab, we will assume you've never touched figma
+before and need to start from the first opening of the website.
 
 Navigate to [Figma](www.figma.com) and then continue.
 
@@ -71,13 +76,15 @@ Now you have successfully created your Figma account.
 
 #### Personal Email 
 
-So to create an account using a personal email you will need to just fill in some fields instead of just pressing a few buttons.
+So to create an account using a personal email you will need
+to just fill in some fields instead of just pressing a few buttons.
 
 You will need to type in your email address and a password for this new account.
 
 I would reccomend to disable the figma emailing list, but that's up to you to keep.
 
-You will be provided with a message sent to that email, in which you will need to click to verify your account.
+You will be provided with a message sent to that email, in which you
+will need to click to verify your account.
 
 Go ahead and click it.
 
@@ -89,7 +96,8 @@ About here is where both routes of creating an account come together.
 
 Fill out the forms that are provided
 
-When you get to a step regarding a plan, pick the free one, as most of the premium features aren't needed.
+When you get to a step regarding a plan, pick the free one, as
+most of the premium features aren't needed.
 
 On the final step it will tell you to create a new file, go ahead and decline this.
 
@@ -97,7 +105,8 @@ Make sure to navigate to the home page before moving to the next step.
 
 ## Creating Your First Figma Project 
 
-At this point if you're inside of a project, go ahead and click on the logo in the top left and then go back to files.
+At this point if you're inside of a project, go ahead and click on the
+logo in the top left and then go back to files.
 
 Once you're in the home page you can click on "design file" in the top right.
 // design file gif
@@ -110,9 +119,11 @@ Now that we are inside of an empty project we can begin adding objects to our bo
 
 ### Adding a Frame 
 
-Figma's main power is to help you orient objects in reference to the top left corner, which is how ACM orients objects.
+Figma's main power is to help you orient objects in reference to the top
+left corner, which is how ACM orients objects.
 
-To simulate a screen space for our graphics window we will select a frame and then click and drag to create a new frame
+To simulate a screen space for our graphics window we will select a frame
+and then click and drag to create a new frame
 
 Drag this to about 1240 x 1080, a screen resolution.
 
@@ -138,7 +149,8 @@ Ignore the small size of the label for now, as we'll change it in another step
 
 ## Adjusting Properties 
 
-Now that we have some shapes created we can start editing the shapes to make them look different.
+Now that we have some shapes created we can start editing the shapes to
+make them look different.
 
 ### Changing Corners 
 
@@ -146,32 +158,41 @@ After clicking on the rectangle you can access the properties on the right-side.
 
 ![Properties panel](lab15media/figma-lab-properties-panel.png)
 
-For the corners option you can select the option to the right of the curved line and switch that to 20
+For the corners option you can select the option to the right of the
+curved line and switch that to 20
 
-You'll immediately be able to see that the rectangle is now nicely rounded as not as sharp.
+You'll immediately be able to see that the rectangle is now nicely
+rounded as not as sharp.
 
 ### Changing The Label 
 To change the label, we'll start off with changing the color and alignment
 
 Change the label so that the _circle_ is right bound, and the _square_ is left bound.
 
-Along with this, highlight the text and then increase the font size to a more reasonable size, but do not exceed the size of the shape.
+Along with this, highlight the text and then increase the font size to
+a more reasonable size, but do not exceed the size of the shape.
 
-Also go ahead and change the ***fill*** color of the square so that the text is red
+Also go ahead and change the ***fill*** color of the square so that
+the text is red
 
-On the circle, navigate to the stroke, press the plus sign to add a stroke modifier and then change the stroke color to pink
+On the circle, navigate to the stroke, press the plus sign to add a
+stroke modifier and then change the stroke color to pink
 
 ### Changing Font
 
-Figma has a lot of built in fonts, this can always be adjusted later when you import it into your java project.
+Figma has a lot of built in fonts, this can always be adjusted later
+when you import it into your java project.
 
-For this step change the font of the circle to "Italianno" and the square into any font you think looks good and then move on.
+For this step change the font of the circle to "Italianno" and the square
+into any font you think looks good and then move on.
 
 ### Changing Shape Colors
 
-I won't explain this step as it's akin to the previous steps for changing the color and stroke of a label.
+I won't explain this step as it's akin to the previous steps for changing
+the color and stroke of a label.
 
-Change your square to a dark red and then change your circle's stroke to a light blue, and line weight somewhere between 20 - 30.
+Change your square to a dark red and then change your circle's stroke to a
+light blue, and line weight somewhere between 20 - 30.
 
 #### By now your figma board should like something like 
 
@@ -179,7 +200,8 @@ Change your square to a dark red and then change your circle's stroke to a light
 
 ## Challenge Object 1
 
-Here's the first challenge shape or shape(s); try to make something as similar to this as possible.
+Here's the first challenge shape or shape(s); try to make something as
+similar to this as possible.
 
 ![Challenge Shape 1]()
 
@@ -187,7 +209,8 @@ Here's the first challenge shape or shape(s); try to make something as similar t
 
 Here's another challenge shape, a little harder but I'm sure you can do it. 
 
-A good thing to note about this shape is the heirarchy of items on the left side, the higher up the object is, the more in front it is.
+A good thing to note about this shape is the heirarchy of items on the left
+side, the higher up the object is, the more in front it is.
 
 ![Challenge Shape 2]()
 
@@ -207,15 +230,19 @@ So once you've created these shapes you can go ahead and export these objects to
 
 There are two ways to export objects that we will commonly be doing as attributes and as images.
 
-***NOTE*** When porting to an acm project, if you hold alt while having an object selected, it will you show the distance it is from the top and the left side.
-This is perfect for acm as you always have to create your GObjects in reference to the top left corner.
+***NOTE*** When porting to an acm project, if you hold alt while having an
+object selected, it will you show the distance it is from the top and the left side.
+This is perfect for acm as you always have to create your GObjects in
+reference to the top left corner.
 
 ![Location Reference example]()
 
 ### Exporting as attributes
-In order to export as attributes we will need to think about what GObjects can correspond with matching objects.
+In order to export as attributes we will need to think about what
+GObjects can correspond with matching objects.
 
-For example the challenge shape from before, you can recreate this object using the properties.
+For example the challenge shape from before, you can recreate
+this object using the properties.
 
 ```java
   public class ACM_Example {
@@ -229,23 +256,27 @@ For example the challenge shape from before, you can recreate this object using 
   }
 ```
 
-This code will create two GRects and two GLabels, with each one being in correspondance to their own locations to the image.
+This code will create two GRects and two GLabels, with each one
+being in correspondance to their own locations to the image.
 
 ### Exporting as an Image
 
 The much easier solution to moving it to figma is exporting it as an image. 
 
-If you look back at the second challenge, you wouldn't want to create several GRoundedRects and other shapes to recreate it.
+If you look back at the second challenge, you wouldn't want to create
+several GRoundedRects and other shapes to recreate it.
 
-The way to export an object is to select all the elements you would like to be supported, so in this case I would highlight all the existing shapes and then right click.
+The way to export an object is to select all the elements you would like
+to be supported, so in this case I would highlight all the existing shapes and then right click.
 
 You'll want to follow the steps in the provided screen shot.
-
 ![Right Click Image]()
 
-This will now save it to your clip-board. If you're on a windows computer you can paste it into ms paint or paint 3d to save the image.
+This will now save it to your clip-board. If you're on a windows computer you can paste it into ms
+paint or paint 3d to save the image.
 
-Another option is to open discord and then paste the image into there, send the image, and then re-download the image.
+Another option is to open discord and then paste the image into there, send the image, and then
+re-download the image.
 
 ## Drawbacks
 
@@ -253,7 +284,8 @@ Now that we've covered how to do cool things with figma, now we're left with wha
 
 ### Gradients
 
-Gradients are impossible for you to export as a component, as you can only export it as an image. So if you need to adjust the gradient over time, you will have a hard struggle.
+Gradients are impossible for you to export as a component, as you can only export it as an image.
+So if you need to adjust the gradient over time, you will have a hard struggle.
 
 A good example of this is this object I had used in the past.
 
@@ -261,7 +293,8 @@ A good example of this is this object I had used in the past.
 
 ### Mixed Colors on Labels
 
-Another draw back are mixed color labels, as GLabels inside of ACM cannot handle this kind of interaction, meaning you would have to export the label as an image as well.
+Another draw back are mixed color labels, as GLabels inside of ACM cannot handle this kind of interaction,
+meaning you would have to export the label as an image as well.
 
 So this will work unless you need to change the label over time.
 
