@@ -129,3 +129,26 @@ Now you are met with the Source Folder Selection
 where you can check the folder you want to include and you are done!
 
 ![eclipse source folder selection](gittips/media/sourceFolderSelection.png)
+
+## Adding ACM Library
+
+Creating your own project in Eclipse can be pretty easy to do.
+But what if you wanted to use certain libraries such as ACM. 
+To solve this issue, you will need to download jar files. 
+I will provide the link of where to downlaod the jar file from and how to install onto your Eclipse project to use. 
+
+1. Download the acm.jar file
+
+   First go to this website: https://cs.stanford.edu/people/eroberts/jtf/
+   
+   Then you would want to scroll down until you see the Downlaods section and click on hyperlink which says "acm.jar"
+   ADD IMAGE HERE
+   If the webiste does not work, I have posted the download link below. It will automatically download the acm.jar file for you.
+   https://cs.stanford.edu/people/eroberts/jtf/acm.jar
+
+   
+
+3. Adding acm.jar file
+
+4. Check to see if it is running
+
