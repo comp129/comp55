@@ -365,13 +365,13 @@ that will change the object's location if you want the object to be placed in a 
 There are different types of Images that can be imported. Some include:
 
 1. Portable Network Graphics (.png)
-- is compatible as a clear background, so if you can blend with your design use a png. 
+- Compatible as a clear background, so if you can blend with your design use a png. 
 
 2. Joint Photographic Experts Group (.jpg)
-- is usually the best quality image, so use it if you do not need to blend images.
+- Usually the best quality image, so use it if you do not need to blend images.
 
 3. Graphics Interchange Format (.gif)
-- is nice to use as an easy animation. Insert a gif and the image will be animated.
+- A nice to use as an easy animation. Insert a gif and the image will be animated.
 
 ```java
 Image image = new GImage("media/photo.png", START_X, START_Y);
