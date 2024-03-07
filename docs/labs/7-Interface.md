@@ -277,18 +277,19 @@ You should also notice that if you are using the class color scheme,
 that the name of your interface should now be green in both files.
 This is just coloring so that you are aware that you are dealing with an interface,
 and that color will appear throughout for ```Emotional```.
-While in this lab we're focusing on implementing our single ```Emotional``` interface,
-it's worth noting that one of the greatest strengths of interfaces in Java is the ability to implement
-**multiple interfaces** within a single class.
-If you find yourself wanting to use more than one interface,
-you can simply list them after the ```implements``` keyword,
-separated by commas. For example, if we wanted ```EmotionalOval```
-not only to exhibit ```Emotional``` states
-but also to respond to eating, we might also implement a ```Hungry``` interface like so:
 
-```java
-public class EmotionalOval extends GOval implements Emotional, Hungry {
-```
+> **Note:** While in this lab we're focusing on implementing our single ```Emotional``` interface,
+> it's worth noting that one of the greatest strengths of interfaces in Java
+> is the ability to implement **multiple interfaces** within a single class.
+> If you find yourself wanting to use more than one interface,
+> you can simply list them after the ```implements``` keyword,
+> separated by commas.
+> For example, if we wanted ```EmotionalOval``` not only to exhibit ```Emotional``` states
+> but also to respond to eating, we might also implement a ```Hungry``` interface like so:
+>
+> ```java
+> public class EmotionalOval extends GOval implements Emotional, Hungry {
+> ```
 
 ### Step 3: Use type ```Emotional``` instead of ```EmotionalOval```
 
