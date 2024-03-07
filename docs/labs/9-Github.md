@@ -34,6 +34,7 @@ if you didn't accept the invite,
 let me know and I can send you another one.
 
 ## Basic Explanation of Git and GitHub
+
 Before you can begin extracting any benefit from this lab, it is important to understand the basics to how Git works. You do not need to do anything for now, just read for this sectionns.
 
 **Repository:** a repository is a place to store a your files or directories. In addition, a repository also stores a history of the changes made to those files, allowing a user to review their changes and revert back to old versions in a method called *version control*. 
