@@ -32,16 +32,18 @@ We are going to use this library because:
 1. It is easy to learn
 2. Its structure follows OOP programming well
 3. The way it's laid out will well prepare you to learn other languages and libraries in the future
-
-First,
+### Start Here:
+## Step 1: Download
+1. First,
 download **IntroACMLab.zip**
 from canvas and then import that file as an existing project into Eclipse,
 as we did in the [*Intro to Java*](2-JavaIntro.html) lab.
 
-Once imported,
+2. Once imported,
 open **ACMLab.java** in the editor.
-This file contains additional features that we have yet to talk about.
-Here are the contents of the ACMLab.java file.
+- This file contains additional features that we have yet to talk about.
+
+# Here are the contents of the ACMLab.java file.
 
 ```java
 import acm.graphics.*;
