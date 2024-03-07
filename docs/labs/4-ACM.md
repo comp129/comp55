@@ -372,7 +372,7 @@ What is the point of all these different file types?
 
 1. PNG - is compatible as a clear background, so if you can blend with your design use a png.
 2. JPG - is usually the best quality image, so use it if you do not need to blend images.
-3. GIF - is nice to use as an easy animation. A way to implement this is to create a video and then turn it into a gif.
+3. GIF - is nice to use as an easy animation. Insert a gif and the image will be animated.
 
 ```java
 Image image = new GImage("media/photo.png", START_X, START_Y);
