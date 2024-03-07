@@ -114,11 +114,40 @@ Drag this to about 1240 x 1080 so, a standard screen resolution.
 
 ### Adding a Rectangle
 
+Inside of the previous frame we can begin adding objects to it.
+
+For this step go ahead and drag the rectangle in at any size you would like.
+
 ### Adding a Circle
+
+In an open space click and drag to create a circle as well.
+
 ### Adding a Label
+
+Inside of both shapes create a label for both in the same manner.
+
+The tool you will use is the square that has a capital 'T' on it.
+
+Name each label to the corresponding shape.
+
+Highlight the text and then set the text to middle bound, and increase the font size.
+
 ## Adjusting Properties
+
+Now that we have some shapes created we can start editing the shapes to make them look different.
+
 ### Changing Corners
+
+After clicking on the rectangle you can access the properties on the right-side.
+
+For the corners option you can select the option to the right of the curved line and switch that to 20
+
+You'll immediately be able to see that the rectangle is now nicely rounded as not as sharp.
+
 ### Changing The Label
+
+
+
 ### Changing Font
 ### Changing Colors
 ## Challenge Object 1
