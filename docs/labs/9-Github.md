@@ -35,47 +35,54 @@ let me know and I can send you another one.
 
 ## Basic Explanation of Git and GitHub
 
-Before you can begin extracting any benefit from this lab, it is important to understand the
-basics to how Git works. You do not need to do anything for now, just read for this sectionns.
+Before you can begin extracting any benefit from this lab,
+it is important to understand the basics to how Git works.
+You do not need to do anything for now, just read these sections.
 
-**Repository:** a repository is a place to store a your files or directories. In addition,
-a repository also stores a history of the changes made to those files, allowing a user
-to review their changes and revert back to old versions in a method called *version control*.
+**Repository:** a repository is a place to store your files or directories.
+In addition, a repository also stores a history of the changes made to those files,
+allowing a user to review their changes and revert back to old versions in a process
+called *version control*.
 **Remote Repositories:** a remote repository is a repository that is hosted on a server
-(such as GitHub, GitLab, or Bitbucket) and serves as a centralized location for sharing
-code and collaborating with others. In order to make changes to this remote repository,
-you would have to initialize your own repository on your computer using `git init` which
-creates a local repository for the file directory that you declared it for. Then using
-the `git clone` command, you can copy the contents or "clone" the remote repository to
-your new local repository. Now, your local repository is an exact replica of the remote repository.
+(such as GitHub, GitLab, or Bitbucket) and serves as a centralized location for sharing code
+and collaborating with others. In order to make changes to this remote repository,
+you would have to initialize your own repository on your computer using `git init`
+which creates a local repository for the file directory that you declared it for.
+Then using the `git clone` command, you can copy the contents
+or "clone" the remote repository to your new local repository.
+Now, your local repository is an exact replica of the remote repository.
 **Local Repositories:** a repository that is stored right on your local computer. Local
-repositories are typically used as local copies of remote repositories that could be
-editted locally, then using `git push`, the remote repository could be updated with
-the changes you made in the local repo.
+repositories are typically used as local copies of remote repositories that could be edited locally,
+then using `git push`, the remote repository will be updated with the changes you
+made in the local repo.
 
-**Git Stage:** the `git stage` command allows you to specify which of the files you
-changed you want to be added into the "staging area". In the next step, when you use
- the `git commit` command, all of the files that you changed and that you added to
- the staging area using the `git stage` command will be stored permanently or
- *committed* into your local repository. This does nothing to the remote repository.
-  Your remote repository will remain uneffected until you use `git push` in a later step.
-**Git Commit:** `git commit` will take whatever file changes have been staged
-(whatever file changes were placed into the stage area) and permanently write them
-to the local repository. This does nothing to the remote repository. Your remote
-repository will remain uneffected until you use `git push` in the next step.
-**Git Push:** the `git push` command will clone your changes made to your local repository
-and upload them to the remote repository. After using `git push`, the remote repository now
-has the changes you made to your local repository (your local copy of the remote repository).
-If some of the changes that you made in your local repository conflict with some of those
-in the remote repository, you would be asked later to resolve these issues manually.
+**Git Stage:** The `git stage` command allows you to specify
+which of the files you changed you want to be added into the "staging area".
+In the next step, when you use the `git commit` command,
+all of the files that you changed and that you added to the staging area using
+the `git stage` command will be stored permanently or *committed* into your local repository.
+This does nothing to the remote repository.
+Your remote repository will remain unaffected until you use `git push` in a later step.
+**Git Commit:** The `git commit` command will take whatever file changes have been staged
+(whatever file changes were placed into the stage area)
+and permanently write them to the local repository.
+This does nothing to the remote repository.
+Your remote repository will remain unaffected until you use `git push` in the next step.
+**Git Push:** The `git push` command will clone your changes made to your local repository
+and upload them to the remote repository.
+After using `git push`, the remote repository now has the changes you made to your
+local repository (your local copy of the remote repository).
+If some of the changes that you made in your local repository conflict with some
+of those in the remote repository, you would be asked later to resolve these issues manually.
 
-If you understood none of the above explanation, then fear not because many programmers
-did not understand Git and GitHub from simply just from reading it. Using Git and GitHub
-is all a process. Once you practice it and continually use it all of this will make sense.
-Then, once you understand it and use it consistently, you will begin to see why an
-overwhelming 90% of Fortune 500 Company use Git for version control and why 93% of
-developers on Stack Overflow report using it. You may even begin using it for all of
-your personal projects.
+If you understood nothing from the above explanations,
+then fear not because many programmers did not understand Git and GitHub from simply just from reading it.
+Using Git and GitHub is all a process.
+Once you practice it and continually use it, all of this will make sense.
+Then, once you understand it and use it consistently, you will begin to see why an overwhelming 90%
+of Fortune 500 companies use Git for version control
+and why 93% of developers on Stack Overflow report using it for version control purposes.
+You may even begin using it for all of your personal projects.
 
 ## Step 0: Everyone - Pick roles and setup room
 
