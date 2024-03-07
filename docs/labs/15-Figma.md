@@ -21,18 +21,17 @@
     - [Gradients](#gradients)
     - [Mixed Colors on Labels](#mixed-colors-on-labels)
     - [And More..](#and-more)
-- [Sharing Figma Project](#sharing-figma-project)
 - [What Next..](#what-next)
 
 ## Overview
 
-Have you heard of Figma before this class? If so, this lab is for you.
+Have you heard of Figma before this class? If not, this lab is for you.
 
 This lab will be teaching you the simplest core functions of figma to
-help you create a seamless connected UI across all screens in your Comp 55 Projects.
+help you create a seamless, connected UI across all screens in your Comp 55 Projects.
 
 Figma is a powerful tool to help you line up your ideas before you
-begin coding them, which is a nice thing to do if you generally like
+begin coding them, which is important if you generally like
 to jump in and begin programming.
 
 Upon completing this lab you will know how to:
@@ -40,7 +39,7 @@ Upon completing this lab you will know how to:
 - Create a figma project
 - Add objects onto your figma project
 - Edit object's properties
-- Be able to port the design into comp 55
+- Be able to port the design into a java project
 
 Submission for this lab will be:
 // TODO am I even allowed to add submissions in the first place?
@@ -60,8 +59,6 @@ Find the button in the upper right corner that says "Get started for free"
 
 I would reccomend just using your school email, so just click on "Continue with Google"
 
-_If you want to use your personal email you can jump to [here](#personal-email)_
-
 ### Google Button
 
 Continuing from before..
@@ -72,18 +69,19 @@ Then it should take you into your home screen.
 
 Now you have successfully created your Figma account.
 
-[Click here to skip ahead](#finalizing-account)
-
 ### Personal Email
 
+_You can skip this section if you used the google button_
+
 So to create an account using a personal email you will need
-to just fill in some fields instead of just pressing a few buttons.
+to fill in some fields instead of just pressing a few buttons.
 
 You will need to type in your email address and a password for this new account.
 
-I would reccomend to disable the figma emailing list, but that's up to you to keep.
+I would reccomend disabling the figma emailing list,
+but that's up to you to decide.
 
-You will be provided with a message sent to that email, in which you
+You will be provided with a message sent to that email, where you
 will need to click to verify your account.
 
 Go ahead and click it.
@@ -94,10 +92,10 @@ After following it your account will be verified and you will need to log in.
 
 About here is where both routes of creating an account come together.
 
-Fill out the forms that are provided
+Complete the prompts that are provided.
 
 When you get to a step regarding a plan, pick the free one, as
-most of the premium features aren't needed.
+the premium features aren't needed.
 
 On the final step it will tell you to create a new file, go ahead and decline this.
 
@@ -109,7 +107,6 @@ At this point if you're inside of a project, go ahead and click on the
 logo in the top left and then go back to files.
 
 Once you're in the home page you can click on "design file" in the top right.
-// design file gif
 
 You will now be inside of your project and can move onto the next step.
 
@@ -119,13 +116,15 @@ Now that we are inside of an empty project we can begin adding objects to our bo
 
 ### Adding a Frame
 
-Figma's main power is to help you orient objects in reference to the top
-left corner, which is how ACM orients objects.
+Figma's main power is helping you orient objects in reference to the top
+left corner, which is how ACM orients GObjects.
 
-To simulate a screen space for our graphics window we will select a frame
-and then click and drag to create a new frame
+To simulate a screen space for our graphics window we will select the frame tool,
+and then click and drag to create a new frame.
 
-Drag this to about 1240 x 1080, a screen resolution.
+_Tip: If you hover over a tool it will tell you what it is._
+
+Drag this to about 1240 x 1080.
 
 ### Adding a Rectangle
 
@@ -145,7 +144,7 @@ The tool you will use is the square that has a capital 'T' on it.
 
 Name each label to the corresponding shape.
 
-Ignore the small size of the label for now, as we'll change it in another step
+Ignore the small size of the label for now, as we'll change it in another step.
 
 ## Adjusting Properties
 
@@ -159,7 +158,7 @@ After clicking on the rectangle you can access the properties on the right-side.
 ![Properties panel](lab15media/figma-lab-properties-panel.png)
 
 For the corners option you can select the option to the right of the
-curved line and switch that to 20
+curved line and switch that to 20.
 
 You'll immediately be able to see that the rectangle is now nicely
 rounded as not as sharp.
@@ -181,8 +180,9 @@ stroke modifier and then change the stroke color to pink.
 
 ### Changing Font
 
-Figma has a lot of built in fonts, this can always be adjusted later
-when you import it into your java project.
+Figma has a lot of built in fonts, this is something to take note of,
+as I'm not sure whether or not they are built in windows fonts, meaning
+they might not exist inside of ACM.
 
 For this step change the font of the circle to "Italianno" and the square
 into any font you think looks good and then move on.
@@ -195,14 +195,16 @@ the color and stroke of a label.
 Change your square to a dark red and then change your circle's stroke to a
 light blue, and line weight somewhere between 20 - 30.
 
-#### By now your figma board should like something like
+#### By now your figma board should like something like this
 
+_"Graphic Design is My Passion"_
 ![progress point 1](lab15media/figma-lab-progress-point-1.png)
 
 ## Challenge Object 1
 
-Here's the first challenge shape or shape(s); try to make something as
-similar to this as possible.
+Here's the first challenge shape or shape(s).
+
+Try to make something as similar to this as possible.
 
 ![Challenge Shape 1](lab15media/figma-lab-challenge-shape-1.png)
 
@@ -232,7 +234,7 @@ So once you've created these shapes you can go ahead and export these objects to
 
 There are two ways to export objects that we will commonly be doing as attributes and as images.
 
-***NOTE*** When porting to an acm project, if you hold alt while having an
+**NOTE:** When porting to an acm project, if you hold alt while having an
 object selected, it will you show the distance it is from the top and the left side.
 This is perfect for acm as you always have to create your GObjects in
 reference to the top left corner.
@@ -260,7 +262,7 @@ this object using the properties.
 ```
 
 This code will create two GRects and two GLabels, with each one
-being in correspondance to their own locations to the image.
+being in correspondance to their own locations in the image.
 
 ### Exporting as an Image
 
@@ -273,7 +275,7 @@ The way to export an object is to select all the elements you would like
 to be supported, so in this case I would highlight all the existing shapes and then right click.
 
 You'll want to follow the steps in the provided screen shot.
-![Right Click Image](lab15media/figma-lab-right-click)
+![Right Click Image](lab15media/figma-lab-right-click.png)
 
 This will now save it to your clip-board. If you're on a windows computer you can paste it into ms
 paint or paint 3d to save the image.
@@ -290,15 +292,15 @@ now we're left with what we **can't** do in figma.
 
 Gradients are impossible for you to export as a component,
 as you can only export it as an image.
-So if you need to adjust the gradient over time, you will have a hard struggle.
+So if you need to adjust the gradient over time, you will have a hard time.
 
-A good example of this is this object I had used in the past.
+A good example of this, is this object I had used in the past.
 
 ![figma drawback gradient](lab15media/figma-lab-drawback-gradient.png)
 
 ### Mixed Colors on Labels
 
-Another draw back are mixed color labels, as GLabels inside of
+Another drawback is mixed color labels, as GLabels inside of
 ACM cannot handle this kind of interaction,
 meaning you would have to export the label as an image as well.
 
@@ -306,7 +308,7 @@ So this will work unless you need to change the label over time.
 
 A nice example is this label:
 
-![figma drawback mixed labels](lab15media/figma-lab-drawback-mixed-labels.png)
+![figma drawback mixed labels](lab15media/figma-lab-drawback-mixed-label.png)
 
 ### And More
 
@@ -323,6 +325,6 @@ Well that's up to you to decide where you will use this tool.
 
 You could use this, you could also not and that's fine too.
 
-I am sharing this tool so I can save you time on your project
+I am mostly sharing this tool so I can save you time on your projects
 in the way that it has saved me time as well,
-so I hope you can use the strengths of this application inside of any of your future projects.
+so I hope you can use the strengths of this application inside of your future projects.
