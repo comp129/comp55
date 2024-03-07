@@ -96,7 +96,7 @@ For setting up and creating event handlers like `ActionListener` and `actionPerf
 you want to implement the `implements ActionListener` interface first.
 Then *right-click* the underlined class name to automatically add unimplemented methods.
 That IDE option will add the `actionPerformed` function to the class.
-Some example code would be as follows.
+Here's an example of what Eclipse would add:
 
 ```java
 public class SomeClass implements ActionListener {
