@@ -63,7 +63,6 @@ I'm going to highlight a couple of differences.
 
 Want a C++ ```bool``` variable? Declare it as a ```boolean``` instead
 (ie ```boolean isEasy = true;```).
-
 To declare an array in Java it must be written in this way.
 You can declare the type and size however you like.
 
