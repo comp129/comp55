@@ -49,6 +49,8 @@ You'll immediately see a pretty website however we want to just create an accoun
 
 Find the button in the upper right corner that says "Get started for free"
 
+![figma lab free account image](lab15media/figma-lab-get-started-for-free.png)
+
 I would reccomend just using your school email, so just click on "Continue with Google"
 
 _If you want to use your personal email you can jump to [here](#personal-email)_
@@ -109,8 +111,7 @@ Figma's main power is to help you orient objects in reference to the top left co
 
 To simulate a screen space for our graphics window we will select a frame and then click and drag to create a new frame
 
-Drag this to about 1240 x 1080 so, a standard screen resolution.
-// gif to create a frame ?
+Drag this to about 1240 x 1080, a screen resolution.
 
 ### Adding a Rectangle
 
@@ -130,7 +131,7 @@ The tool you will use is the square that has a capital 'T' on it.
 
 Name each label to the corresponding shape.
 
-Highlight the text and then set the text to middle bound, and increase the font size.
+Ignore the small size of the label for now, as we'll change it in another step
 
 ## Adjusting Properties
 
@@ -140,24 +141,140 @@ Now that we have some shapes created we can start editing the shapes to make the
 
 After clicking on the rectangle you can access the properties on the right-side.
 
+![Properties panel](lab15media/figma-lab-properties-panel.png)
+
 For the corners option you can select the option to the right of the curved line and switch that to 20
 
 You'll immediately be able to see that the rectangle is now nicely rounded as not as sharp.
 
 ### Changing The Label
 
+To change the label, we'll start off with changing the color and alignment
 
+Change the label so that the _circle_ is right bound, and the _square_ is left bound.
+
+Along with this, highlight the text and then increase the font size to a more reasonable size, but do not exceed the size of the shape.
+
+Also go ahead and change the ***fill*** color of the square so that the text is red
+
+On the circle, navigate to the stroke, press the plus sign to add a stroke modifier and then change the stroke color to pink
 
 ### Changing Font
-### Changing Colors
+
+Figma has a lot of built in fonts, this can always be adjusted later when you import it into your java project.
+
+For this step change the font of the circle to "Italianno" and the square into any font you think looks good and then move on.
+
+### Changing Shape Colors
+
+I won't explain this step as it's akin to the previous steps for changing the color and stroke of a label.
+
+Change your square to a dark red and then change your circle's stroke to a light blue, and line weight somewhere between 20 - 30.
+
+#### By now your figma board should like something like 
+
+![progress point 1]()
+
 ## Challenge Object 1
+
+Here's the first challenge shape or shape(s); try to make something as similar to this as possible.
+
+![Challenge Shape 1]()
+
 ## Challenge Object 2
+
+Here's another challenge shape, a little harder but I'm sure you can do it. 
+
+A good thing to note about this shape is the heirarchy of items on the left side, the higher up the object is, the more in front it is.
+
+![Challenge Shape 2]()
+
+#### A Quick Tip
+
+A lot of organization down the road comes down to **Grouping**.
+
+Grouping is very important due to the fact that it makes your heirarchy a little more manageable.
+
+To group objects, select the components you would like to group and then press "ctrl + g"
+
+This will group them and make it into a single project named "Group [x]", x being how many currently exists.
+
 ## Porting Objects to a ACM Java Project
+
+So once you've created these shapes you can go ahead and export these objects to an empty acm project.
+
+There are two ways to export objects that we will commonly be doing as attributes and as images.
+
+***NOTE*** When porting to an acm project, if you hold alt while having an object selected, it will you show the distance it is from the top and the left side.
+This is perfect for acm as you always have to create your GObjects in reference to the top left corner.
+
+![Location Reference example]()
+
 ### Exporting as attributes
+In order to export as attributes we will need to think about what GObjects can correspond with matching objects.
+
+For example the challenge shape from before, you can recreate this object using the properties.
+
+```java
+  public class ACM_Example {
+      // print rectangle
+      GRect print_rectangle = new GRect(53, 51, 405, 215);
+      GLabel print_rectangle_label = new GLabel("Print", print_rectangle_image.getX() + 74, print_rectangle_image.getY() + 67);
+
+      // copy rectangle
+      GRect copy_rectangle = new GRect(490, 51, 405, 215);
+      GLabel print_rectangle_label = new GLabel("Print", copy_rectangle_image.getX() + 74, copy_rectangle_image.getY() + 67);
+  }
+```
+
+This code will create two GRects and two GLabels, with each one being in correspondance to their own locations to the image.
+
 ### Exporting as an Image
+
+The much easier solution to moving it to figma is exporting it as an image. 
+
+If you look back at the second challenge, you wouldn't want to create several GRoundedRects and other shapes to recreate it.
+
+The way to export an object is to select all the elements you would like to be supported, so in this case I would highlight all the existing shapes and then right click.
+
+You'll want to follow the steps in the provided screen shot.
+
+![Right Click Image]()
+
+This will now save it to your clip-board. If you're on a windows computer you can paste it into ms paint or paint 3d to save the image.
+
+Another option is to open discord and then paste the image into there, send the image, and then re-download the image. 
+
 ## Drawbacks
+
+Now that we've covered how to do cool things with figma, now we're left with what we **can't** do in figma.
+
 ### Gradients
+
+Gradients are impossible for you to export as a component, as you can only export it as an image. So if you need to adjust the gradient over time, you will have a hard struggle.
+
+A good example of this is this object I had used in the past.
+
+![figma drawback gradient]()
+
 ### Mixed Colors on Labels
+
+Another draw back are mixed color labels, as GLabels inside of ACM cannot handle this kind of interaction, meaning you would have to export the label as an image as well.
+
+So this will work unless you need to change the label over time.
+
+A nice example is this label:
+
+![figma drawback mixed labels]()
+
 ### And More..
-## Sharing Figma Project
+
+These two drawbacks are the only two I've ran into so far, however there are most likely plenty more where you'll 60% of the time just be exporting your elements as images.|
+
 ## What Next..
+
+What's next for you?
+
+Well that's up to you to decide where you will use this tool, you could use this, you could also not and that's fine too. 
+
+I am sharing this tool so I can save you time on your project in the way that it has saved me time as well, so I hope you can use the strengths of this application inside of any of your future projects.
