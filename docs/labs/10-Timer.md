@@ -93,13 +93,13 @@ There are two arguments for a `Timer`:
 Setup event handlers - `ActionListener` and `actionPerformed` - in the appropriate class
 
 For setting up and creating event handlers like `ActionListener` and `actionPerformed`
-you want to implement the interface first.
+you want to implement the `implements ActionListener` interface first.
 Then right click the underlined class name to automatically add unimplemented methods
 which would add the `actionPerformed` function.
 Some example code would be as follows.
 
 ```java
-public class ClassName implements ActionListener {
+public class SomeClass implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -158,12 +158,13 @@ with `this` refering to the class that it is in.
 This could all be done in a constructor and an example would look like this.
 
 ```java
-public class ClassName implements ActionListener {
+public class SomeClass implements ActionListener {
+    private Timer someTimerVar; // typically want access to timer variable across multiple methods
 
-    ClassName(){
-        //Setting up the timer
-        Timer someTimerVar = new Timer(1000, this);
-        //Starting the timer
+    public SomeClass() {
+        // Set up the timer
+        someTimerVar = new Timer(1000, this);
+        // start the timer
         someTimerVar.start();
     }
     ...
