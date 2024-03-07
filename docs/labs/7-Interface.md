@@ -280,9 +280,11 @@ and that color will appear throughout for ```Emotional```.
 While in this lab we're focusing on implementing our single Emotional interface,
 it's worth noting that one of the greatest strengths of interfaces in Java is the ability to implement
 **multiple interfaces** within a single class.
-If you find yourself wanting to use more than one interface, you can simply list them after the implements keyword,
+If you find yourself wanting to use more than one interface,
+you can simply list them after the implements keyword,
 separated by commas. For example, if we wanted EmotionalOval not only to exhibit emotional states
 but also to respond to eating, we might also implement an Interactable interface like so:
+
 ```java
 public class EmotionalOval extends GOval implements Emotional, Hungry {
 ```
