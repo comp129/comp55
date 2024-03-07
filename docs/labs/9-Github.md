@@ -41,11 +41,11 @@ basics to how Git works. You do not need to do anything for now, just read for t
 **Repository:** a repository is a place to store a your files or directories. In addition,
 a repository also stores a history of the changes made to those files, allowing a user
 to review their changes and revert back to old versions in a method called *version control*.
-**Remote Repositories:** a remote repository is a repository that is hosted on a server 
+**Remote Repositories:** a remote repository is a repository that is hosted on a server
 (such as GitHub, GitLab, or Bitbucket) and serves as a centralized location for sharing
 code and collaborating with others. In order to make changes to this remote repository,
 you would have to initialize your own repository on your computer using `git init` which
-creates a local repository for the file directory that you declared it for. Then using 
+creates a local repository for the file directory that you declared it for. Then using
 the `git clone` command, you can copy the contents or "clone" the remote repository to
 your new local repository. Now, your local repository is an exact replica of the remote repository.
 **Local Repositories:** a repository that is stored right on your local computer. Local
@@ -64,7 +64,7 @@ changed you want to be added into the "staging area". In the next step, when you
 to the local repository. This does nothing to the remote repository. Your remote
 repository will remain uneffected until you use `git push` in the next step.
 **Git Push:** the `git push` command will clone your changes made to your local repository
-and upload them to the remote repository. After using `git push`, the remote repository now 
+and upload them to the remote repository. After using `git push`, the remote repository now
 has the changes you made to your local repository (your local copy of the remote repository).
 If some of the changes that you made in your local repository conflict with some of those
 in the remote repository, you would be asked later to resolve these issues manually.
