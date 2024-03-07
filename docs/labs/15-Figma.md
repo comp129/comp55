@@ -71,7 +71,7 @@ Now you have successfully created your Figma account.
 
 ### Personal Email
 
-_You can skip this section if you used the google button_
+You can skip this section if you used the google button.
 
 So to create an account using a personal email you will need
 to fill in some fields instead of just pressing a few buttons.
