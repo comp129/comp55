@@ -34,11 +34,11 @@ To ensure that the application is designed and built to meet the needs of the en
 you and your team would create a use-case diagram using UML to outline all the major interactions,
 like checking account balances to pay bills.
 
-The use-case diagram shows Users interact with the app to perform various application,
-such as checking user accounts, paying bills, transfering funds, depositing money,
-and viewing transaction.
+The Use Case diagram below shows how a user would interact with the app to perform various actions,
+such as checking user accounts, paying bills, transferring funds, depositing money,
+and viewing a transaction.
 
-![UseCaseExample](https://github.com/comp129/comp55/assets/127378911/a3257305-d085-4583-9e9e-891aca4f2a50)
+![Use Case Diagram for Mobile Banking App with different features](https://github.com/comp129/comp55/assets/127378911/a3257305-d085-4583-9e9e-891aca4f2a50)
 
 Each interaction is a use case. The diagram will identify external systems that the app needs,
 like payment gateways or databases.
