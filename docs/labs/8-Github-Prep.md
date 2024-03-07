@@ -134,7 +134,7 @@ Go back to [GitHub](http://github.com) and log in,
 then click on your profile icon in the upper right,
 and then go to
 *Settings->Developer settings->Personal Access Tokens->Tokens(classic)->Generate new token*.
-Then give the token a name, for this instance I recommend putting the course title for simplicity.
+Then give the token a name, you can put the course title for simplicity.
 set expiration to *No expiration* or *90 days* and select the ```all repos``` checkbox at the top.
 This will be used in place of your password.
 
