@@ -44,7 +44,7 @@ Rest assured this switch won't be as hard as you may assume, just look below.
 | Platform Independence | Depends on platform  | Write Once, Run      |
 |                       |                      | Anywhere (WORA)      |
 
-Most of what you have learned in C++ is still applicable in Java,the only major change 
+Most of what you have learned in C++ is still applicable in Java,the only major change
 is how to convey your knowledge.
 C++ just lets you do whatever you want,
 which is exciting
