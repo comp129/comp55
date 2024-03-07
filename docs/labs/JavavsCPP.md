@@ -309,31 +309,31 @@ then confirm if you have installed GCC and JVM by checking in the Command Line T
 ```
 
 Now they we have the needed programs, now we can move on to running code on your machine!
-Say we have 2 files HelloWorld.java and HelloWorld.cpp and both output the phrase "HELLO WORLD"
+Say we have *HelloWorld.java* and *HelloWorld.cpp* and both output the phrase `HELLO WORLD`.
 
-To compile and run these files
-In the Command Line Terminal go to the directory where the files are stored in your system
+To compile and run these files,
+In your Command Line Terminal go to the directory where the files are stored in your system
 
 ```bash
-  cd path/to/your/directory
+cd path/to/your/directory
 ```
 
 To compile the Java code first enter this command
 
 ```bash
-  javac HelloWorld.java
+javac HelloWorld.java
 ```
 
 then enter this command to run the file
 
 ```bash
-  java HelloWorld
+java HelloWorld
 ```
 
 now with the C++ first enter this command to compile HelloWorld.cpp
 
 ```bash
-  g++ HelloWorld.cpp -o HelloWorld
+g++ HelloWorld.cpp -o HelloWorld
 ```
 
 Now with the compiler running you can now run your C++ code!
