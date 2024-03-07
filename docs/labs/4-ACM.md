@@ -213,25 +213,28 @@ public class ACMLab extends GraphicsProgram {
     along with the message Hello World
     (using the always appropriate and highly underutilized Comic Sans font).*
 
-## Modifying our label (Changing font, size and style)
+## Step 2: Modifying our label (Changing font, size and style)
 
-If we wanted to make additional changes to the ```GLabel```,
+### 1. Store the new ```GLabel``` into a variable called ```label```.
+
+- Once you have the ```GLabel``` in a variable,
+rather than adding it right away,
+we can make modifications to it by sending the label different messages.
+
+   > If we wanted to make additional changes to the ```GLabel```,
 it would make
 sense to store that ```GLabel``` into a variable that we could then refer
 to.
-**Go ahead and change your code to separate the add part from
-the creation part by storing the new ```GLabel``` into a variable called ```label```.**
-Once you have the ```GLabel``` in a variable,
-rather than adding it right away,
-we can make modifications to it by sending the label different messages.
-For example,
-go ahead and color the label **red**.
-We can do this by inserting the statement ```label.setColor(Color.red);```
+
+### 2. Go ahead and color the label **red**.
+
+- Add
+```label.setColor(Color.red);```
 in between creating the label and adding it to the screen.
-In addition to making the label red,
-let's go ahead and make the font bigger,
-which you can do by saying ```label.setFont("Arial-Bold-24")```.
-The font just needs to be a font that is registered on your computer,
+
+### 3. add ```label.setFont("Arial-Bold-24")```
+
+   > The font just needs to be a font that is registered on your computer,
 followed by the style and size,
 separated by hyphens.
 The style is optional
