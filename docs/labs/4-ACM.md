@@ -369,7 +369,7 @@ There are different types of Images that can be imported. Some include:
 3. Graphics Interchange Format (.gif) - Insert a gif and the image will be animated.
 
 ```java
-Image image = new GImage("media/photo.png", START_X, START_Y);
+GImage image = new GImage("media/photo.png", START_X, START_Y);
 image.setSize(400, 400);
 add(image);
 
