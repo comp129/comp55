@@ -284,7 +284,7 @@ The way to compile your code also differs between a Java and C++ File
 
 Before we start make sure that you have Java Virtual Machine(JVM)
 And GNU Compiler Collection(GCC) installed on your machine
-If you are on MacOS 
+If you are on MacOS
 Go to install JVM go to the Command Line Terminal and enter these commands to install GCC and JVM
 
 ```bash
@@ -295,10 +295,8 @@ Go to install JVM go to the Command Line Terminal and enter these commands to in
 ```
 
 If you are on Windows visit these links
-[for JVM]
-(https://adoptopenjdk.net/).
-[for GCC]
-(https://www.mingw-w64.org/).
+[for JVM](https://adoptopenjdk.net/)
+[for GCC](https://www.mingw-w64.org/)
 and follow the installation instructions!
 then confirm if you have installed GCC and JVM by checking in the Command Line Terminal
 
