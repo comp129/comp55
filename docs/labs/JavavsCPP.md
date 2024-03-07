@@ -291,7 +291,7 @@ In the Command Line Terminal go to the directory where the files are stored in y
   cd path/to/your/directory
 ```
 
-To compile the java code first enter this command
+To compile the Java code first enter this command
 
 ```bash
   javac HelloWorld.java
@@ -303,18 +303,20 @@ then enter this command to run the file
   java HelloWorld
 ```
 
-now with the C++ file enter this command to first compile
+now with the C++ first enter this command to compile
 
 ```bash
   g++ HelloWorld.cpp -o HelloWorld
 ```
-
-now compared to java, the way to run the c++ file will differ between what system you are on
-for example, the run command is
+Now with the compiler running you can now run your C++ code!
+Compared to Java, the way to run the C++ file will differ on what system you are on
+for example, the run for the CPP can look like
 ```bash
   ./HelloWorld   # On Unix-based systems
   HelloWorld.exe   # On Windows
 ```
+while for Java because of the Java Virtual Machine(JVM) the command will be
+the same regardless of what platform you are on
 
 ## There is much to learn still
 
