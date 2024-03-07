@@ -274,7 +274,7 @@ just go to this link.
 
 <https://docs.oracle.com/en/java/javase/11/docs/api/index.html>
 
-Those are all java files that have been implemented,
+Those are all Java files that have been implemented,
 are stable and get leveraged by folks who work in Java so that they don't reinvent the wheel.
 
 ## Compile Your Files
@@ -308,13 +308,16 @@ now with the C++ first enter this command to compile
 ```bash
   g++ HelloWorld.cpp -o HelloWorld
 ```
+
 Now with the compiler running you can now run your C++ code!
 Compared to Java, the way to run the C++ file will differ on what system you are on
 for example, the run for the CPP can look like
+
 ```bash
   ./HelloWorld   # On Unix-based systems
   HelloWorld.exe   # On Windows
 ```
+
 while for Java because of the Java Virtual Machine(JVM) the command will be
 the same regardless of what platform you are on
 
