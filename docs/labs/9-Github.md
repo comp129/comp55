@@ -76,7 +76,8 @@ If some of the changes that you made in your local repository conflict with some
 of those in the remote repository, you would be asked later to resolve these issues manually.
 
 If you understood nothing from the above explanations,
-then fear not because many programmers did not understand Git and GitHub from simply just from reading it.
+then fear not because many programmers did not understand Git 
+and GitHub from simply just from reading it.
 Using Git and GitHub is all a process.
 Once you practice it and continually use it, all of this will make sense.
 Then, once you understand it and use it consistently, you will begin to see why an overwhelming 90%
