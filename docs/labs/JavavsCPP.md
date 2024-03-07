@@ -143,6 +143,21 @@ will be called an
 **<span class="smallcaps">object</span>**.
 You can have many objects that follow the same class blueprints.
 
+Misunderstandings that are easy to fall into
+
+Primitives:
+1. These are the basic data types in the Java language, such as int, char, double, boolean, etc.
+2. They store data values directly instead of referencing other objects.
+3. Primitive types store the actual value in memory, not a reference to the value.
+
+Object types (Objects):
+1. These are reference types in Java language, such as String, ArrayList, etc.
+2. The object type stores a reference to the data, not the data value itself.
+3. The object type stores references to actual data in memory, not actual data values.
+
+Summary: Due to the similarity in syntax and usage of the Java language, beginners may confuse primitive types and object types. Additionally, the autoboxing and unboxing mechanisms in Java also increase the likelihood of such confusion. Autoboxing allows primitive types to be automatically converted to corresponding object types, while automatic unboxing allows object types to be automatically converted to corresponding primitive types. These features make conversions between primitive types and object types implicit and confusing in some cases.
+
+
 ## In Java, there is no pointer notation. Or is there?
 
 Remember this?
