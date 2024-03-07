@@ -266,6 +266,7 @@ The way to export an object is to select all the elements you would like
 to be supported, so in this case I would highlight all the existing shapes and then right click.
 
 You'll want to follow the steps in the provided screen shot.
+
 ![Right Click Image](lab15media/figma-lab-right-click.png)
 
 This will now save it to your clip-board. If you're on a windows computer you can paste it into ms
