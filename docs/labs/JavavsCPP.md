@@ -303,7 +303,7 @@ then enter this command to run the file
   java HelloWorld
 ```
 
-now with the C++ first enter this command to compile
+now with the C++ first enter this command to compile HelloWorld.cpp 
 
 ```bash
   g++ HelloWorld.cpp -o HelloWorld
@@ -311,7 +311,7 @@ now with the C++ first enter this command to compile
 
 Now with the compiler running you can now run your C++ code!
 Compared to Java, the way to run the C++ file will differ on what system you are on
-for example, the run for the CPP can look like
+, for example, the run for the CPP can look like
 
 ```bash
   ./HelloWorld   # On Unix-based systems
@@ -319,7 +319,7 @@ for example, the run for the CPP can look like
 ```
 
 while for Java because of the Java Virtual Machine(JVM) the command will be
-the same regardless of what platform you are on
+the same regardless of what platform you are on!
 
 ## There is much to learn still
 
