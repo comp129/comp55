@@ -372,8 +372,6 @@ There are different types of Images that can be imported. Some include:
 GImage image = new GImage("media/photo.png", START_X, START_Y);
 image.setSize(400, 400);
 add(image);
-
-add(image);
 ```
 
 If you want to learn more about `GImage` remember to take a look at its documentation,
