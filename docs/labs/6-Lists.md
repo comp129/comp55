@@ -63,6 +63,7 @@ If you wanted that list to hold ```GOval```s instead,
 you would have to change the type inside the angle brackets to be a ```GOval``` on both ends.
 
 The other drawback is that they don't work directly with primitives like ```int``` and ```double```.
+
 ## Understanding ArrayList and Primitive Types
 
 One notable limitation of `ArrayList` is its inability to directly handle primitive data types such as `int` and `double`. This is because `ArrayList`, like other collections in Java, is designed to work with objects, not primitives. To store primitive values in an `ArrayList`, Java provides wrapper classes (e.g., `Integer` for `int`, `Double` for `double`) that encapsulate primitive values as objects. Java's autoboxing feature automatically converts a primitive value to its corresponding wrapper class when added to an `ArrayList`. Conversely, unboxing automatically extracts the primitive value from its wrapper when retrieved.
