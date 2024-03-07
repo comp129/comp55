@@ -323,5 +323,6 @@ Well that's up to you to decide where you will use this tool.
 
 You could use this, you could also not and that's fine too.
 
-I am sharing this tool so I can save you time on your project in the way that it has saved me time as well,
+I am sharing this tool so I can save you time on your project
+in the way that it has saved me time as well,
 so I hope you can use the strengths of this application inside of any of your future projects.
