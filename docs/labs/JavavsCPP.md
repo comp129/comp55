@@ -44,7 +44,8 @@ this switch won't be as hard as you may assume, just look below.
 | Multithreading        | Yes                  | Yes                  |
 | Platform Independence | Depends on platform  | Write Once, Run      |
 |                       |                      | Anywhere (WORA)      |
-Most of what you have learned in C++ is still applicable in Java, the only major change is how to convey your knowledge
+
+Most of what you have learned in C++ is still applicable in Java, the only major change is how to convey your knowledge.
 C++ just lets you do whatever you want,
 which is exciting
 but can mess you up.
