@@ -274,6 +274,7 @@ the ball.**
 
 If it is, then we'll change the color.
 Otherwise, we'll move it to where our mouse cursor is.
+(The ball should not move when the color is being changed).
 The tricky part is generating the condition for the ```if```
 statement here which should be something like ```if(getElementAt(e.getX(), e.getY()) == ball)```,
 which essentially says,
