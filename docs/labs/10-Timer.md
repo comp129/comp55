@@ -21,6 +21,8 @@
 - [Advanced reading on multiple timers (Optional)](#advanced-reading-on-multiple-timers-optional)
 - [Bonus](#bonus)
     - [*"Hey! This is almost a game!"*](#hey-this-is-almost-a-game)
+- [Bonus 2](#bonus-2)
+    - [*"Hey! Want to go further?"*](#hey-want-to-go-further)
 
 ## Overview
 
@@ -90,13 +92,10 @@ There are two arguments for a `Timer`:
 
 Setup event handlers - `ActionListener` and `actionPerformed` - in the appropriate class
 
-For setting up and creating event handlers like
-`ActionListener` and `actionPerformed`
+For setting up and creating event handlers like `ActionListener` and `actionPerformed`
 you want to implement the interface first.
-Then right click the underlined class name
-to automatically add unimplemented
-methods which would add
-the `actionPerformed` function.
+Then right click the underlined class name to automatically add unimplemented methods
+which would add the `actionPerformed` function.
 Some example code would be as follows.
 
 ```java
@@ -154,11 +153,9 @@ it would look like this.
 someTimerVar.start();
 ```
 
-The method would be called shortly after
-creating a `Timer` object with `this`
-refering to the class that it is in.
-This could all be done in a constructor
-and an example would look like this.
+The method would be called shortly after creating a `Timer` object
+with `this` refering to the class that it is in.
+This could all be done in a constructor and an example would look like this.
 
 ```java
 public class ClassName implements ActionListener {
