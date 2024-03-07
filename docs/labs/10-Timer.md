@@ -90,12 +90,12 @@ There are two arguments for a `Timer`:
 
 Setup event handlers - `ActionListener` and `actionPerformed` - in the appropriate class
 
-For setting up and creating event handlers like 
+For setting up and creating event handlers like
 `ActionListener` and `actionPerformed`
 you want to implement the interface first.
 Then right click the underlined class name
-to automatically add unimplemented 
-methods which would add 
+to automatically add unimplemented
+methods which would add
 the `actionPerformed` function.
 Some example code would be as follows.
 
@@ -154,10 +154,10 @@ it would look like this.
 someTimerVar.start();
 ```
 
-The method would be called shortly after 
+The method would be called shortly after
 creating a `Timer` object with `this`
-refering to the class that it is in. 
-This could all be done in a constructor 
+refering to the class that it is in.
+This could all be done in a constructor
 and an example would look like this.
 
 ```java
