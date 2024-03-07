@@ -364,7 +364,7 @@ that will change the object's location if you want the object to be placed in a 
 
 There are different types of Images that can be imported. Some include:
 
-1. Portable Network Graphics (.png) - Compatible as a clear background.
+1. Portable Network Graphics (.png) - Compatible with a transparent backgrounds.
 2. Joint Photographic Experts Group (.jpg) - Usually the best quality image.
 3. Graphics Interchange Format (.gif) - Insert a gif and the image will be animated.
 
