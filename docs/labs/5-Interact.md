@@ -273,7 +273,7 @@ where we check if the element at the mouse coordinates is in fact,
 the ball.**
 
 If it is, then we'll change the color.
-Otherwise, we'll move it to where our mouse cursor is. 
+Otherwise, we'll move it to where our mouse cursor is.
 
 **The ball should not be moved when the color is being changed.**
 
@@ -281,8 +281,8 @@ The tricky part is generating the condition for the ```if```
 statement here which should be something like ```if(getElementAt(e.getX(), e.getY()) == ball)```,
 which essentially says,
 *is the ```x``` and ```y``` coordinates of where I pressed the mouse on top of the ball?*
-If so, change the color and otherwise set the ball's location. 
-While different locations within the bounds of the ball may be offset from the ball's 
+If so, change the color and otherwise set the ball's location.
+While different locations within the bounds of the ball may be offset from the ball's
 coordinates, all clicks within the bounds of the ball are on the ball, and the ball
 should not be moved.
 
