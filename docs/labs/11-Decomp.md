@@ -92,8 +92,9 @@ Let's start with the first.
 
 Curious about GObject methods? Delve into a comprehensive guide for a deeper understanding.
 Whether you're a beginner or seeking advanced insights,
-this resource offers practical explanations and examples. 
-Visit this link [GObjects](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GObject.html#:~:text=move(double%20dx%2C%20double%20dy,displacements%20given%20in%20polar%20coordinates.)) to explore further whenever you need assistance.
+this resource offers practical explanations and examples.
+Visit this link [GObjects](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GObject.html#:~:text=move(double%20dx%2C%20double%20dy,displacements%20given%20in%20polar%20coordinates.))
+to explore further whenever you need assistance.
 Goodluck!
 
 ### Adding an oval to the screen
