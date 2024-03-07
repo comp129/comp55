@@ -353,7 +353,7 @@ then enter this command to run the file
 java HelloWorld
 ```
 
-now with the C++ first enter this command to compile HelloWorld.cpp
+Now with the C++ first enter this command to compile HelloWorld.cpp
 
 ```bash
 g++ HelloWorld.cpp -o HelloWorld
@@ -368,7 +368,7 @@ For example, the run for the CPP can look like:
   HelloWorld.exe   # On Windows
 ```
 
-while for Java because of the Java Virtual Machine(JVM) the command will be
+While for Java because of the Java Virtual Machine(JVM) the command will be
 the same regardless of what platform you are on!
 
 ## There is much to learn still
