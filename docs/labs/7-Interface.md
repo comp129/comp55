@@ -277,6 +277,15 @@ You should also notice that if you are using the class color scheme,
 that the name of your interface should now be green in both files.
 This is just coloring so that you are aware that you are dealing with an interface,
 and that color will appear throughout for ```Emotional```.
+While in this lab we're focusing on implementing our single Emotional interface,
+it's worth noting that one of the greatest strengths of interfaces in Java is the ability to implement
+**multiple interfaces** within a single class.
+If you find yourself wanting to use more than one interface, you can simply list them after the implements keyword,
+separated by commas. For example, if we wanted EmotionalOval not only to exhibit emotional states
+but also to respond to eating, we might also implement an Interactable interface like so:
+```java
+public class EmotionalOval extends GOval implements Emotional, Hungry {
+```
 
 ### Step 3: Use type ```Emotional``` instead of ```EmotionalOval```
 
@@ -481,7 +490,7 @@ it doesn't have to be that way.
 There is nothing in an interface about when it should be called or how it should behave.
 Know that that it's a merely a collection of methods that one has to implement,
 which could lead to some great examples of polymorphism.
-This flexibility is what makes interfaces so powerful, 
+This flexibility is what makes interfaces so powerful,
 and learning how to make them work for you will give you a lot of power when you start your final projects.
 To get credit for this lab,
 **you will take three screenshots of the three states,
