@@ -153,8 +153,7 @@ it would look like this.
 someTimerVar.start();
 ```
 
-The method would be called shortly after creating a `Timer` object
-with `this` refering to the class that it is in.
+The method would be called shortly after creating a `Timer` object.
 This could all be done in a constructor and an example would look like this.
 
 ```java
