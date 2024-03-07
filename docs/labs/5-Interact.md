@@ -284,9 +284,10 @@ which essentially says,
 If so, change the color and otherwise set the ball's location.
 
 > **Remember:** While different mouse clicks within the bounds of the ball
-> may differ from the ball's coordinates,
-> all clicks within the bounds of the ball are on the ball,
-> and the ball should not be moved.
+> may not match the `ball`'s exact coordinates,
+> all clicks within the bounds of the ball registered via `getElementAt`
+> should be considered as clicks on the `ball`.
+> This means ***we should not move the `ball` when we click on it***.
 
 Once you make the changes,
 test it again,
