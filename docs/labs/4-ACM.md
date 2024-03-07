@@ -70,10 +70,15 @@ public class ACMLab extends GraphicsProgram {
 }
 ```
 
-- **Imports:** Lines 1-4 contain ```import``` statements:
+## To Explain What Is Going On:
+***the following is not neccessary but is important to know***
+- ### **Imports:**
+  - Linesi 1-4 contain ```import``` statements:
   ```import``` calls are similar to ```#include```s that we had in C++
   in that they help Java figure out what libraries you will be using.
-  One of the nice features of Java
+  - **The majority of imports we'll use start with "java." or "acm."**
+  
+    > One of the nice features of Java
   is that it allows you to reference a folder of classes all at once,
   so for example,
   rather than have to write 20 import statements for each class that we want to reference,
@@ -87,15 +92,15 @@ public class ACMLab extends GraphicsProgram {
   after typing the class,
   which will tell Eclipse to
   automatically search its entire catalog for which import you should have and then
-  *write the import statements for you*.
+  **write the import statements for you**._
   If you try to use a class that is defined differently in multiple libraries,
   Eclipse will prompt you to choose.
-  The majority of imports we'll use start with "java." or "acm."
 
-- **extends:** Line 6 should be of interest
-  as you see the word extends followed by ```GraphicsProgram```.
+- ### **Extends:**
+  - Line 6 shows the word ```extends``` followed by ```GraphicsProgram```.
   ```extends``` is a special keyword in Java that lets you inherit capabilities from another class.
-  In our case,
+
+    > In our case,
   what we want to do is inherit from the special ACM class,
   ```GraphicsProgram```,
   which will do a lot of the necessary legwork to get ourselves ready to deal with graphics.
@@ -107,29 +112,30 @@ public class ACMLab extends GraphicsProgram {
   Rather than using ```public static void main(String[] args)```,
   consider ```public void run()``` as our starting point for now.
 
-- **public static final int:** Lines 7 & 8 declare constants for the program to reference.
-  **It is good programming practice to declare any number that is not 0, 1, or 2, as a constant**.
-  We're going to break with that convention for the opening part of the tutorial
-  as we are introducing you to the different calls,
-  but once you get into the activity,
-  please make new constants.
-  Constants make your program easier to change in the future and easier to read.
-  While there are a couple of extra keywords here that I don't want you to worry about too much yet,
-  the ```final``` keyword is the one that is telling Java
-  that a particular variable can no longer be changed.
-  One nice part about constants is that they don't need to be literal values,
-  they can be formulas based on other constants like this:
-
+- ### **public static final int:**
+  - Lines 7 & 8 declare constants for the program to reference.
+    **It is good programming practice to declare any number that is not 0, 1, or 2, as a constant**.
+  - We're going to break with that convention for the opening part of the tutorial
+  as we are introducing you to the different calls.
+    ### Once you get into the activity, please make new constants.
+     > Constants make your program easier to change in the future and easier to read.
+     While there are a couple of extra keywords here that I don't want you to worry about too much yet,
+     the ```final``` keyword is the one that is telling Java
+     that a particular variable can no longer be changed.
+     One nice part about constants is that they don't need to be literal values,
+     they can be formulas based on other constants like this:
+    
+    **Constants can be formulas based on other constants like this:**
     ```java
     public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
     // This makes constants very useful - make them often!
     ```
 
-- **public void init():**
-  It doesn't make sense to get too into the internals of this method on lines 10-13.
-  Be aware that it allows us to specify the size of the window before it gets created.
+- ### **public void init():**
+  - On lines 10-13, it allows us to specify the size of the window before it gets created.
   This is useful in our case as we want to start with a larger window.
-  The size is specified in pixels.
+
+    > The size is specified in pixels.
   A **pixel** is the smallest unit possible to display on a computer screen.
   So this creates a window 800 pixels wide and 600 pixels high.
   While for some of you this might create a decent-sized window,
@@ -138,24 +144,22 @@ public class ACMLab extends GraphicsProgram {
   for now,
   you could try to make the screen relatively big,
   but this will be something you may have to continually adjust.
-  You also may be able to fix this by
-  [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897).
-  The ```requestFocus``` call just allows the window to be the active window
+     ### You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897).
+     > The ```requestFocus``` call just allows the window to be the active window
   for both the mouse and the keyboard,
   which will be useful in the future.
   Other than changing the size,
   you should leave the ```init``` method alone.
 
-- **public static void main(String args[])**
-  You've seen lines 19 and 21 before,
-  but what may be interesting here is how empty our main is,
-  and Line 20.
-  **Please don't spend too much time thinking about or copying Line 20 for your future code**.
-  Think of this main function that we have as template
+- ### **public static void main(String args[])**
+  - Think of this main function that we have as template
   (aka boilerplate)
   code that will be in most graphical programs,
   you should not need to modify the mains for the graphical programs that you create.
-  This small function tells java how to start your program.
+
+     ### Please don't spend too much time thinking about or copying Line 20 for your future code.
+  
+     > This small function tells java how to start your program.
   If you notice,
   it just creates a ```new ACMLab```
   (which it does not even save into a variable! :disappointed:).
@@ -170,14 +174,18 @@ public class ACMLab extends GraphicsProgram {
   ```run```,
   which we'll discuss next.
 
-- **public void run():** Lines 15-17 have the method
+- ### **public void run():**
+   - Lines 15-17 have the method
   that you should consider the starting point for your program,
-  and it is here that we will be putting most of our code
-  as well as function calls to the rest of our code.
-  Currently,
-  there is only one call on line 16,
-  which is, ```add(new GLabel("Hello World", 300, 300));```.
-  ```GraphicsProgram``` follows what one can think of as a *collage model* for making graphics.
+  as the function calls to the rest of our code.
+
+- ### Adding Objects:
+  - Currently,
+  there is only one call on line 16, which is,
+
+    ```add(new GLabel("Hello World", 300, 300));```
+  
+     > ```GraphicsProgram``` follows what one can think of as a *collage model* for making graphics.
   Rather than creating graphics with a pen where you give commands
   to move the pen around the screen to draw things,
   the graphics package allows you to create objects,
@@ -185,17 +193,19 @@ public class ACMLab extends GraphicsProgram {
   Once the objects are created,
   you then need to add them to your canvas.
   The ```add``` command at the beginning of the line is reminiscent of that.
-  On the other hand,
-  what's inside the ```add``` command –
-  ```new GLabel("Hello World", 300, 300)```-
+  
+  - What's inside the ```add``` command
+  ```new GLabel("Hello World", 300, 300)```
   can be thought of as making a shape
   (or label in our case).
-  While the label writes the text given in the label,
+
+     > While the label writes the text given in the label,
   the 300s specify the x and y coordinates in pixels of where the label will be placed.
   Another thing to know is that in Java,
   **0, 0** is the upper left-hand corner of the screen,
-  rather than the lower left-hand corner,
-  as shown by the picture below.
+  rather than the lower left-hand corner.
+  
+     ### Shown by the picture below is a visual example of coordinates of the Label:
 
     ![graphics coordinates explained](lab4media/media/image2.png)
 
