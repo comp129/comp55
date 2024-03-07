@@ -308,7 +308,7 @@ then confirm if you have installed GCC and JVM by checking in the Command Line T
   java -version
 ```
 
-Now they we have the needed programs, now we can move on to running code on your machine!
+Now that we have the needed programs, we can move on to running code on your machine!
 Say we have *HelloWorld.java* and *HelloWorld.cpp* and both output the phrase `HELLO WORLD`.
 
 To compile and run these files,
@@ -336,9 +336,9 @@ now with the C++ first enter this command to compile HelloWorld.cpp
 g++ HelloWorld.cpp -o HelloWorld
 ```
 
-Now with the compiler running you can now run your C++ code!
-Compared to Java, the way to run the C++ file will differ on what system you are on
-For example, the run for the CPP can look like
+Now with the compiler running you can run your C++ code!
+Compared to Java, the way to run C++ files differs depending on your system.
+For example, the run for the CPP can look like:
 
 ```bash
   ./HelloWorld   # On Unix-based systems
