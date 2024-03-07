@@ -366,7 +366,7 @@ There are different types of Images that can be imported. Some include:
 
 1. Portable Network Graphics (.png) - Compatible with a transparent backgrounds.
 2. Joint Photographic Experts Group (.jpg) - Common format used for smaller file sizes.
-3. Graphics Interchange Format (.gif) - Insert a gif and the image will be animated.
+3. Graphics Interchange Format (.gif) - Useful if you want an animated image.
 
 ```java
 GImage image = new GImage("media/photo.png", START_X, START_Y);
