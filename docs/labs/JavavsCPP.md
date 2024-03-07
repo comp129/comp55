@@ -22,6 +22,30 @@ I would say that they fit these pictures pretty well
 | ![http://www.pxleyes.com/images/users/S/Sarah06/3485/fullsize/4e5f610b59f3a.jpg](diffjavacpp/media/image1.jpeg) | ![http://www.cityofws.org/portals/0/images/police/storytime2\_233.jpg](diffjavacpp/media/image2.jpeg) |
 Source: left - *pxleyes.com*, right - *[cityofws](http://www.cityofws.org)*
 
+## Similarities to Past Education
+
+The table below demonstrates just how similar Java and C++ really are.
+Rest assured this switch won't be as hard as you may assume, just look below.
+
+| Feature               | C++                  | Java                 |
+|-----------------------|----------------------|----------------------|
+| Syntax                | C-based syntax       | C-based syntax       |
+| Object-Oriented       | Yes                  | Yes                  |
+| Classes and Objects   | Yes                  | Yes                  |
+| Inheritance           | Yes                  | Yes                  |
+| Polymorphism          | Yes                  | Yes                  |
+| Encapsulation         | Yes                  | Yes                  |
+| Abstraction           | Yes                  | Yes                  |
+| Memory Management     | Manual (new/delete)  | Automatic (Garbage   |
+|                       |                      | Collection)          |
+| Exception Handling    | Yes                  | Yes                  |
+| Standard Libraries    | STL                  | Java API             |
+| Multithreading        | Yes                  | Yes                  |
+| Platform Independence | Depends on platform  | Write Once, Run      |
+|                       |                      | Anywhere (WORA)      |
+
+Most of what you have learned in C++ is still applicable in Java, the only major change
+is how to convey your knowledge.
 C++ just lets you do whatever you want,
 which is exciting
 but can mess you up.
@@ -39,7 +63,6 @@ I'm going to highlight a couple of differences.
 
 Want a C++ ```bool``` variable? Declare it as a ```boolean``` instead
 (ie ```boolean isEasy = true;```).
-
 To declare an array in Java it must be written in this way.
 You can declare the type and size however you like.
 
