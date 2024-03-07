@@ -12,10 +12,8 @@
 - [STEP 9: Submit confirmation by uploading a picture to Canvas](#step-9-submit-confirmation-by-uploading-a-picture-to-canvas)
 
 If you are using a school computer skip down to Step 5.
-
 ## STEP 1: Remove any previous installations of Java that you have
 Uninstall any previous Java versions from your computer to avoid version conflicts.
-
 We all benefit when we use the same version of java.
 .
 To avoid confusion,
@@ -28,8 +26,8 @@ You can do this by:
 2. Searching for any java programs
 3. **Removing** any existing java installations.
 4. You can check out these instruction from java page.
-  a. Windows: https://www.java.com/en/download/help/uninstall_java.html
-  b. MacOS: https://www.java.com/en/download/help/mac_uninstall_java.html
+  a. [Windows](https://www.java.com/en/download/help/uninstall_java.html)
+  b. [MacOS](https://www.java.com/en/download/help/mac_uninstall_java.html)
 
 ![remove java versions](lab1media/media/image0.gif)
 
