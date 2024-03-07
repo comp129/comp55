@@ -49,7 +49,7 @@ Submission for this lab will be:
 To Get Started with this lab, we will assume you've never touched figma
 before and need to start from the first opening of the website.
 
-Navigate to [Figma](www.figma.com) and then continue.
+Navigate to [Figma](https://www.figma.com/) and then continue.
 
 You'll immediately see a pretty website however we want to just create an account.
 
