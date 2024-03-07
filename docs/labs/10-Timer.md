@@ -90,13 +90,23 @@ There are two arguments for a `Timer`:
 
 Setup event handlers - `ActionListener` and `actionPerformed` - in the appropriate class
 
+For setting up and creating event handlers like 
+`ActionListener` and `actionPerformed`
+you want to implement the interface first.
+Then right click the underlined class name
+to automatically add unimplemented 
+methods which would add 
+the `actionPerformed` function.
+Some example code would be as follows.
+
 ```java
 public class ClassName implements ActionListener {
 
-@Override
-public void actionPerformed(ActionEvent e) {
+    @Override
+    public void actionPerformed(ActionEvent e) {
+    
+    }
 
-}
 }
 ```
 
@@ -138,13 +148,29 @@ To start the timer so that it repeatedly calls `actionPerformed`,
 you must tell that particular timer to start,
 by calling its `start` method.
 So to start the Timer,
-it would look like this,
-with the method shortly after creating a `Timer` object with `this`
-refering to the class that it is in.
+it would look like this.
 
 ```java
-Timer someTimerVar = new Timer(1000, this);
 someTimerVar.start();
+```
+
+The method would be called shortly after 
+creating a `Timer` object with `this`
+refering to the class that it is in. 
+This could all be done in a constructor 
+and an example would look like this.
+
+```java
+public class ClassName implements ActionListener {
+
+    ClassName(){
+        //Setting up the timer
+        Timer someTimerVar = new Timer(1000, this);
+        //Starting the timer
+        someTimerVar.start();
+    }
+    ...
+}
 ```
 
 Here is [Oracle's official documentation on the `Timer` class](https://docs.oracle.com/javase/8/docs/api/javax/swing/Timer.html).
