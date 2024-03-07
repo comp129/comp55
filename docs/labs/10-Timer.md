@@ -624,7 +624,7 @@ public void actionPerformed(ActionEvent e) {
 ```
 
 If you are struggling tracking the players score or updating the label,
-try declaring a global variable that is updated when the enemy is killed. 
+try declaring a global variable that is updated when the enemy is killed.
 
 > hint: *when are they removed?*
 
