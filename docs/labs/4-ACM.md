@@ -363,7 +363,8 @@ You can use this in combination with a ```setLocation(x, y)```
 that will change the object's location if you want the object to be placed in a particular area.
 
 There are different types of Images that can be imported. Some include:
-1. Portable Network Graphics (.png) - Compatible as a clear background. 
+
+1. Portable Network Graphics (.png) - Compatible as a clear background.
 2. Joint Photographic Experts Group (.jpg) - Usually the best quality image.
 3. Graphics Interchange Format (.gif) - Insert a gif and the image will be animated.
 
