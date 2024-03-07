@@ -282,6 +282,34 @@ are stable and get leveraged by folks who work in Java so that they don't reinve
 Compiling refers to a step in turning your code into a program you can execute on your computer!
 The way to compile your code also differs between a Java and C++ File
 
+Before we start make sure that you have Java Virtual Machine(JVM) and GNU Compiler Collection(GCC) installed on your machine
+
+
+if youre on MacOS, to install JVM go to the Command Line Termial and enter these commands to install GCC and JVM
+
+```bash
+  # for GCC
+  brew install gcc
+  # for JV< 
+  cbrew install openjdk@11
+```
+
+if youre on Windows visit
+https://adoptopenjdk.net/   (for JVM)
+https://www.mingw-w64.org/ (for GCC)
+
+and follow the installation intructions!
+then confirm if you have isntialled GCC and JVM by checking in the Command Line Terminal
+
+```bash
+  # for GCC
+  gcc --version
+
+  # for JVM
+  java -version
+```
+
+Now they we have the needed programs, now we can move on to running code on your machine!
 Say we have 2 files HelloWorld.java and HelloWorld.cpp and both output the phrase "HELLO WORLD"
 
 To compile and run these files
