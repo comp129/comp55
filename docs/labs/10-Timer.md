@@ -615,26 +615,30 @@ continuously remove and add the players score in real time.
 
 ```java
 public void actionPerformed(ActionEvent e) {
-    ...
+    // ...
     remove(displayScore);
     displayScore = new GLabel("Score: " + score,scoreX,scoreY);
     add(displayScore);
-    ...
+    // ...
 }
 ```
 
 If you are struggling tracking the players score or updating the label,
-try declaring a global variable that is updated when the enemy is killed (hint: when are they removed?).
+try declaring a global variable that is updated when the enemy is killed. 
+
+> hint: *when are they removed?*
+
 Remember that the main idea for displaying the score is to constantly display the score being tracked.
 Or you could instead (or in addition)
 add in checks to say if there are more than `MAX_ENEMIES` on the screen,
 then stop the timer,
-remove everything and add a message telling them they lost. Here's what an example for losing looks like.
+remove everything and add a message telling them they lost.
+Here's what an example for losing looks like.
 However, it will be up to you to choose where to add this code.
 
 ```java
 if (enemies.size() == MAX_ENEMIES) {
-    GLabel lose = new GLabel("lose message",xLoc,yLoc);
+    GLabel lose = new GLabel("you lose",xLoc,yLoc);
     clear();
     add(lose);
     movement.stop();
