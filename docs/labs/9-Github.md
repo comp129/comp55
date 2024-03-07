@@ -3,6 +3,7 @@
 Points are given based on completing all steps with your team
 
 - [Introduction](#introduction)
+- [Basic Explanation of Git and GitHub](#basic-explanation-of-git-and-github)
 - [Step 0: Everyone - Pick roles and setup room](#step-0-everyone---pick-roles-and-setup-room)
 - [Step 1: Team Admins - setup repository](#step-1-team-admins---setup-repository)
     - [Everyone else – Review the mini-lab steps](#everyone-else--review-the-mini-lab-steps)
