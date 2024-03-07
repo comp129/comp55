@@ -10,6 +10,7 @@
 - [Output/Input stuff has changed](#outputinput-stuff-has-changed)
 - [Const/Final variables](#constfinal-variables)
 - [Java has programmed many things for you](#java-has-programmed-many-things-for-you)
+- [Compile your files](#compile-your-files)
 - [There is much to learn still](#there-is-much-to-learn-still)
 
 ## Overall Comparison
@@ -22,6 +23,30 @@ I would say that they fit these pictures pretty well
 | ![http://www.pxleyes.com/images/users/S/Sarah06/3485/fullsize/4e5f610b59f3a.jpg](diffjavacpp/media/image1.jpeg) | ![http://www.cityofws.org/portals/0/images/police/storytime2\_233.jpg](diffjavacpp/media/image2.jpeg) |
 Source: left - *pxleyes.com*, right - *[cityofws](http://www.cityofws.org)*
 
+## Similarities to Past Education
+
+The table below demonstrates just how similar Java and C++ really are.
+Rest assured this switch won't be as hard as you may assume, just look below.
+
+| Feature               | C++                  | Java                 |
+|-----------------------|----------------------|----------------------|
+| Syntax                | C-based syntax       | C-based syntax       |
+| Object-Oriented       | Yes                  | Yes                  |
+| Classes and Objects   | Yes                  | Yes                  |
+| Inheritance           | Yes                  | Yes                  |
+| Polymorphism          | Yes                  | Yes                  |
+| Encapsulation         | Yes                  | Yes                  |
+| Abstraction           | Yes                  | Yes                  |
+| Memory Management     | Manual (new/delete)  | Automatic (Garbage   |
+|                       |                      | Collection)          |
+| Exception Handling    | Yes                  | Yes                  |
+| Standard Libraries    | STL                  | Java API             |
+| Multithreading        | Yes                  | Yes                  |
+| Platform Independence | Depends on platform  | Write Once, Run      |
+|                       |                      | Anywhere (WORA)      |
+
+Most of what you have learned in C++ is still applicable in Java, the only major change
+is how to convey your knowledge.
 C++ just lets you do whatever you want,
 which is exciting
 but can mess you up.
@@ -39,7 +64,6 @@ I'm going to highlight a couple of differences.
 
 Want a C++ ```bool``` variable? Declare it as a ```boolean``` instead
 (ie ```boolean isEasy = true;```).
-
 To declare an array in Java it must be written in this way.
 You can declare the type and size however you like.
 
@@ -273,8 +297,79 @@ just go to this link.
 
 <https://docs.oracle.com/en/java/javase/11/docs/api/index.html>
 
-Those are all java files that have been implemented,
+Those are all Java files that have been implemented,
 are stable and get leveraged by folks who work in Java so that they don't reinvent the wheel.
+
+## Compile Your Files
+
+Compiling refers to a step in turning your code into a program you can execute on your computer!
+The way to compile your code also differs between a Java and C++ File
+
+Before we start make sure that you have Java Virtual Machine(JVM)
+And GNU Compiler Collection(GCC) installed on your machine
+If you are on MacOS
+Go to install JVM go to the Command Line Terminal and enter these commands to install GCC and JVM
+
+```bash
+  # for GCC
+  brew install gcc
+  # for JVM
+  cbrew install openjdk@11
+```
+
+If you are on Windows visit these links
+[for JVM](https://adoptopenjdk.net/)
+[for GCC](https://www.mingw-w64.org/)
+and follow the installation instructions!
+then confirm if you have installed GCC and JVM by checking in the Command Line Terminal
+
+```bash
+  # for GCC
+  gcc --version
+
+  # for JVM
+  java -version
+```
+
+Now that we have the needed programs, we can move on to running code on your machine!
+Say we have *HelloWorld.java* and *HelloWorld.cpp* and both output the phrase `HELLO WORLD`.
+
+To compile and run these files,
+In your Command Line Terminal go to the directory where the files are stored in your system
+
+```bash
+cd path/to/your/directory
+```
+
+To compile the Java code first enter this command
+
+```bash
+javac HelloWorld.java
+```
+
+then enter this command to run the file
+
+```bash
+java HelloWorld
+```
+
+Now with the C++ first enter this command to compile HelloWorld.cpp
+
+```bash
+g++ HelloWorld.cpp -o HelloWorld
+```
+
+Now with the compiler running you can run your C++ code!
+Compared to Java, the way to run C++ files differs depending on your system.
+For example, the run for the CPP can look like:
+
+```bash
+  ./HelloWorld   # On Unix-based systems
+  HelloWorld.exe   # On Windows
+```
+
+While for Java because of the Java Virtual Machine(JVM) the command will be
+the same regardless of what platform you are on!
 
 ## There is much to learn still
 
