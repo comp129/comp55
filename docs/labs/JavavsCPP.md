@@ -287,19 +287,19 @@ Say we have 2 files HelloWorld.java and HelloWorld.cpp and both output the phras
 To compile and run these files
 In the Command Line Terminal go to the directory where the files are stored in your system
 
-  cd path/to/your/directory
+```cd path/to/your/directory```
 
 To compile the java code first enter this command
 
-javac HelloWorld.java
+```javac HelloWorld.java```
 
 then enter this command to run the file
 
-  java HelloWorld
+```java HelloWorld```
 
 now with the C++ file enter this command to compile
 
-  g++ HelloWorld.cpp -o HelloWorld
+```g++ HelloWorld.cpp -o HelloWorld```
 
 now compared to java, the way to run the c++ file will differ between what system you are on
 for example, the run command is
