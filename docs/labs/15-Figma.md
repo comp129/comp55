@@ -212,9 +212,11 @@ The order of the objects and how you add them can allow you to create complex sh
 
 ### A Quick Tip
 
-A lot of organization down the road comes down to **Grouping**. Grouping is very important because it makes your hierarchy a little more manageable.
+A lot of organization down the road comes down to **Grouping**.
+Grouping is very important because it makes your hierarchy a little more manageable.
 
-To group objects, select the components you would like to group and then press ***Ctrl + G***. This will group them and make it into a single project named *Group [`x`]*,
+To group objects, select the components you would like to group and then press ***Ctrl + G***.
+This will group them and make it into a single project named *Group [`x`]*,
 with `x` being how many currently exist.
 
 ## Porting Objects to a ACM Java Project
@@ -250,15 +252,18 @@ For example the challenge shape from before, you can recreate this object using 
   }
 ```
 
-This code will create two GRects and two GLabels, with each one being in correspondence to their locations in the image.
+This code will create two GRects and two GLabels,
+with each one being in correspondence to their locations in the image.
 
-> You could also use something like `GButton`, but just remember that for convenience, `GButton` automatically sizes the text.
+> You could also use something like `GButton`,
+> but just remember that for convenience, `GButton` automatically sizes the text.
 > As a GButton though, the rough approximation becomes:
 > `new GButton("Print", 53, 51, 405, 215)`
 
 ### Exporting as an Image
 
-The much easier solution to get your designs in Figma to look the same in ACM is to export your design as an image.
+The much easier solution to get your designs in Figma to look the same in ACM
+is to ***export your design as an image***.
 
 If you look back at the second challenge, you wouldn't want to create
 several GRoundedRects and other shapes to recreate it.
@@ -294,7 +299,8 @@ A good example of this is this object I had used in the past.
 Another drawback is mixed color labels, as GLabels inside of
 ACM cannot handle this kind of interaction,
 meaning you would have to export the label as an image as well.
-That can work unless you need to change the label over time, which in that case you'll have to make images for all of the changes.
+That can work unless you need to change the label over time,
+which in that case you'll have to make images for all of the changes.
 
 Here's a nice example is this label:
 
