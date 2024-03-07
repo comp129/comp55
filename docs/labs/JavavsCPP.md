@@ -10,6 +10,7 @@
 - [Output/Input stuff has changed](#outputinput-stuff-has-changed)
 - [Const/Final variables](#constfinal-variables)
 - [Java has programmed many things for you](#java-has-programmed-many-things-for-you)
+- [Compile your files](#compile-your-files)
 - [There is much to learn still](#there-is-much-to-learn-still)
 
 ## Overall Comparison
@@ -296,8 +297,79 @@ just go to this link.
 
 <https://docs.oracle.com/en/java/javase/11/docs/api/index.html>
 
-Those are all java files that have been implemented,
+Those are all Java files that have been implemented,
 are stable and get leveraged by folks who work in Java so that they don't reinvent the wheel.
+
+## Compile Your Files
+
+Compiling refers to a step in turning your code into a program you can execute on your computer!
+The way to compile your code also differs between a Java and C++ File
+
+Before we start make sure that you have Java Virtual Machine(JVM)
+And GNU Compiler Collection(GCC) installed on your machine
+If you are on MacOS
+Go to install JVM go to the Command Line Terminal and enter these commands to install GCC and JVM
+
+```bash
+  # for GCC
+  brew install gcc
+  # for JVM
+  cbrew install openjdk@11
+```
+
+If you are on Windows visit these links
+[for JVM](https://adoptopenjdk.net/)
+[for GCC](https://www.mingw-w64.org/)
+and follow the installation instructions!
+then confirm if you have installed GCC and JVM by checking in the Command Line Terminal
+
+```bash
+  # for GCC
+  gcc --version
+
+  # for JVM
+  java -version
+```
+
+Now that we have the needed programs, we can move on to running code on your machine!
+Say we have *HelloWorld.java* and *HelloWorld.cpp* and both output the phrase `HELLO WORLD`.
+
+To compile and run these files,
+In your Command Line Terminal go to the directory where the files are stored in your system
+
+```bash
+cd path/to/your/directory
+```
+
+To compile the Java code first enter this command
+
+```bash
+javac HelloWorld.java
+```
+
+then enter this command to run the file
+
+```bash
+java HelloWorld
+```
+
+Now with the C++ first enter this command to compile HelloWorld.cpp
+
+```bash
+g++ HelloWorld.cpp -o HelloWorld
+```
+
+Now with the compiler running you can run your C++ code!
+Compared to Java, the way to run C++ files differs depending on your system.
+For example, the run for the CPP can look like:
+
+```bash
+  ./HelloWorld   # On Unix-based systems
+  HelloWorld.exe   # On Windows
+```
+
+While for Java because of the Java Virtual Machine(JVM) the command will be
+the same regardless of what platform you are on!
 
 ## There is much to learn still
 
