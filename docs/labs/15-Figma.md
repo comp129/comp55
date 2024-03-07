@@ -63,7 +63,7 @@ You'll immediately see a pretty website; however, we want to just create an acco
 
 Find the button in the upper-right corner that says *Get started for free*
 
-![figma lab free account image](lab15media/figma-lab-get-started-for-free.png)
+![Figma free account creation page](lab15media/figma-lab-get-started-for-free.png)
 
 You can use [Continue with Google](#google-email) or a [Personal email](#personal-email).
 I would recommend just using your school email, so just click on *Continue with Google*
@@ -150,7 +150,7 @@ make them look different.
 
 After clicking on the rectangle you can access the properties on the right side.
 
-![Properties panel](lab15media/figma-lab-properties-panel.png)
+![Figma Properties panel showing Constrains, Layer and Design Properties](lab15media/figma-lab-properties-panel.png)
 
 For the corners option, you can select the option to the right of the
 curved line and switch that to *`20`*.
@@ -190,14 +190,14 @@ Change your square to a *dark red* and then change your circle's stroke to a
 #### By now your Figma board should like something like this
 
 *"Graphic Design is My Passion"*
-![progress point 1](lab15media/figma-lab-progress-point-1.png)
+![Blue Circle with Circle in cursive alongside red square with square label in different font](lab15media/figma-lab-progress-point-1.png)
 
 ## Challenge Object 1
 
 Here's the first challenge shape or shape(s).
 Try to make something as similar to this as possible.
 
-![Challenge Shape 1](lab15media/figma-lab-challenge-shape-1.png)
+![Figma drawing with print and copy buttons](lab15media/figma-lab-challenge-shape-1.png)
 
 ## Challenge Object 2
 
@@ -208,7 +208,7 @@ side, the higher up the object is, the more in front it is.
 This is exactly how the ACM library works.
 The order of the objects and how you add them can allow you to create complex shapes.
 
-![Challenge Shape 2](lab15media/figma-lab-challenge-shape-2.png)
+![Pseudo camera icon with brown underside](lab15media/figma-lab-challenge-shape-2.png)
 
 ### A Quick Tip
 
@@ -231,7 +231,7 @@ object selected,
 > This is perfect for ACM as you always have to create your `GObject`s in
 > reference to the top left corner.
 >
-> ![Location Reference example](lab15media/figma-lab-reference-points.png)
+> ![Print object showing controls as if Alt being held](lab15media/figma-lab-reference-points.png)
 >
 
 ### Exporting as attributes
