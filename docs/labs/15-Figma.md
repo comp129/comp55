@@ -22,12 +22,13 @@
     - [Mixed Colors on Labels](#mixed-colors-on-labels)
     - [And More..](#and-more)
 - [What Next..](#what-next)
+- [Turn In](#turn-in)
 
 ## Overview
 
 Have you heard of Figma before this class? If not, this lab is for you.
 
-This lab will be teaching you the simplest core functions of figma to
+This lab will be teaching you the simplest core functions of Figma to
 help you create a seamless, connected UI across all screens in your Comp 55 Projects.
 
 Figma is a powerful tool to help you line up your ideas before you
@@ -36,17 +37,18 @@ to jump in and begin programming.
 
 Upon completing this lab you will know how to:
 
-- Create a figma project
-- Add objects onto your figma project
+- Create a Figma project
+- Add objects onto your Figma project
 - Edit object's properties
 - Be able to port the design into a java project
 
 Submission for this lab will be:
-// TODO am I even allowed to add submissions in the first place?
+
+Will be a Figma page that is ready to be ported to a Java Program.
 
 ## Creating Your Figma Account
 
-To Get Started with this lab, we will assume you've never touched figma
+To Get Started with this lab, we will assume you've never touched Figma
 before and need to start from the first opening of the website.
 
 Navigate to [Figma](https://www.figma.com/) and then continue.
@@ -63,28 +65,22 @@ I would reccomend just using your school email, so just click on "Continue with 
 
 Continuing from before..
 
-Click on your signed in school account.
-
-Then it should take you into your home screen.
-
-Now you have successfully created your Figma account.
+- Click on your signed in school account.
+- Then it should take you into your home screen.
+- Now you have successfully created your Figma account.
 
 ### Personal Email
 
 You can skip this section if you used the google button.
 
-So to create an account using a personal email you will need
+- So to create an account using a personal email you will need
 to fill in some fields instead of just pressing a few buttons.
-
-You will need to type in your email address and a password for this new account.
-
-I would reccomend disabling the figma emailing list,
+- You will need to type in your email address and a password for this new account.
+- I would reccomend disabling the Figma emailing list,
 but that's up to you to decide.
-
-You will be provided with a message sent to that email, where you
+- You will be provided with a message sent to that email, where you
 will need to click to verify your account.
-
-Go ahead and click it.
+- Go ahead and click it.
 
 After following it your account will be verified and you will need to log in.
 
@@ -92,12 +88,10 @@ After following it your account will be verified and you will need to log in.
 
 About here is where both routes of creating an account come together.
 
-Complete the prompts that are provided.
-
-When you get to a step regarding a plan, pick the free one, as
+- Complete the prompts that are provided.
+- When you get to a step regarding a plan, pick the free one, as
 the premium features aren't needed.
-
-On the final step it will tell you to create a new file, go ahead and decline this.
+- On the final step it will tell you to create a new file, go ahead and decline this.
 
 Make sure to navigate to the home page before moving to the next step.
 
@@ -122,7 +116,7 @@ left corner, which is how ACM orients GObjects.
 To simulate a screen space for our graphics window we will select the frame tool,
 and then click and drag to create a new frame.
 
-_Tip: If you hover over a tool it will tell you what it is._
+*Tip: If you hover over a tool it will tell you what it is.*
 
 Drag this to about 1240 x 1080.
 
@@ -167,15 +161,12 @@ rounded as not as sharp.
 
 To change the label, we'll start off with changing the color and alignment
 
-Change the label so that the _circle_ is right bound, and the _square_ is left bound.
-
-Along with this, highlight the text and then increase the font size to
+- Change the label so that the *circle* is right bound, and the *square* is left bound.
+- Along with this, highlight the text and then increase the font size to
 a more reasonable size, but do not exceed the size of the shape.
-
-Also go ahead and change the ***fill*** color of the square so that
+- Also go ahead and change the ***fill*** color of the square so that
 the text is red.
-
-On the circle, navigate to the stroke, press the plus sign to add a
+- On the circle, navigate to the stroke, press the plus sign to add a
 stroke modifier and then change the stroke color to pink.
 
 ### Changing Font
@@ -195,9 +186,9 @@ the color and stroke of a label.
 Change your square to a dark red and then change your circle's stroke to a
 light blue, and line weight somewhere between 20 - 30.
 
-#### By now your figma board should like something like this
+#### By now your Figma board should like something like this
 
-_"Graphic Design is My Passion"_
+*"Graphic Design is My Passion"*
 ![progress point 1](lab15media/figma-lab-progress-point-1.png)
 
 ## Challenge Object 1
@@ -266,7 +257,7 @@ being in correspondance to their own locations in the image.
 
 ### Exporting as an Image
 
-The much easier solution to moving it to figma is exporting it as an image.
+The much easier solution to moving it to Figma is exporting it as an image.
 
 If you look back at the second challenge, you wouldn't want to create
 several GRoundedRects and other shapes to recreate it.
@@ -285,8 +276,8 @@ re-download the image.
 
 ## Drawbacks
 
-Now that we've covered how to do cool things with figma,
-now we're left with what we **can't** do in figma.
+Now that we've covered how to do cool things with Figma,
+now we're left with what we **can't** do in Figma.
 
 ### Gradients
 
@@ -328,3 +319,25 @@ You could use this, you could also not and that's fine too.
 I am mostly sharing this tool so I can save you time on your projects
 in the way that it has saved me time as well,
 so I hope you can use the strengths of this application inside of your future projects.
+
+## Turn In
+
+You will be turning in a figma board that lays out a single page website.
+
+This website should contain your:
+
+- First Name
+- Last Name
+- Major
+- One Fun Fact
+
+Additionally you will also need a top bar that contains 3 buttons.
+
+- My classes
+- My Resume
+- My College
+
+All of these components will be up to you to style however you would like,
+this includes any decisions on color and fonts.
+
+Grouped elements will be an expectation for multi-component objects.
