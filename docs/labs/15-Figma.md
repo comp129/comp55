@@ -1,4 +1,4 @@
-# Figma Lab
+# Figma Lab 
 
 - [Overview](#overview)
 - [Creating Your Figma Account](#creating-your-figma-account)
@@ -11,7 +11,7 @@
   - [Changing Corners](#changing-corners)
   - [Changing The Label](#changing-the-label)
   - [Changing Font](#changing-font)
-  - [Changing Colors](#changing-colors)
+  - [Changing Colors](#changing-shape-colors)
 - [Challenge Object 1](#challenge-object-1)
 - [Challenge Object 2](#challenge-object-2)
 - [Porting Objects to a ACM Java Project](#porting-objects-to-a-acm-java-project)
@@ -25,6 +25,7 @@
 - [What Next..](#what-next)
 
 ## Overview
+
 Have you heard of Figma before this class? If so, this lab is for you. 
 
 This lab will be teaching you the simplest core functions of figma to help you create a seamless connected UI across all screens in your Comp 55 Projects.
@@ -41,6 +42,7 @@ Submission for this lab will be:
 // TODO am I even allowed to add submissions in the first place?
 
 ## Creating Your Figma Account
+
 To Get Started with this lab, we will assume you've never touched figma before and need to start from the first opening of the website.
 
 Navigate to [Figma](www.figma.com) and then continue.
@@ -55,7 +57,8 @@ I would reccomend just using your school email, so just click on "Continue with 
 
 _If you want to use your personal email you can jump to [here](#personal-email)_
 
-#### Google Button
+#### Google Button 
+
 Continuing from before..
 
 Click on your signed in school account.
@@ -66,7 +69,7 @@ Now you have successfully created your Figma account.
 
 [Click here to skip ahead](#finalizing-account)
 
-#### Personal Email
+#### Personal Email 
 
 So to create an account using a personal email you will need to just fill in some fields instead of just pressing a few buttons.
 
@@ -80,7 +83,7 @@ Go ahead and click it.
 
 After following it your account will be verified and you will need to log in.
 
-#### Finalizing account
+#### Finalizing account 
 
 About here is where both routes of creating an account come together.
 
@@ -92,7 +95,7 @@ On the final step it will tell you to create a new file, go ahead and decline th
 
 Make sure to navigate to the home page before moving to the next step.
 
-## Creating Your First Figma Project
+## Creating Your First Figma Project 
 
 At this point if you're inside of a project, go ahead and click on the logo in the top left and then go back to files.
 
@@ -101,11 +104,11 @@ Once you're in the home page you can click on "design file" in the top right.
 
 You will now be inside of your project and can move onto the next step.
 
-## Adding Elements to Project
+## Adding Elements to Project 
 
 Now that we are inside of an empty project we can begin adding objects to our board.
 
-### Adding a Frame
+### Adding a Frame 
 
 Figma's main power is to help you orient objects in reference to the top left corner, which is how ACM orients objects.
 
@@ -113,17 +116,17 @@ To simulate a screen space for our graphics window we will select a frame and th
 
 Drag this to about 1240 x 1080, a screen resolution.
 
-### Adding a Rectangle
+### Adding a Rectangle 
 
 Inside of the previous frame we can begin adding objects to it.
 
 For this step go ahead and drag the rectangle in at any size you would like.
 
-### Adding a Circle
+### Adding a Circle 
 
 In an open space click and drag to create a circle as well.
 
-### Adding a Label
+### Adding a Label 
 
 Inside of both shapes create a label for both in the same manner.
 
@@ -133,11 +136,11 @@ Name each label to the corresponding shape.
 
 Ignore the small size of the label for now, as we'll change it in another step
 
-## Adjusting Properties
+## Adjusting Properties 
 
 Now that we have some shapes created we can start editing the shapes to make them look different.
 
-### Changing Corners
+### Changing Corners 
 
 After clicking on the rectangle you can access the properties on the right-side.
 
@@ -147,8 +150,7 @@ For the corners option you can select the option to the right of the curved line
 
 You'll immediately be able to see that the rectangle is now nicely rounded as not as sharp.
 
-### Changing The Label
-
+### Changing The Label 
 To change the label, we'll start off with changing the color and alignment
 
 Change the label so that the _circle_ is right bound, and the _square_ is left bound.
@@ -243,7 +245,7 @@ You'll want to follow the steps in the provided screen shot.
 
 This will now save it to your clip-board. If you're on a windows computer you can paste it into ms paint or paint 3d to save the image.
 
-Another option is to open discord and then paste the image into there, send the image, and then re-download the image. 
+Another option is to open discord and then paste the image into there, send the image, and then re-download the image.
 
 ## Drawbacks
 
@@ -269,12 +271,16 @@ A nice example is this label:
 
 ### And More..
 
-These two drawbacks are the only two I've ran into so far, however there are most likely plenty more where you'll 60% of the time just be exporting your elements as images.|
+These two drawbacks are the only two I've ran into so far.
+
+However there are most likely plenty more cases where you'll 60% of the time just be exporting your elements as images.
 
 ## What Next..
 
 What's next for you?
 
-Well that's up to you to decide where you will use this tool, you could use this, you could also not and that's fine too. 
+Well that's up to you to decide where you will use this tool. 
+You could use this, you could also not and that's fine too. 
 
-I am sharing this tool so I can save you time on your project in the way that it has saved me time as well, so I hope you can use the strengths of this application inside of any of your future projects.
+I am sharing this tool so I can save you time on your project in the way that it has saved me time as well, 
+so I hope you can use the strengths of this application inside of any of your future projects.
