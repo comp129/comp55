@@ -303,7 +303,7 @@ then enter this command to run the file
   java HelloWorld
 ```
 
-now with the C++ first enter this command to compile HelloWorld.cpp 
+now with the C++ first enter this command to compile HelloWorld.cpp
 
 ```bash
   g++ HelloWorld.cpp -o HelloWorld
