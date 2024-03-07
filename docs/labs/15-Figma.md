@@ -4,23 +4,23 @@
 - [Creating Your Figma Account](#creating-your-figma-account)
 - [Creating Your First Figma Project](#creating-your-first-figma-project)
 - [Adding Elements to Project](#adding-elements-to-project)
-  - [Adding a Rectangle](#adding-a-rectangle)
-  - [Adding a Circle](#adding-a-circle)
-  - [Adding a Label](#adding-a-label)
+        - [Adding a Rectangle](#adding-a-rectangle)
+        - [Adding a Circle](#adding-a-circle)
+        - [Adding a Label](#adding-a-label)
 - [Adjusting Properties](#adjusting-properties)
-  - [Changing Corners](#changing-corners)
-  - [Changing The Label](#changing-the-label)
-  - [Changing Font](#changing-font)
-  - [Changing Colors](#changing-shape-colors)
+        - [Changing Corners](#changing-corners)
+        - [Changing The Label](#changing-the-label)
+        - [Changing Font](#changing-font)
+        - [Changing Colors](#changing-shape-colors)
 - [Challenge Object 1](#challenge-object-1)
 - [Challenge Object 2](#challenge-object-2)
 - [Porting Objects to a ACM Java Project](#porting-objects-to-a-acm-java-project)
-  - [Exporting as attributes](#exporting-as-attributes)
-  - [Exporting as an Image](#exporting-as-an-image)
+        - [Exporting as attributes](#exporting-as-attributes)
+        - [Exporting as an Image](#exporting-as-an-image)
 - [Drawbacks](#drawbacks)
-  - [Gradients](#gradients)
-  - [Mixed Colors on Labels](#mixed-colors-on-labels)
-  - [And More..](#and-more)
+        - [Gradients](#gradients)
+        - [Mixed Colors on Labels](#mixed-colors-on-labels)
+        - [And More..](#and-more)
 - [Sharing Figma Project](#sharing-figma-project)
 - [What Next..](#what-next)
 
@@ -28,11 +28,11 @@
 
 Have you heard of Figma before this class? If so, this lab is for you.
 
-This lab will be teaching you the simplest core functions of figma to 
+This lab will be teaching you the simplest core functions of figma to
 help you create a seamless connected UI across all screens in your Comp 55 Projects.
 
-Figma is a powerful tool to help you line up your ideas before you 
-begin coding them, which is a nice thing to do if you generally like 
+Figma is a powerful tool to help you line up your ideas before you
+begin coding them, which is a nice thing to do if you generally like
 to jump in and begin programming.
 
 Upon completing this lab you will know how to:
@@ -62,7 +62,7 @@ I would reccomend just using your school email, so just click on "Continue with 
 
 _If you want to use your personal email you can jump to [here](#personal-email)_
 
-#### Google Button 
+### Google Button
 
 Continuing from before..
 
@@ -74,7 +74,7 @@ Now you have successfully created your Figma account.
 
 [Click here to skip ahead](#finalizing-account)
 
-#### Personal Email 
+### Personal Email
 
 So to create an account using a personal email you will need
 to just fill in some fields instead of just pressing a few buttons.
@@ -90,7 +90,7 @@ Go ahead and click it.
 
 After following it your account will be verified and you will need to log in.
 
-#### Finalizing account 
+#### Finalizing account
 
 About here is where both routes of creating an account come together.
 
@@ -103,7 +103,7 @@ On the final step it will tell you to create a new file, go ahead and decline th
 
 Make sure to navigate to the home page before moving to the next step.
 
-## Creating Your First Figma Project 
+## Creating Your First Figma Project
 
 At this point if you're inside of a project, go ahead and click on the
 logo in the top left and then go back to files.
@@ -113,11 +113,11 @@ Once you're in the home page you can click on "design file" in the top right.
 
 You will now be inside of your project and can move onto the next step.
 
-## Adding Elements to Project 
+## Adding Elements to Project
 
 Now that we are inside of an empty project we can begin adding objects to our board.
 
-### Adding a Frame 
+### Adding a Frame
 
 Figma's main power is to help you orient objects in reference to the top
 left corner, which is how ACM orients objects.
@@ -127,17 +127,17 @@ and then click and drag to create a new frame
 
 Drag this to about 1240 x 1080, a screen resolution.
 
-### Adding a Rectangle 
+### Adding a Rectangle
 
 Inside of the previous frame we can begin adding objects to it.
 
 For this step go ahead and drag the rectangle in at any size you would like.
 
-### Adding a Circle 
+### Adding a Circle
 
 In an open space click and drag to create a circle as well.
 
-### Adding a Label 
+### Adding a Label
 
 Inside of both shapes create a label for both in the same manner.
 
@@ -147,12 +147,12 @@ Name each label to the corresponding shape.
 
 Ignore the small size of the label for now, as we'll change it in another step
 
-## Adjusting Properties 
+## Adjusting Properties
 
 Now that we have some shapes created we can start editing the shapes to
 make them look different.
 
-### Changing Corners 
+### Changing Corners
 
 After clicking on the rectangle you can access the properties on the right-side.
 
@@ -164,7 +164,8 @@ curved line and switch that to 20
 You'll immediately be able to see that the rectangle is now nicely
 rounded as not as sharp.
 
-### Changing The Label 
+### Changing The Label
+
 To change the label, we'll start off with changing the color and alignment
 
 Change the label so that the _circle_ is right bound, and the _square_ is left bound.
@@ -173,10 +174,10 @@ Along with this, highlight the text and then increase the font size to
 a more reasonable size, but do not exceed the size of the shape.
 
 Also go ahead and change the ***fill*** color of the square so that
-the text is red
+the text is red.
 
 On the circle, navigate to the stroke, press the plus sign to add a
-stroke modifier and then change the stroke color to pink
+stroke modifier and then change the stroke color to pink.
 
 ### Changing Font
 
@@ -194,7 +195,7 @@ the color and stroke of a label.
 Change your square to a dark red and then change your circle's stroke to a
 light blue, and line weight somewhere between 20 - 30.
 
-#### By now your figma board should like something like 
+#### By now your figma board should like something like
 
 ![progress point 1]()
 
@@ -207,14 +208,14 @@ similar to this as possible.
 
 ## Challenge Object 2
 
-Here's another challenge shape, a little harder but I'm sure you can do it. 
+Here's another challenge shape, a little harder but I'm sure you can do it.
 
 A good thing to note about this shape is the heirarchy of items on the left
 side, the higher up the object is, the more in front it is.
 
 ![Challenge Shape 2]()
 
-#### A Quick Tip
+### A Quick Tip
 
 A lot of organization down the road comes down to **Grouping**.
 
@@ -238,6 +239,7 @@ reference to the top left corner.
 ![Location Reference example]()
 
 ### Exporting as attributes
+
 In order to export as attributes we will need to think about what
 GObjects can correspond with matching objects.
 
@@ -261,7 +263,7 @@ being in correspondance to their own locations to the image.
 
 ### Exporting as an Image
 
-The much easier solution to moving it to figma is exporting it as an image. 
+The much easier solution to moving it to figma is exporting it as an image.
 
 If you look back at the second challenge, you wouldn't want to create
 several GRoundedRects and other shapes to recreate it.
@@ -284,7 +286,8 @@ Now that we've covered how to do cool things with figma, now we're left with wha
 
 ### Gradients
 
-Gradients are impossible for you to export as a component, as you can only export it as an image.
+Gradients are impossible for you to export as a component,
+as you can only export it as an image.
 So if you need to adjust the gradient over time, you will have a hard struggle.
 
 A good example of this is this object I had used in the past.
@@ -293,7 +296,8 @@ A good example of this is this object I had used in the past.
 
 ### Mixed Colors on Labels
 
-Another draw back are mixed color labels, as GLabels inside of ACM cannot handle this kind of interaction,
+Another draw back are mixed color labels, as GLabels inside of
+ACM cannot handle this kind of interaction,
 meaning you would have to export the label as an image as well.
 
 So this will work unless you need to change the label over time.
@@ -302,18 +306,19 @@ A nice example is this label:
 
 ![figma drawback mixed labels]()
 
-### And More..
+### And More
 
 These two drawbacks are the only two I've ran into so far.
 
-However there are most likely plenty more cases where you'll 60% of the time just be exporting your elements as images.
+However there are most likely plenty more cases where you'll
+60% of the time just be exporting your elements as images.
 
-## What Next..
+## What Next
 
 What's next for you?
 
-Well that's up to you to decide where you will use this tool. 
-You could use this, you could also not and that's fine too. 
+Well that's up to you to decide where you will use this tool.
+You could use this, you could also not and that's fine too.
 
-I am sharing this tool so I can save you time on your project in the way that it has saved me time as well, 
+I am sharing this tool so I can save you time on your project in the way that it has saved me time as well,
 so I hope you can use the strengths of this application inside of any of your future projects.
