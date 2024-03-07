@@ -283,8 +283,9 @@ which essentially says,
 *is the ```x``` and ```y``` coordinates of where I pressed the mouse on top of the ball?*
 If so, change the color and otherwise set the ball's location.
 While different locations within the bounds of the ball may be offset from the ball's
-coordinates, all clicks within the bounds of the ball are on the ball, and the ball
-should not be moved.
+all clicks within the bounds of the ball are on
+the ball,
+and the ball should not be moved.
 
 Once you make the changes,
 test it again,
