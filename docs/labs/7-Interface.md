@@ -481,6 +481,8 @@ it doesn't have to be that way.
 There is nothing in an interface about when it should be called or how it should behave.
 Know that that it's a merely a collection of methods that one has to implement,
 which could lead to some great examples of polymorphism.
+This flexibility is what makes interfaces so powerful, 
+and learning how to make them work for you will give you a lot of power when you start your final projects.
 To get credit for this lab,
 **you will take three screenshots of the three states,
 showing your four objects reacting to the three feelings**.
