@@ -197,14 +197,14 @@ light blue, and line weight somewhere between 20 - 30.
 
 #### By now your figma board should like something like
 
-![progress point 1]()
+![progress point 1](lab15media/figma-lab-progress-point-1.png)
 
 ## Challenge Object 1
 
 Here's the first challenge shape or shape(s); try to make something as
 similar to this as possible.
 
-![Challenge Shape 1]()
+![Challenge Shape 1](lab15media/figma-lab-challenge-shape-1.png)
 
 ## Challenge Object 2
 
@@ -213,7 +213,7 @@ Here's another challenge shape, a little harder but I'm sure you can do it.
 A good thing to note about this shape is the heirarchy of items on the left
 side, the higher up the object is, the more in front it is.
 
-![Challenge Shape 2]()
+![Challenge Shape 2](lab15media/figma-lab-challenge-shape-2.png)
 
 ### A Quick Tip
 
@@ -237,7 +237,7 @@ object selected, it will you show the distance it is from the top and the left s
 This is perfect for acm as you always have to create your GObjects in
 reference to the top left corner.
 
-![Location Reference example]()
+![Location Reference example](lab15media/figma-lab-reference-points.png)
 
 ### Exporting as attributes
 
@@ -273,7 +273,7 @@ The way to export an object is to select all the elements you would like
 to be supported, so in this case I would highlight all the existing shapes and then right click.
 
 You'll want to follow the steps in the provided screen shot.
-![Right Click Image]()
+![Right Click Image](lab15media/figma-lab-right-click)
 
 This will now save it to your clip-board. If you're on a windows computer you can paste it into ms
 paint or paint 3d to save the image.
@@ -294,7 +294,7 @@ So if you need to adjust the gradient over time, you will have a hard struggle.
 
 A good example of this is this object I had used in the past.
 
-![figma drawback gradient]()
+![figma drawback gradient](lab15media/figma-lab-drawback-gradient.png)
 
 ### Mixed Colors on Labels
 
@@ -306,7 +306,7 @@ So this will work unless you need to change the label over time.
 
 A nice example is this label:
 
-![figma drawback mixed labels]()
+![figma drawback mixed labels](lab15media/figma-lab-drawback-mixed-labels.png)
 
 ### And More
 
