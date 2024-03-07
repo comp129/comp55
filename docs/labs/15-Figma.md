@@ -223,7 +223,8 @@ Grouping is very important due to the fact that it makes your heirarchy a little
 
 To group objects, select the components you would like to group and then press "ctrl + g"
 
-This will group them and make it into a single project named "Group [x]", x being how many currently exists.
+This will group them and make it into a single project named "Group [x]",
+x being how many currently exists.
 
 ## Porting Objects to a ACM Java Project
 
@@ -282,7 +283,8 @@ re-download the image.
 
 ## Drawbacks
 
-Now that we've covered how to do cool things with figma, now we're left with what we **can't** do in figma.
+Now that we've covered how to do cool things with figma,
+now we're left with what we **can't** do in figma.
 
 ### Gradients
 
@@ -318,6 +320,7 @@ However there are most likely plenty more cases where you'll
 What's next for you?
 
 Well that's up to you to decide where you will use this tool.
+
 You could use this, you could also not and that's fine too.
 
 I am sharing this tool so I can save you time on your project in the way that it has saved me time as well,
