@@ -46,7 +46,7 @@ as we did in the [*Intro to Java*](2-JavaIntro.html) lab.
 
 > _This file contains additional features that we have yet to talk about._
 
-### Here are the contents of the ACMLab.java file.
+### Here are the contents of the ACMLab.java file
 
 ```java
 import acm.graphics.*;
@@ -73,15 +73,15 @@ public class ACMLab extends GraphicsProgram {
 }
 ```
 
-## To Explain What Is Going On:
+## To Explain What Is Going On
 
 ***the following is not neccessary but is important to know***
 
 - **Imports:**
-  - Linesi 1-4 contain ```import``` statements:
+    - Lines 1-4 contain ```import``` statements:
   ```import``` calls are similar to ```#include```s that we had in C++
   in that they help Java figure out what libraries you will be using.
-  - **The majority of imports we'll use start with "java." or "acm."**
+    - **The majority of imports we'll use start with "java." or "acm."**
 
     > One of the nice features of Java
   is that it allows you to reference a folder of classes all at once,
@@ -102,7 +102,7 @@ public class ACMLab extends GraphicsProgram {
   Eclipse will prompt you to choose.
 
 - **Extends:**
-  - Line 6 shows the word ```extends``` followed by ```GraphicsProgram```.
+    - Line 6 shows the word ```extends``` followed by ```GraphicsProgram```.
   ```extends``` is a special keyword in Java that lets you inherit capabilities from another class.
 
     > In our case,
@@ -118,16 +118,18 @@ public class ACMLab extends GraphicsProgram {
   consider ```public void run()``` as our starting point for now.
 
 - **public static final int:**
-  - Lines 7 & 8 declare constants for the program to reference.
+    - Lines 7 & 8 declare constants for the program to reference.
     **It is good programming practice to declare any number that is not 0, 1, or 2, as a constant**.
-  - We're going to break with that convention for the opening part of the tutorial
+    - We're going to break with that convention for the opening part of the tutorial
   as we are introducing you to the different calls.
-    ### Once you get into the activity, please make new constants.
+
+    **Once you get into the activity, please make new constants**
+  
      > Constants make your program easier to change in the future and easier to read.
      While there are a couple of extra keywords here that I don't want you to worry about too much yet,
      the ```final``` keyword is the one that is telling Java
      that a particular variable can no longer be changed.
-     One nice part about constants is that they don't need to be literal values,
+     One nice part about constants is that they don't need to be literal values
      they can be formulas based on other constants like this:
     
     **Constants can be formulas based on other constants like this:**
