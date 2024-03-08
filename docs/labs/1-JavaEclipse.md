@@ -321,7 +321,6 @@ I want you to type:
 
 ```java
 System.out.println("Hello, World!")
-```
 
 That is like the standard C++ ```cout``` statement,
 except you provide ```println``` a string.
@@ -428,8 +427,6 @@ Hello, PutYourName Here!
 Hello, PutYourName Here!
 
 Hello, PutYourName Here!
-
-```
 
 But with your name there instead.
 
