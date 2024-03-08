@@ -105,10 +105,10 @@ than writing new code.
 Debugging is basically about solving problems. It involves figuring
 out what's wrong, understanding how different parts of the code work
 together, and making everything work smoothly again. Just like any
-challenge, debugging has its difficulties, but when you
-successfully fix the issues, it feels really rewarding. It involves 
+challenge, debugging has its difficulties, but when you successfully
+fix the issues, it feels really rewarding. It involves
 thinking creatively and having a good overall understanding of the code.
-Every time developers debug, they have a chance to learn something new. 
+Every time developers debug, they have a chance to learn something new.
 It helps them understand the system better, discover new tools,
 and improve their problem-solving skills.
 
