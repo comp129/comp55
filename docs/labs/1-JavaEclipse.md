@@ -319,7 +319,7 @@ Once you're done,
 inside your main,
 I want you to type:
 
-```java
+```markdown
 System.out.println("Hello, World!")
 
 That is like the standard C++ ```cout``` statement,
