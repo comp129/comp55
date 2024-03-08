@@ -27,9 +27,59 @@ You can do this by:
 1. Visiting your add and remove programs setting in windows (or applications on a mac)
 2. Searching for any java programs
 3. **Removing** any existing java installations.
-4. You can check out these instruction from java page.
-  a. [Windows](https://www.java.com/en/download/help/uninstall_java.html)
-  b. [MacOS](https://www.java.com/en/download/help/mac_uninstall_java.html)
+4. Or you can check out these instruction.
+  a. For **Window OS**:
+  **Windows 11** - Uninstall Programs
+  Click **Start**
+  Select **Settings**
+  Select **System**
+  Select **Apps - Apps & features**
+  Select the program to uninstall and then click its Uninstall button.
+  Respond to the prompts to complete the uninstall
+ 
+
+  **Windows 10** - Uninstall Programs
+  Click **Start**
+  Select **Settings**
+  Select **System**
+  Select **Apps & features**
+  Select the program to uninstall and then click its Uninstall button.
+  Respond to the prompts to complete the uninstall
+ 
+
+  **Windows 8** - Uninstall Programs
+  From the **Start** screen, enter **Control Panel** in the **Search** box. Select the **Control Panel**.
+  When the **Control Panel** appears, choose **Uninstall a Program** from the **Programs** category.
+  Select the program to uninstall, and then right-click and select Uninstall or you can click the **Uninstall** option located at the top of the programs list.
+  Click **Yes** to confirm the program uninstall.
+ 
+
+  **Windows 7 and Vista** - Uninstall Programs
+  Click Start
+  Select Control Panel
+  Select Programs
+  Click Programs and Features
+  Select the program you want to uninstall by clicking on it, and then click the Uninstall button.
+  You may need administrator privileges to remove programs.
+
+  **Windows XP** - Uninstall Programs
+  Click Start
+  Select Control Panel
+  Click the Add/Remove Programs control panel icon
+  The Add/Remove control panel displays a list of software on your system, including any Java software products that are on your computer. Select any that you want to uninstall by clicking on it, and then click the Remove button
+  [Windows](https://www.java.com/en/download/help/uninstall_java.html)
+  
+  b. For **MacOS**
+  Uninstall Oracle Java using the **Terminal**
+  Note: To uninstall Java, you must have Administrator privileges and execute the remove command either as root or by using the sudo tool.
+  Click on the **Finder** icon located in your dock
+  Click on the **Utilities** folder
+  Double-click on the **Terminal** icon
+  In the Terminal window Copy and Paste the commands below:
+  **sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin**
+  **sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane**
+  **sudo rm -fr ~/Library/Application\ Support/Oracle/Java**
+  [MacOS](https://www.java.com/en/download/help/mac_uninstall_java.html)
 
 ![remove java versions](lab1media/media/image0.gif)
 
