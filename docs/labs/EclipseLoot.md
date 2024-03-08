@@ -57,8 +57,7 @@ then I would encourage you to ask me or others about them or see if you need any
   In this way,
   you can kind of surf through your sources.
 
-- When navigating with the arrow keys through a document,
-  hold down the ***Ctrl on Windows and Option on Mac*** key when going left and right.
+- When navigating with the arrow keys through a document, hold down the ***Ctrl on Windows and Option on Mac*** key when going left and right.
   It will navigate between words.
   It will save you from having to press the arrow key so many times.
   This keyboard shortcut works in most programs.
