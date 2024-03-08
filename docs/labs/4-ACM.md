@@ -1,4 +1,4 @@
-# Intro to ACM Lab
+## Intro to ACM Lab
 
 - [Introduction](#introduction)
 - [Modifying our label (Changing font, size and style)](#modifying-our-label-changing-font-size-and-style)
@@ -32,7 +32,8 @@ We are going to use this library because:
 1. It is easy to learn
 2. Its structure follows OOP programming well
 3. The way it's laid out will well prepare you to learn other languages and libraries in the future
-# Start Here:
+
+# Start Here
 ## Step 1: Download
 1. First,
 download **IntroACMLab.zip**
@@ -77,7 +78,7 @@ public class ACMLab extends GraphicsProgram {
   ```import``` calls are similar to ```#include```s that we had in C++
   in that they help Java figure out what libraries you will be using.
   - **The majority of imports we'll use start with "java." or "acm."**
-  
+
     > One of the nice features of Java
   is that it allows you to reference a folder of classes all at once,
   so for example,
