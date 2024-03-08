@@ -93,9 +93,10 @@ use you.
  Sometimes, after pulling changes from the program, the Gradle configuration might need to be refreshed
  to ensure that the project's dependencies are correctly synchronized.
    - ***Build Path -> Use as Source Folder***
- This ensures that the pull is being recognized as source code by the IDE, allowing them to be
- compiled and executed correctly. This step helps in maintaining consistency between the working
- project and the changes you've pulled.
+ This ensures that the pull is being recognized as source code by the IDE,
+ allowing them to be compiled and executed correctly.
+ This step helps in maintaining consistency between the working project
+ and the changes you've pulled.
    - ***Make sure all unstaged are dragged to staged changes when you commit and push***
  By dragging all unstaged changes to staged and then committing, your local changes
  are ready to be pushed into the program.
