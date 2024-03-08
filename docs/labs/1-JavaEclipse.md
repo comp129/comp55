@@ -29,34 +29,35 @@ You can do this by:
 3. **Removing** any existing java installations.
 4. Or you can check out these instruction.
 
-## How to remove Java from your machine
-
 ### Windows OS (Windows 10/11)
 
-  To Uninstall via Programs
+To Uninstall via Programs
 
-    - Click **Start**
-    - Select **Settings**
-    - Select **System**
-    - Select **Apps - Apps & features**
-    - Select the program to uninstall and then click its Uninstall button.
-    - Respond to the prompts to complete the uninstall
+  - Click **Start**
+  - Select **Settings**
+  - Select **System**
+  - Select **Apps - Apps & features**
+  - Select the program to uninstall and then click its Uninstall button.
+  - Respond to the prompts to complete the uninstall
+
   If you need help, here is
   [further documentation on uninstalling java on Windows]
-  [Windows](https://www.java.com/en/download/help/uninstall_java.html)
+(https://www.java.com/en/download/help/uninstall_java.html)
   
 ### MacOS
   
-  You can uninstall Oracle Java via the ***Terminal***
-    - Click on the **Finder** icon located in your dock
-    - Click on the **Utilities** folder
-    - Double-click on the **Terminal** icon
-    - In the Terminal window Copy and Paste the commands below:
-    - **`sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin`**
-    - **`sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`**
-    - **`sudo rm -fr ~/Library/Application\ Support/Oracle/Java`**
-  [further documentation on uninstalling java on Windows]
-  [MacOS](https://www.java.com/en/download/help/mac_uninstall_java.html)
+You can uninstall Oracle Java via the ***Terminal***
+  - Click on the **Finder** icon located in your dock
+  - Click on the **Utilities** folder
+  - Double-click on the **Terminal** icon
+  - In the Terminal window Copy and Paste the commands below:
+  - **`sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin`**
+  - **`sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`**
+  - **`sudo rm -fr ~/Library/Application\ Support/Oracle/Java`**
+  
+  If you need help, here is
+  [further documentation on uninstalling java on MacOS]
+(https://www.java.com/en/download/help/mac_uninstall_java.html)
 
 ![remove java versions](lab1media/media/image0.gif)
 
@@ -319,8 +320,9 @@ Once you're done,
 inside your main,
 I want you to type:
 
-```markdown
+```java
 System.out.println("Hello, World!")
+```
 
 That is like the standard C++ ```cout``` statement,
 except you provide ```println``` a string.
@@ -427,6 +429,8 @@ Hello, PutYourName Here!
 Hello, PutYourName Here!
 
 Hello, PutYourName Here!
+
+```
 
 But with your name there instead.
 
