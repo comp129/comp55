@@ -1,4 +1,4 @@
-## Intro to ACM Lab
+# Intro to ACM Lab
 
 - [Introduction](#introduction)
 - [Modifying our label (Changing font, size and style)](#modifying-our-label-changing-font-size-and-style)
@@ -33,8 +33,10 @@ We are going to use this library because:
 2. Its structure follows OOP programming well
 3. The way it's laid out will well prepare you to learn other languages and libraries in the future
 
-# Start Here
+## Start Here
+
 ## Step 1: Download
+
 1. First,
 download **IntroACMLab.zip**
 from canvas and then import that file as an existing project into Eclipse,
@@ -72,8 +74,10 @@ public class ACMLab extends GraphicsProgram {
 ```
 
 ## To Explain What Is Going On:
+
 ***the following is not neccessary but is important to know***
-- ### **Imports:**
+
+- **Imports:**
   - Linesi 1-4 contain ```import``` statements:
   ```import``` calls are similar to ```#include```s that we had in C++
   in that they help Java figure out what libraries you will be using.
@@ -97,7 +101,7 @@ public class ACMLab extends GraphicsProgram {
   If you try to use a class that is defined differently in multiple libraries,
   Eclipse will prompt you to choose.
 
-- ### **Extends:**
+- **Extends:**
   - Line 6 shows the word ```extends``` followed by ```GraphicsProgram```.
   ```extends``` is a special keyword in Java that lets you inherit capabilities from another class.
 
@@ -113,7 +117,7 @@ public class ACMLab extends GraphicsProgram {
   Rather than using ```public static void main(String[] args)```,
   consider ```public void run()``` as our starting point for now.
 
-- ### **public static final int:**
+- **public static final int:**
   - Lines 7 & 8 declare constants for the program to reference.
     **It is good programming practice to declare any number that is not 0, 1, or 2, as a constant**.
   - We're going to break with that convention for the opening part of the tutorial
@@ -132,7 +136,7 @@ public class ACMLab extends GraphicsProgram {
     // This makes constants very useful - make them often!
     ```
 
-- ### **public void init():**
+- **public void init():**
   - On lines 10-13, it allows us to specify the size of the window before it gets created.
   This is useful in our case as we want to start with a larger window.
 
@@ -152,7 +156,7 @@ public class ACMLab extends GraphicsProgram {
   Other than changing the size,
   you should leave the ```init``` method alone.
 
-- ### **public static void main(String args[])**
+- **public static void main(String args[])**
   - Think of this main function that we have as template
   (aka boilerplate)
   code that will be in most graphical programs,
@@ -175,12 +179,12 @@ public class ACMLab extends GraphicsProgram {
   ```run```,
   which we'll discuss next.
 
-- ### **public void run():**
+- **public void run():**
    - Lines 15-17 have the method
   that you should consider the starting point for your program,
   as the function calls to the rest of our code.
 
-- ### Adding Objects:
+- **Adding Objects:**
   - Currently,
   there is only one call on line 16, which is,
 
@@ -216,7 +220,7 @@ public class ACMLab extends GraphicsProgram {
 
 ## Step 2: Modifying our label (Changing font, size and style)
 
-### 1. Store the new ```GLabel``` into a variable called ```label```.
+ **1. Store the new ```GLabel``` into a variable called ```label```.**
 
 - Once you have the ```GLabel``` in a variable,
 rather than adding it right away,
@@ -227,13 +231,13 @@ it would make
 sense to store that ```GLabel``` into a variable that we could then refer
 to.
 
-### 2. Go ahead and color the label **red**.
+  **2. Go ahead and color the label **red**.**
 
 - Add
 ```label.setColor(Color.red);```
 in between creating the label and adding it to the screen.
 
-### 3. add ```label.setFont("Arial-Bold-24")```
+   **3. add ```label.setFont("Arial-Bold-24")```**
 
    > The font just needs to be a font that is registered on your computer,
 followed by the style and size,
@@ -244,7 +248,7 @@ and the font needs to match a font on your computer for it to work.
 
 ## Step 3: Extracting constants
 
-### 1. Click anywhere on the first 300 your label, right click and choose ```refactor->extract constant``` or ```source->extract constant```.
+### 1. Click anywhere on the first 300 your label, right click and choose ```refactor->extract constant``` or ```source->extract constant```
 
 ### 2. Name it something in caps, for exmaple ```START_X```
 
@@ -271,7 +275,7 @@ Other things that folks end up extracting as constants would be things like the 
 - ovals
 - lines
 
-### 1. Rectangles:
+### 1. Rectangles
 
    1. **To make a rectangle,
 create a ```GRect``` and then add it to the *canvas* AKA the program window.**
@@ -284,7 +288,8 @@ and a height of ```100```. You can place this code after adding the label.**
 
 ![hello world on top of a box](lab4media/media/image3.png)
 
-### If you didn't get a rectangle, double-check that you added it to the screen.
+### If you didn't get a rectangle, double-check that you added it to the screen
+
 - Notice that while both the label and the rectangle were placed at 300, 300;
 each used it as a different anchor for where to place its object.
    - In the rectangle, 300, 300;
@@ -293,6 +298,7 @@ is the upper left of the rectangle,
 it's the lower left.
 
 ### 2. Ovals
+
    1. **To understand how the oval works,
 let's go ahead and add an oval with the same arguments as the
 rectangle.**
@@ -316,7 +322,7 @@ GOval oval = new GOval(START_X, START_Y, 200, 100);
 add(oval);
 ```
 
-### Additional Information About GRect, GOval, and GLabel:
+### Additional Information About GRect, GOval, and GLabel
 
 - Both ```GOval``` and ```GRect``` can change colors just like a ```GLabel```.
 - In addition to this,
@@ -333,7 +339,8 @@ we would notice that we would have a picture like this.
 
 ![Picture with GOval, GLine, GRect, GLabel](lab4media/media/image4.png)
 
-## For Extra Information & Functions of `GOval`, `GLine`, `GRect`, and `GLabel`:
+## For Extra Information & Functions of `GOval`, `GLine`, `GRect`, and `GLabel`
+
 _Thankfully, the University of Stanford offers a lot of nicely compiled summaries for them._
 - [`GOval`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GOval.html)
 - [`GLine`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/complete/acm/graphics/GLine.html)
@@ -350,7 +357,8 @@ to get used to how things behave.
 [`GImage`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GImage.html) class,
 which lets us add rectangular images.**
 
-### ```GImage```s take three parameters,
+### ```GImage```s take three parameters
+
 1. a filename
 2. an x coordinate
 3. a y coordinate.
@@ -363,7 +371,8 @@ Documentation like this is handy for reference if you happen to forget anything 
 
 **Begin Your Filename Parameters with ```foldername/image.png``` for this Lab**
 
-### Something to Note:
+### Something to Note
+
 - The first parameter passed to an image must be the name of the image, including the extension.
 - However,
 since we are loading something other than code,
@@ -398,7 +407,7 @@ the ACM library gives you the ability to fill it with a wild variety of colors.
 Depending on what you created,
 the process for applying the desired color you want vary between each other.
 
-### If you want to apply color to a ```GLabel```:
+### If you want to apply color to a ```GLabel```
 
 | GLabel | GRect |
 | :--- | :--- |
@@ -413,6 +422,7 @@ changes the color of the outlines
 ### 1. Use ```.setFilled(true)```
 
 ### 2. Use ```.setFillColor(Color.INSERT_COLOR_HERE)```
+
    > fill the shape with the color of your choosing.
 
 ### 3. Use ```add()``` and run the program
@@ -441,7 +451,7 @@ Substituting the "My Robot Drawing" with your name instead.***
    - _I would encourage you to not have a bunch of numbers in your file, but rather to use constants and some arithmetic to place the robot correctly._
    - _You don't have to worry about doing the gradient color for the circle_
 
-### Somethings You May Want To Know:
+### Somethings You May Want To Know
 
    > You should also talk and help your neighbors to make sure they don't get stuck.
 For those of you that are curious,
@@ -495,8 +505,9 @@ followed by a ```pause``` of 10 milliseconds,
 and see the magic happen.
 You can spend some additional time making some cool animation.
 
-### If you're done with that and what to create more complicated drawings:
-you can also explore a couple of different types of objects
+### If you're done with that and what to create more complicated drawings
+
+You can also explore a couple of different types of objects
 that we didn't go over
 - like for example ```GArc``` and ```GPolygon```.
 
