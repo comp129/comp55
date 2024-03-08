@@ -123,16 +123,16 @@ public class ACMLab extends GraphicsProgram {
     - We're going to break with that convention for the opening part of the tutorial
   as we are introducing you to the different calls.
 
-    ### Once you get into the activity, please make new constants
+### Once you get into the activity, please make new constants
   
-     > Constants make your program easier to change in the future and easier to read.
+> Constants make your program easier to change in the future and easier to read.
      While there are a couple of extra keywords here that I don't want you to worry about too much yet,
      the ```final``` keyword is the one that is telling Java
      that a particular variable can no longer be changed.
      One nice part about constants is that they don't need to be literal values
      they can be formulas based on other constants like this
 
-    **Constants can be formulas based on other constants like this:**
+**Constants can be formulas based on other constants like this:**
   
     ```java
     public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
@@ -152,8 +152,10 @@ public class ACMLab extends GraphicsProgram {
   for now,
   you could try to make the screen relatively big,
   but this will be something you may have to continually adjust.
-     ### You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897).
-      > The ```requestFocus``` call just allows the window to be the active window
+
+  ### You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897)
+  
+  > The ```requestFocus``` call just allows the window to be the active window
   for both the mouse and the keyboard,
   which will be useful in the future.
   Other than changing the size,
@@ -165,9 +167,9 @@ public class ACMLab extends GraphicsProgram {
   code that will be in most graphical programs,
   you should not need to modify the mains for the graphical programs that you create.
 
-     ### Please don't spend too much time thinking about or copying Line 20 for your future code.
+### Please don't spend too much time thinking about or copying Line 20 for your future code
   
-    > This small function tells java how to start your program.
+  > This small function tells java how to start your program.
   If you notice,
   it just creates a ```new ACMLab```
   (which it does not even save into a variable! :disappointed:).
@@ -212,8 +214,8 @@ public class ACMLab extends GraphicsProgram {
   Another thing to know is that in Java,
   **0, 0** is the upper left-hand corner of the screen,
   rather than the lower left-hand corner.
-  
-    ### Shown by the picture below is a visual example of coordinates of the Label:
+
+  ### Shown by the picture below is a visual example of coordinates of the Label
 
     ![graphics coordinates explained](lab4media/media/image2.png)
 
@@ -234,7 +236,7 @@ it would make
 sense to store that ```GLabel``` into a variable that we could then refer
 to.
 
-    **2. Go ahead and color the label **red**.**
+    **2. Go ahead and color the label ```red```**
 
 - Add
 ```label.setColor(Color.red);```
@@ -268,7 +270,8 @@ Let me show you an easy way that eclipse allows us to extract constants.
 There,
 to denote that it's a constant and that it represents the starting X point for the code.
 Notice there was an option to have it change all versions of 300 to that variable.
-Other things that folks end up extracting as constants would be things like the font and the color, which you should also practice with.
+Other things that folks end up extracting as constants would be things like the font and the color,
+which you should also practice with.
 
 ![extract constant animation](lab4media/media/extractconstant.gif)
 
@@ -340,6 +343,7 @@ this is done by calling ```setFilled(true)``` on the ```GOval``` or ```GRect``` 
 ### 3. GLine
 
 ```GLine``` also takes four integers when it's created
+
 - The ```x``` and ```y``` coordinates of the two endpoints
 
     > If we were to use the same arguments again,
@@ -358,7 +362,6 @@ _Thankfully, the University of Stanford offers a lot of nicely compiled summarie
 
 > The best way to learn is to just play around with some of the numbers for each shape
 to get used to how things behave.
-
 
 ## Step 5. Adding GImages
 
@@ -397,7 +400,6 @@ you should prefix any image with that folder name.
 - You can use this in combination with a ```setLocation(x, y)```
 that will change the object's location
 
-
 ```java
 GImage image = new GImage("media/photo.png", START_X, START_Y);
 image.setSize(400, 400);
@@ -428,12 +430,11 @@ the process for applying the desired color you want vary between each other.
 - The second column has a  ```GRect``` that changes to yellow.
 - ```.setColor``` on a ```GRect```/```GOval```, changes the color of the outlines
 
-
 ### 1. Use ```.setFilled(true)```
 
 ### 2. Use ```.setFillColor(Color.INSERT_COLOR_HERE)```
 
-    > fill the shape with the color of your choosing.
+> fill the shape with the color of your choosing.
 
 ### 3. Use ```add()``` and run the program
 
@@ -447,7 +448,6 @@ in case they are overlapping.
 You can play around with this by filling some shapes and setting them to different colors
 so that you can experiment with them.
 
-
 ## Step 7: Making a robot (Upload your robot picture as your deliverable)
 
 ![sample robot picture](lab4media/media/image5.png)
@@ -457,13 +457,15 @@ lines and images,
 you'll be tasked with creating a robot like the one shown above for this lab,
 Substituting the "My Robot Drawing" with your name instead.***
 
-   - _It doesn't have to be exactly like the one here but try to make it centered and use the different components you've learned here._
-   - _I would encourage you to not have a bunch of numbers in your file, but rather to use constants and some arithmetic to place the robot correctly._
+   - _It doesn't have to be exactly like the one here but try to make it
+   centered and use the different components you've learned here._
+   - _I would encourage you to not have a bunch of numbers in your file,
+   but rather to use constants and some arithmetic to place the robot correctly._
    - _You don't have to worry about doing the gradient color for the circle_
 
 ### Somethings You May Want To Know
 
-    > You should also talk and help your neighbors to make sure they don't get stuck.
+> You should also talk and help your neighbors to make sure they don't get stuck.
 For those of you that are curious,
 this is not a gradient at all,
 it's just multiple circles on top of one another,
@@ -498,7 +500,6 @@ rather than leaving,
 you should begin to explore some animation._
 
 - All ```GObject```s respond to a `move` call:
-
     - The parameters are ```deltaX``` and ```deltaY```
         - _How many pixels you want the object to move in each direction._
     
@@ -512,7 +513,7 @@ sparkysRect.move(2, 1);
 pause(5);
 ```
 
-   > Write a ```for``` loop that repeatedly calls one of your objects to move by 2 pixels,
+    > Write a ```for``` loop that repeatedly calls one of your objects to move by 2 pixels,
 followed by a ```pause``` of 10 milliseconds,
 and see the magic happen.
 You can spend some additional time making some cool animation.
