@@ -142,7 +142,8 @@ Eclipse project to use.
 
    First go to this website: [Stanford Jar Link](https://cs.stanford.edu/people/eroberts/jtf/)
 
-   Then you would want to scroll down until you see the Downlaods section and click on hyperlink which says "acm.jar"  //
+   Then you would want to scroll down until you see the Downlaods section and
+   click on hyperlink which says "acm.jar"
 
    ![FindACM](gittips/media/FindACM.png)
 
@@ -153,14 +154,15 @@ Eclipse project to use.
 
 2. Adding acm.jar file
 
-   Now you would want to open your eclipse project and right click the project you want to add the acm.jar to.
-   After right clicking on it, you would want to click on BuiildPath.//
+   Now you would want to open your eclipse project and right click the project
+   you want to add the acm.jar to.
+   After right clicking on it, you would want to click on BuiildPath.
    If that is not avaliable make sure it is a java project.
 
    ![Click-Build-Path](gittips/media/ClickBuildPath.png)
 
    Then you would want to click on classpath and add external jar.
-   
+
    ![Adding-Jar-Buttons](gittips/media/AddingJarButtons.png)
 
    Depending on where you store your downloads on Mac or Windows, click on the
