@@ -341,9 +341,9 @@ Curious about what you can do with GObject?
 Jump into this comprehensive guide for a deeper understanding.
 Whether you're a beginner or seeking advanced insights,
 this resource offers practical explanations and examples.
-Visit the [GObjects](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GObject.html#:~:text=move(double%20dx%2C%20double%20dy,displacements%20given%20in%20polar%20coordinates.))
-link to explore further whenever you need assistance.
-Goodluck!
+Visit the [GObject](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GObject.html#:~:text=move(double%20dx%2C%20double%20dy,displacements%20given%20in%20polar%20coordinates) link to explore further whenever you need assistance.
+
+Good luck!
 
 ## Learn about more in general
 
