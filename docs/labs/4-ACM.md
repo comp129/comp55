@@ -44,7 +44,8 @@ This file contains additional features that we have yet to talk about.
 Here are the contents of the ACMLab.java file.
 
 ```java 
-// Please note: NEVER make comments this lengthy in your projects, these comment are just to explain each line of code
+// PLEASE NOTE: NEVER MAKE LENGTHY COMMENTS IN YOUR PROJECTS
+// The lengthy comments below are just to explain each line of code
 
 // The next 4 lines are imported necessary libraries for graphics and utilities
 import acm.graphics.*; // This imports classes for drawing graphics
