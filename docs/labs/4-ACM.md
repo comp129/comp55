@@ -43,10 +43,9 @@ open **ACMLab.java** in the editor.
 This file contains additional features that we have yet to talk about.
 Here are the contents of the ACMLab.java file.
 
+**Please Note: Never make lengthy comments in your projects.**
+The lengthy comments below are just to explain each line of code.
 ```java
-
-// PLEASE NOTE: NEVER MAKE LENGTHY COMMENTS IN YOUR PROJECTS
-// The lengthy comments below are just to explain each line of code
 
 // The next 4 lines are imported necessary libraries for graphics and utilities
 import acm.graphics.*; // This imports classes for drawing graphics
@@ -60,21 +59,21 @@ public class ACMLab extends GraphicsProgram {
     public static final int PROGRAM_HEIGHT = 600; // This sets the Height size of the program window
     public static final int PROGRAM_WIDTH = 800; // This sets the Width size of the program window
 
-    // The initialization method 'init' is now being called by the GraphicProgram superclass
-   // A superclass(also known as a parent class)inherits properties and behavior from a subclass
+    // The initialization method 'init' is about changing the sizes
     public void init() {
         setSize(PROGRAM_WIDTH, PROGRAM_HEIGHT); // This sets the size of the program window to predefined constants
         requestFocus(); // This ensures the program window receives input focus
     }
 
-    // This is the main entry point of the program
+    // This part of the program is about adding GLabels to the program
     public void run() {
         // This adds a GLabel that displays "Hello World" at coordinates (300, 300)
         add(new GLabel("Hello World", 300, 300)); // The coordinates can be altered to change label placement
 
     // This is the main method that starts the program
+    // It is recommended to leave this part of the program alone
     public static void main(String[] args) {
-        //This creates a new instance of the ACMLab class,calls its start method to begin execution
+        //This creates a new instance of the ACMLab class, it then calls its start method to begin execution
         new ACMLab().start(); 
     }
 }
