@@ -32,6 +32,7 @@ You can do this by:
 ### Windows OS (Windows 10/11)
 
 To Uninstall via Programs
+
 - Click **Start**
 - Select **Settings**
 - Select **System**
@@ -45,6 +46,7 @@ If you need help, here is
 ### MacOS
   
 You can uninstall Oracle Java via the ***Terminal***
+
 - Click on the **Finder** icon located in your dock
 - Click on the **Utilities** folder
 - Double-click on the **Terminal** icon
