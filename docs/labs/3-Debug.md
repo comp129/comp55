@@ -99,16 +99,15 @@ so you can get a faster way to view important details about an object,
 ### D) Finding the joy in Debugging
 
 The developers who excel at fixing problems in their code see debugging
-as a puzzle to solve and actually like finding and fixing errors more 
+as a puzzle to solve and actually like finding and fixing errors more
 than writing new code.
 
 Debugging is basically about solving problems. It involves figuring
 out what's wrong, understanding how different parts of the code work
 together, and making everything work smoothly again. Just like any
-challenge, debugging has its difficulties, but when you 
+challenge, debugging has its difficulties, but when you
 successfully fix the issues, it feels really rewarding. It involves 
 thinking creatively and having a good overall understanding of the code.
-
 Every time developers debug, they have a chance to learn something new. 
 It helps them understand the system better, discover new tools,
 and improve their problem-solving skills.
