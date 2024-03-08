@@ -3,25 +3,19 @@
 - [Introduction](#introduction)
 - [Step 1: Download](#step-1-download)
     - [Here are the contents of the ACMLab.java file](#here-are-the-contents-of-the-acmlabjava-file)
-    - [Once you get into the activity, please make new constants](#once-you-get-into-the-activity-please-make-new-constants)
-    - [You also may be able to fix this by visiting this URL](#you-also-may-be-able-to-fix-this-by-visiting-this-url)
     - [Please don't spend too much time thinking about or copying Line 20 for your future code](#please-dont-spend-too-much-time-thinking-about-or-copying-line-20-for-your-future-code)
+    - [Adding Objects](#adding-objects)
     - [Shown by the picture below is a visual example of coordinates of the Label](#shown-by-the-picture-below-is-a-visual-example-of-coordinates-of-the-label)
 - [Step 2: Modifying our label (Changing font, size and style)](#step-2-modifying-our-label-changing-font-size-and-style)
 - [Step 3: Extracting constants](#step-3-extracting-constants)
-    - [1. Click anywhere on the first 300 your label, right click and choose ```refactor->extract constant``` or ```source->extract constant```](#1-click-anywhere-on-the-first-300-your-label-right-click-and-choose-refactor-extract-constant-or-source-extract-constant)
-    - [2. Name it something in caps, for exmaple ```START_X```](#2-name-it-something-in-caps-for-exmaple-start_x)
-    - [3. Go ahead and do another extract constant of the other 300 to separate the x and y](#3-go-ahead-and-do-another-extract-constant-of-the-other-300-to-separate-the-x-and-y)
 - [Step 4: Adding Shapes](#step-4-adding-shapes)
-    - [Let's move on to work with the three most basic shapes in the ACM library](#lets-move-on-to-work-with-the-three-most-basic-shapes-in-the-acm-library)
-    - [1. Rectangles](#1-rectangles)
-    - [If you didn't get a rectangle, double-check that you added it to the screen](#if-you-didnt-get-a-rectangle-double-check-that-you-added-it-to-the-screen)
-    - [2. Ovals](#2-ovals)
-    - [Additional Information About GRect, GOval, and GLabel](#additional-information-about-grect-goval-and-glabel)
-    - [3. GLine](#3-gline)
-- [For Extra Information \& Functions of `GOval`, `GLine`, `GRect`, and `GLabel`](#for-extra-information--functions-of-goval-gline-grect-and-glabel)
+    - [Rectangles](#rectangles)
+        - [If you didn't get a rectangle, double-check that you added it to the screen](#if-you-didnt-get-a-rectangle-double-check-that-you-added-it-to-the-screen)
+    - [Ovals](#ovals)
+        - [Additional Information About GRect, GOval, and GLabel](#additional-information-about-grect-goval-and-glabel)
+    - [Lines](#lines)
+    - [For Extra Information \& Functions of `GOval`, `GLine`, `GRect`, and `GLabel`](#for-extra-information--functions-of-goval-gline-grect-and-glabel)
 - [Step 5. Adding GImages](#step-5-adding-gimages)
-    - [```GImage```s take three parameters](#gimages-take-three-parameters)
     - [1. First Parameter - Filename](#1-first-parameter---filename)
     - [Something to Note](#something-to-note)
     - [2. Second \& Third Parameter - X \& Y Corrdinates](#2-second--third-parameter---x--y-corrdinates)
@@ -35,7 +29,6 @@
     - [Somethings You May Want To Know](#somethings-you-may-want-to-know)
 - [(Optional) Step 8: Extra Material](#optional-step-8-extra-material)
     - [If you're done with that and what to create more complicated drawings](#if-youre-done-with-that-and-what-to-create-more-complicated-drawings)
-
 
 ## Introduction
 
@@ -107,20 +100,20 @@ To explain what is going on, ***the following is not neccessary but is important
     - **The majority of imports we'll use start with "java." or "acm."**
 
     > One of the nice features of Java
-  is that it allows you to reference a folder of classes all at once,
+    > is that it allows you to reference a folder of classes all at once,
   so for example,
-  rather than have to write 20 import statements for each class that we want to reference,
-  we can use the ```*``` to say,
-  go ahead and import all of the classes in the ```acm.graphics``` directory.
+    > rather than have to write 20 import statements for each class that we want to reference,
+    > we can use the ```*``` to say,
+    > go ahead and import all of the classes in the ```acm.graphics``` directory.
     > Not sure what you need to import?
-  Never fear,
-  just type the class that you need,
-  Eclipse will red squiggly it for you and then you can use the quick fix option to add the import.
+    > Never fear,
+    > just type the class that you need,
+    > Eclipse will red squiggly it for you and then you can use the quick fix option to add the import.
     > You can alternatively just type ***Ctrl-Shift-O***
-  after typing the class,
-  which will tell Eclipse to
-  automatically search its entire catalog for which import you should have and then
-  **write the import statements for you**._
+    > after typing the class,
+    > which will tell Eclipse to
+    > automatically search its entire catalog for which import you should have and then
+  **write the import statements for you**.
     > If you try to use a class that is defined differently in multiple libraries,
   Eclipse will prompt you to choose.
 
@@ -129,40 +122,38 @@ To explain what is going on, ***the following is not neccessary but is important
   ```extends``` is a special keyword in Java that lets you inherit capabilities from another class.
 
     > In our case,
-  what we want to do is inherit from the special ACM class,
-  ```GraphicsProgram```,
-  which will do a lot of the necessary legwork to get ourselves ready to deal with graphics.
+    > what we want to do is inherit from the special ACM class,
+    > ```GraphicsProgram```,
+    > which will do a lot of the necessary legwork to get ourselves ready to deal with graphics.
     > By saying ```ACMLab extends GraphicsProgram```,
-  we are telling Java that the ```ACMLab``` **IS** a ```GraphicsProgram```,
-  and so we get all of the benefits and tribulations of being a ```GraphicsProgram```.
+    > we are telling Java that the ```ACMLab``` **IS** a ```GraphicsProgram```,
+    > and so we get all of the benefits and tribulations of being a ```GraphicsProgram```.
     > This means that we'll need to leverage
-  and write a few additional methods to make our program work.
+    > and write a few additional methods to make our program work.
     > Rather than using ```public static void main(String[] args)```,
-  consider ```public void run()``` as our starting point for now.
+    > consider ```public void run()``` as our starting point for now.
 
-- **public static final int:**
+- `public static final int`:
     - Lines 7 & 8 declare constants for the program to reference.
     **It is good programming practice to declare any number that is not 0, 1, or 2, as a constant**.
     - We're going to break with that convention for the opening part of the tutorial
   as we are introducing you to the different calls.
 
-### Once you get into the activity, please make new constants
+  ***Once you get into the activity, please make new constants***
 
-> Constants make your program easier to change in the future and easier to read.
+  > Constants make your program easier to change in the future and easier to read.
      While there are a couple of extra keywords here that I don't want you to worry about too much yet,
      the ```final``` keyword is the one that is telling Java
      that a particular variable can no longer be changed.
-> One nice part about constants is that they don't need to be literal values
-     they can be formulas based on other constants like this
+  >
+  > Constants can be formulas based on other constants like this:
+  >  
+  > ```java
+  > public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
+  > // This makes constants very useful - make them often!
+  > ```
 
-**Constants can be formulas based on other constants like this:**
-  
-```java
-public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
-// This makes constants very useful - make them often!
-```
-
-- **public void init():**
+- `public void init()`:
     - On lines 10-13, it allows us to specify the size of the window before it gets created.
   This is useful in our case as we want to start with a larger window.
 
@@ -170,25 +161,24 @@ public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
       > A **pixel** is the smallest unit possible to display on a computer screen.
       > So this creates a window 800 pixels wide and 600 pixels high.
       > While for some of you this might create a decent-sized window,
-  for others of you with 4K screens,
-  the window might still be extremely small,
-  for now,
-  you could try to make the screen relatively big,
-  but this will be something you may have to continually adjust.
+      > for others of you with 4K screens,
+      > the window might still be extremely small,
+      > for now,
+      > you could try to make the screen relatively big,
+      > but this will be something you may have to continually adjust.
+      >
+      > ***You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897)***
+      >
+      > The ```requestFocus``` call just allows the window to be the active window
+      > for both the mouse and the keyboard,
+      > which will be useful in the future.
+      > Other than changing the size,
+      > you should leave the ```init``` method alone.
 
-### You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897)
-  
-  > The ```requestFocus``` call just allows the window to be the active window
-  for both the mouse and the keyboard,
-  > which will be useful in the future.
-  Other than changing the size,
-  you should leave the ```init``` method alone.
-
-- **public static void main(String args[])**
-    - Think of this main function that we have as template
-  (aka boilerplate)
-  code that will be in most graphical programs,
-  you should not need to modify the mains for the graphical programs that you create.
+- `public static void main(String args[])`
+    - Think of this main function that we have as template (aka boilerplate)
+      code that will be in most graphical programs,
+      you should not need to modify the mains for the graphical programs that you create.
 
 ### Please don't spend too much time thinking about or copying Line 20 for your future code
   
@@ -207,14 +197,14 @@ public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
   ```run```,
   which we'll discuss next.
 
-- **public void run():**
+- `public void run()`:
     - Lines 15-17 have the method
-  that you should consider the starting point for your program,
-  as the function calls to the rest of our code.
+      that you should consider the starting point for your program,
+      as the function calls to the rest of our code.
 
-- **Adding Objects:**
-    - Currently,
-  there is only one call on line 16, which is,
+### Adding Objects
+
+- Currently, there is only one call on line 16, which is,
 
     ```add(new GLabel("Hello World", 300, 300));```
   
@@ -276,11 +266,10 @@ and the font needs to match a font on your computer for it to work.
 
 ## Step 3: Extracting constants
 
-### 1. Click anywhere on the first 300 your label, right click and choose ```refactor->extract constant``` or ```source->extract constant```
-
-### 2. Name it something in caps, for exmaple ```START_X```
-
-### 3. Go ahead and do another extract constant of the other 300 to separate the x and y
+1. Click anywhere on the first 300 your label,
+   right click and choose ```refactor->extract constant``` or ```source->extract constant```
+2. Name it something in caps, for exmaple ```START_X```
+3. Go ahead and do another extract constant of the other 300 to separate the x and y
 
 - *From here on out I will refer to those as ```START_X``` and ```START_Y```.*
 
@@ -300,28 +289,28 @@ which you should also practice with.
 
 ## Step 4: Adding Shapes
 
-### Let's move on to work with the three most basic shapes in the ACM library
+Let's move on to work with the three most basic shapes in the ACM library
 
 - rectangles
 - ovals
 - lines
 
-### 1. Rectangles
+### Rectangles
 
 1. **To make a rectangle,
 create a ```GRect``` and then add it to the *canvas* AKA the program window.**
 
     > ```new GRect``` takes in four arguments,
-the ```x``` and ```y```, and its ```width``` and ```height``` all in pixels._
+the ```x``` and ```y```, and its ```width``` and ```height``` all in pixels.
 
-2. **Let's place a rectangle at ```START_X, START_Y``` with a width of ```200```,
+1. **Let's place a rectangle at ```START_X, START_Y``` with a width of ```200```,
 and a height of ```100```. You can place this code after adding the label.**
 
     > You can also consider extracting these constants as well
 
 ![hello world on top of a box](lab4media/media/image3.png)
 
-### If you didn't get a rectangle, double-check that you added it to the screen
+#### If you didn't get a rectangle, double-check that you added it to the screen
 
 - Notice that while both the label and the rectangle were placed at 300, 300;
 each used it as a different anchor for where to place its object.
@@ -330,7 +319,7 @@ is the upper left of the rectangle,
     - while for the text,
 it's the lower left.
 
-### 2. Ovals
+### Ovals
 
 1. **To understand how the oval works,
 let's go ahead and add an oval with the same arguments as the
@@ -356,14 +345,14 @@ GOval oval = new GOval(START_X, START_Y, 200, 100);
 add(oval);
 ```
 
-### Additional Information About GRect, GOval, and GLabel
+#### Additional Information About GRect, GOval, and GLabel
 
 - Both ```GOval``` and ```GRect``` can change colors just like a ```GLabel```.
 - In addition to this,
 ```GOval``` and ```GRect``` can be filled,
 this is done by calling ```setFilled(true)``` on the ```GOval``` or ```GRect``` of your choice.
 
-### 3. GLine
+### Lines
 
 ```GLine``` also takes four integers when it's created
 
@@ -374,9 +363,9 @@ we would notice that we would have a picture like this.
 
 ![Picture with GOval, GLine, GRect, GLabel](lab4media/media/image4.png)
 
-## For Extra Information & Functions of `GOval`, `GLine`, `GRect`, and `GLabel`
+### For Extra Information & Functions of `GOval`, `GLine`, `GRect`, and `GLabel`
 
-*Thankfully, the University of Stanford offers a lot of nicely compiled summaries for them.*
+*Thankfully, Stanford University offers a lot of nicely compiled summaries for them.*
 
 - [`GOval`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GOval.html)
 - [`GLine`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/complete/acm/graphics/GLine.html)
@@ -392,7 +381,7 @@ to get used to how things behave.
 [`GImage`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GImage.html) class,
 which lets us add rectangular images.**
 
-### ```GImage```s take three parameters
+```GImage```s take three parameters
 
 1. a filename
 2. an x coordinate
