@@ -89,16 +89,16 @@ public class ACMLab extends GraphicsProgram {
   rather than have to write 20 import statements for each class that we want to reference,
   we can use the ```*``` to say,
   go ahead and import all of the classes in the ```acm.graphics``` directory.
-  Not sure what you need to import?
+    > Not sure what you need to import?
   Never fear,
   just type the class that you need,
   Eclipse will red squiggly it for you and then you can use the quick fix option to add the import.
-  You can alternatively just type ***Ctrl-Shift-O***
+    > You can alternatively just type ***Ctrl-Shift-O***
   after typing the class,
   which will tell Eclipse to
   automatically search its entire catalog for which import you should have and then
   **write the import statements for you**._
-  If you try to use a class that is defined differently in multiple libraries,
+    > If you try to use a class that is defined differently in multiple libraries,
   Eclipse will prompt you to choose.
 
 - **Extends:**
@@ -109,12 +109,12 @@ public class ACMLab extends GraphicsProgram {
   what we want to do is inherit from the special ACM class,
   ```GraphicsProgram```,
   which will do a lot of the necessary legwork to get ourselves ready to deal with graphics.
-  By saying ```ACMLab extends GraphicsProgram```,
+    > By saying ```ACMLab extends GraphicsProgram```,
   we are telling Java that the ```ACMLab``` **IS** a ```GraphicsProgram```,
   and so we get all of the benefits and tribulations of being a ```GraphicsProgram```.
-  This means that we'll need to leverage
+    > This means that we'll need to leverage
   and write a few additional methods to make our program work.
-  Rather than using ```public static void main(String[] args)```,
+    > Rather than using ```public static void main(String[] args)```,
   consider ```public void run()``` as our starting point for now.
 
 - **public static final int:**
@@ -125,11 +125,11 @@ public class ACMLab extends GraphicsProgram {
 
 ### Once you get into the activity, please make new constants
 
-  > Constants make your program easier to change in the future and easier to read.
+> Constants make your program easier to change in the future and easier to read.
      While there are a couple of extra keywords here that I don't want you to worry about too much yet,
      the ```final``` keyword is the one that is telling Java
      that a particular variable can no longer be changed.
-     One nice part about constants is that they don't need to be literal values
+> One nice part about constants is that they don't need to be literal values
      they can be formulas based on other constants like this
 
 **Constants can be formulas based on other constants like this:**
@@ -143,10 +143,10 @@ public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
     - On lines 10-13, it allows us to specify the size of the window before it gets created.
   This is useful in our case as we want to start with a larger window.
 
-    > The size is specified in pixels.
-  A **pixel** is the smallest unit possible to display on a computer screen.
-  So this creates a window 800 pixels wide and 600 pixels high.
-  While for some of you this might create a decent-sized window,
+      > The size is specified in pixels.
+      > A **pixel** is the smallest unit possible to display on a computer screen.
+      > So this creates a window 800 pixels wide and 600 pixels high.
+      > While for some of you this might create a decent-sized window,
   for others of you with 4K screens,
   the window might still be extremely small,
   for now,
@@ -157,7 +157,7 @@ public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
   
   > The ```requestFocus``` call just allows the window to be the active window
   for both the mouse and the keyboard,
-  which will be useful in the future.
+  > which will be useful in the future.
   Other than changing the size,
   you should leave the ```init``` method alone.
 
@@ -170,16 +170,16 @@ public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
 ### Please don't spend too much time thinking about or copying Line 20 for your future code
   
   > This small function tells java how to start your program.
-  If you notice,
+  > If you notice,
   it just creates a ```new ACMLab```
   (which it does not even save into a variable! :disappointed:).
-  Then on the same line,
+  > Then on the same line,
   it calls ```start```,
   which is an internal call for `GraphicsProgram` that helps set up the graphics window
   and get everything started.
-  You should in most cases,
+  > You should in most cases,
   *leave the ```main``` alone for any graphics programs.*
-  Instead,
+  > Instead,
   just focus on putting your code for graphics programs in the method,
   ```run```,
   which we'll discuss next.
@@ -196,13 +196,13 @@ public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
     ```add(new GLabel("Hello World", 300, 300));```
   
     > ```GraphicsProgram``` follows what one can think of as a *collage model* for making graphics.
-  Rather than creating graphics with a pen where you give commands
+    > Rather than creating graphics with a pen where you give commands
   to move the pen around the screen to draw things,
   the graphics package allows you to create objects,
-  which one can think of as cutting out shapes from a piece of paper.
-  Once the objects are created,
+    > which one can think of as cutting out shapes from a piece of paper.
+    > Once the objects are created,
   you then need to add them to your canvas.
-  The ```add``` command at the beginning of the line is reminiscent of that.
+    > The ```add``` command at the beginning of the line is reminiscent of that.
   
     - What's inside the ```add``` command
   ```new GLabel("Hello World", 300, 300)```
@@ -211,7 +211,7 @@ public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
 
     > While the label writes the text given in the label,
   the 300s specify the x and y coordinates in pixels of where the label will be placed.
-  Another thing to know is that in Java,
+    > Another thing to know is that in Java,
   **0, 0** is the upper left-hand corner of the screen,
   rather than the lower left-hand corner.
 
@@ -247,7 +247,7 @@ in between creating the label and adding it to the screen.
     > The font just needs to be a font that is registered on your computer,
 followed by the style and size,
 separated by hyphens.
-The style is optional
+    > The style is optional
 (and will be left out in examples),
 and the font needs to match a font on your computer for it to work.
 
@@ -264,13 +264,13 @@ and the font needs to match a font on your computer for it to work.
     > Remember that when we have numbers that we keep using,
 it makes sense to create final variables,
 which are constants in Java.
-Constants are nice because they make the code more readable,
+    > Constants are nice because they make the code more readable,
 and they allow us to make more changes that make more sense based on the code.
-Let me show you an easy way that eclipse allows us to extract constants.
-There,
+    > Let me show you an easy way that eclipse allows us to extract constants.
+    > There,
 to denote that it's a constant and that it represents the starting X point for the code.
-Notice there was an option to have it change all versions of 300 to that variable.
-Other things that folks end up extracting as constants would be things like the font and the color,
+    > Notice there was an option to have it change all versions of 300 to that variable.
+    > Other things that folks end up extracting as constants would be things like the font and the color,
 which you should also practice with.
 
 ![extract constant animation](lab4media/media/extractconstant.gif)
@@ -318,7 +318,7 @@ rectangle.**
     > ```GOval``` works by creating the largest oval
 that can fit inside a rectangle with the given dimensions
 (A circumscribed oval).
-It also follows the conventions of using the upper-left as its starting position.
+    > It also follows the conventions of using the upper-left as its starting position.
 
 ```java
 GLabel label = new GLabel("Hello World", START_X, START_Y);
@@ -377,7 +377,7 @@ which lets us add rectangular images.**
 
     > If you want to learn more about `GImage` remember to take a look at its documentation,
 which was linked to at the beginning of this section!
-Documentation like this is handy for reference if you happen to forget anything specific.
+    > Documentation like this is handy for reference if you happen to forget anything specific.
 
 ### 1. First Parameter - Filename
 
@@ -391,7 +391,7 @@ since we are loading something other than code,
 **images will need to be inside the media folder**.
 
     > The media is at the same level as `src` and `bin` folders in your project.
-If it's somewhere else or you want an additional folder inside of your media folder,
+    > If it's somewhere else or you want an additional folder inside of your media folder,
 you should prefix any image with that folder name.
 
 ### 2. Second & Third Parameter - X & Y Corrdinates
@@ -423,7 +423,7 @@ add(image);
 
     > Once you have created your shape or image,
 the ACM library gives you the ability to fill it with a wild variety of colors.
-Depending on what you created,
+    > Depending on what you created,
 the process for applying the desired color you want vary between each other.
 
 ### If you want to apply color to a ```GLabel```
@@ -450,8 +450,8 @@ the process for applying the desired color you want vary between each other.
 
     > As you become more proficient you may want certain shapes to appear in front of others
 in case they are overlapping.
-*The latest object that you add will always be added on top of the rest of the objects*.
-You can play around with this by filling some shapes and setting them to different colors
+    > *The latest object that you add will always be added on top of the rest of the objects*.
+    > You can play around with this by filling some shapes and setting them to different colors
 so that you can experiment with them.
 
 ## Step 7: Making a robot (Upload your robot picture as your deliverable)
@@ -476,22 +476,22 @@ For those of you that are curious,
 this is not a gradient at all,
 it's just multiple circles on top of one another,
 with each one a slightly different color and slightly smaller than the last.
-The ```Color``` object has methods that you can find and use to help you change colors,
+> The ```Color``` object has methods that you can find and use to help you change colors,
 they are expressed as a combination of red,
 green and blue integers between 0 and 255.
-Remember that anytime you are looking at methods for a function,
+> Remember that anytime you are looking at methods for a function,
 you can use the keyboard shortcut ***Ctrl-Space***
 to look up methods that different classes respond to.
-This may be helpful to do with the ```Color``` class.
+> This may be helpful to do with the ```Color``` class.
 > If you use constants and math,
 it would be relatively easy to get a different-sized robot.
-This is just as key as getting used to the objects,
+> This is just as key as getting used to the objects,
 how fast can you change your robot from being short and round to tall and skinny?
-You shouldn't have to change too many lines of code.
-To help you make your robot easier to change or move,
+> You shouldn't have to change too many lines of code.
+> To help you make your robot easier to change or move,
 know that you can also use the x and y coordinates of different objects by calling
 ```getX()``` and ```getY()```.
-In cases where you get errors for casting,
+> In cases where you get errors for casting,
 you can use type casts to go from a ```double``` to ```int```
 or vice-versa,
 just like you did in C++.
@@ -510,7 +510,7 @@ you should begin to explore some animation._
 
 > If you add a pause to be called after each call to move,
 you'll be able to get some form of animation.
-The pause takes an integer which is the number of milliseconds you want to pause.
+> The pause takes an integer which is the number of milliseconds you want to pause.
 So the basic two lines look something like this:
 
 ```java
@@ -521,7 +521,7 @@ pause(5);
 > Write a ```for``` loop that repeatedly calls one of your objects to move by 2 pixels,
 followed by a ```pause``` of 10 milliseconds,
 and see the magic happen.
-You can spend some additional time making some cool animation.
+> You can spend some additional time making some cool animation.
 
 ### If you're done with that and what to create more complicated drawings
 
