@@ -66,7 +66,8 @@ The other drawback is that they don't work directly with primitives like ```int`
 
 ## Understanding ArrayList and Primitive Types
 
-One notable limitation of `ArrayList` is its inability to directly handle primitive data types such as `int` and `double`.
+One notable limitation of `ArrayList` is its inability to directly handle primitive data types
+such as `int` and `double`.
 This is because `ArrayList`, like other collections in Java,
 is designed to work with objects, not primitives.
 To store primitive values in an `ArrayList`, Java provides wrapper classes
@@ -83,7 +84,8 @@ for the flexible use of collections with primitive types.
 
 ### Example Code Demonstrating Autoboxing and Unboxing
 
-This Java program showcases the automatic conversion between primitive int and Integer objects through autoboxing and unboxing.
+This Java program showcases the automatic conversion between primitive int
+and Integer objects through autoboxing and unboxing.
 It adds a primitive integer to an ArrayList which gets autoboxed to an integer object,
 it then retrieves it, and converts it back to a primitive int for printing.
 
