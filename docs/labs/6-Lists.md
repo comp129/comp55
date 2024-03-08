@@ -69,11 +69,11 @@ The other drawback is that they don't work directly with primitives like ```int`
 One notable limitation of `ArrayList` is its inability to directly handle primitive data types
 such as `int` and `double`.
 This is because `ArrayList`, like other collections in Java,
-is designed to work with objects, not primitives.
+is ***designed to work with objects***, not primitives.
 To store primitive values in an `ArrayList`, Java provides wrapper classes
 (e.g., `Integer` for `int`, `Double` for `double`)
 that encapsulate primitive values as objects.
-Java's autoboxing feature automatically converts a primitive value
+Java's **autoboxing** feature automatically converts a primitive value
 to its corresponding wrapper class when added to an `ArrayList`.
 Conversely, unboxing automatically extracts the primitive value from its wrapper when retrieved.
 
@@ -84,24 +84,24 @@ for the flexible use of collections with primitive types.
 
 ### Example Code Demonstrating Autoboxing and Unboxing
 
-This Java program showcases the automatic conversion between primitive int
-and Integer objects through autoboxing and unboxing.
-It adds a primitive integer to an ArrayList which gets autoboxed to an integer object,
-it then retrieves it, and converts it back to a primitive int for printing.
+The Java program below showcases the automatic conversion between primitive `int`
+and `Integer` objects through autoboxing and unboxing.
+When it adds the `int` to our `list` the `ArrayList` autoboxes it int to an `Integer` object.
+Calling `get` on `list` will retrieve it and unbox it back int to the primitive `int`.
 
 ```java
 import java.util.ArrayList;
 
 public class AutoboxingExample {
     public static void main(String[] args) {
-        // Create an ArrayList to store Integer objects
+        // Need to specify "Integer" even though we will store values of type int.
         ArrayList<Integer> list = new ArrayList<Integer>();
 
         // Autoboxing: Java compiler automatically converts the primitive int to an Integer object
         int number = 10;
         list.add(number); // 'number' is a primitive int that gets autoboxed to an Integer object
 
-        // Unboxing: The Integer object is accessed and automatically converted back to a primitive int
+        // Unboxing: The Integer object in list automatically converted back to a primitive int
         int primitiveNumber = list.get(0);
 
         System.out.println("The number in the list is: " + primitiveNumber);
@@ -109,11 +109,9 @@ public class AutoboxingExample {
 }
 ```
 
-In COMP 55, autoboxing can be useful as it simplifies working with collections like ArrayLists.
-It enhances code readability and efficiency in tasks such as managing GUI components. For example,
-instead of manually converting primitive values into objects,
-autoboxing allows these values to be directly stored and updated in an ArrayList,
-streamlining the process.
+In COMP 55, autoboxing can be useful since it allows us to use lists to store `int`s instead
+of having to manage `int`s in primitive arrays, *like we did in COMP 51 and 53*.
+It enhances code readability and efficiency in tasks such as managing GUI components.
 
 For a more in-depth understanding of autoboxing and unboxing in Java, refer to this comprehensive guide:
 [Autoboxing and Unboxing](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html).
