@@ -124,8 +124,8 @@ public class ACMLab extends GraphicsProgram {
   as we are introducing you to the different calls.
 
 ### Once you get into the activity, please make new constants
-  
-> Constants make your program easier to change in the future and easier to read.
+
+  > Constants make your program easier to change in the future and easier to read.
      While there are a couple of extra keywords here that I don't want you to worry about too much yet,
      the ```final``` keyword is the one that is telling Java
      that a particular variable can no longer be changed.
@@ -134,10 +134,10 @@ public class ACMLab extends GraphicsProgram {
 
 **Constants can be formulas based on other constants like this:**
   
-    ```java
-    public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
-    // This makes constants very useful - make them often!
-    ```
+```java
+public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
+// This makes constants very useful - make them often!
+```
 
 - **public void init():**
     - On lines 10-13, it allows us to specify the size of the window before it gets created.
@@ -153,7 +153,7 @@ public class ACMLab extends GraphicsProgram {
   you could try to make the screen relatively big,
   but this will be something you may have to continually adjust.
 
-  ### You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897)
+### You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897)
   
   > The ```requestFocus``` call just allows the window to be the active window
   for both the mouse and the keyboard,
@@ -178,7 +178,7 @@ public class ACMLab extends GraphicsProgram {
   which is an internal call for `GraphicsProgram` that helps set up the graphics window
   and get everything started.
   You should in most cases,
-  *leave the ```main``` alone for any graphics programs*.
+  *leave the ```main``` alone for any graphics programs.*
   Instead,
   just focus on putting your code for graphics programs in the method,
   ```run```,
@@ -215,13 +215,13 @@ public class ACMLab extends GraphicsProgram {
   **0, 0** is the upper left-hand corner of the screen,
   rather than the lower left-hand corner.
 
-  ### Shown by the picture below is a visual example of coordinates of the Label
+### Shown by the picture below is a visual example of coordinates of the Label
 
-    ![graphics coordinates explained](lab4media/media/image2.png)
+![graphics coordinates explained](lab4media/media/image2.png)
 
-    *The picture above shows part of the program window when our program is run,
-    along with the message Hello World
-    (using the always appropriate and highly underutilized Comic Sans font).*
+*The picture above shows part of the program window when our program is run,
+along with the message Hello World
+(using the always appropriate and highly underutilized Comic Sans font).*
 
 ## Step 2: Modifying our label (Changing font, size and style)
 
@@ -477,7 +477,6 @@ Remember that anytime you are looking at methods for a function,
 you can use the keyboard shortcut ***Ctrl-Space***
 to look up methods that different classes respond to.
 This may be helpful to do with the ```Color``` class.
-
 > If you use constants and math,
 it would be relatively easy to get a different-sized robot.
 This is just as key as getting used to the objects,
@@ -502,7 +501,7 @@ you should begin to explore some animation._
 - All ```GObject```s respond to a `move` call:
     - The parameters are ```deltaX``` and ```deltaY```
         - _How many pixels you want the object to move in each direction._
-    
+
 > If you add a pause to be called after each call to move,
 you'll be able to get some form of animation.
 The pause takes an integer which is the number of milliseconds you want to pause.
@@ -513,7 +512,7 @@ sparkysRect.move(2, 1);
 pause(5);
 ```
 
-    > Write a ```for``` loop that repeatedly calls one of your objects to move by 2 pixels,
+> Write a ```for``` loop that repeatedly calls one of your objects to move by 2 pixels,
 followed by a ```pause``` of 10 milliseconds,
 and see the magic happen.
 You can spend some additional time making some cool animation.
