@@ -123,23 +123,24 @@ public class ACMLab extends GraphicsProgram {
     - We're going to break with that convention for the opening part of the tutorial
   as we are introducing you to the different calls.
 
-    **Once you get into the activity, please make new constants**
+    ### Once you get into the activity, please make new constants
   
      > Constants make your program easier to change in the future and easier to read.
      While there are a couple of extra keywords here that I don't want you to worry about too much yet,
      the ```final``` keyword is the one that is telling Java
      that a particular variable can no longer be changed.
      One nice part about constants is that they don't need to be literal values
-     they can be formulas based on other constants like this:
-    
+     they can be formulas based on other constants like this
+
     **Constants can be formulas based on other constants like this:**
+  
     ```java
     public static final int NUM_PIXELS = PROGRAM_HEIGHT / PROGRAM_WIDTH;
     // This makes constants very useful - make them often!
     ```
 
 - **public void init():**
-  - On lines 10-13, it allows us to specify the size of the window before it gets created.
+    - On lines 10-13, it allows us to specify the size of the window before it gets created.
   This is useful in our case as we want to start with a larger window.
 
     > The size is specified in pixels.
@@ -152,21 +153,21 @@ public class ACMLab extends GraphicsProgram {
   you could try to make the screen relatively big,
   but this will be something you may have to continually adjust.
      ### You also may be able to fix this by [visiting this URL](http://stackoverflow.com/questions/30555401/java-disable-dpi-aware-not-working/39372897#39372897).
-     > The ```requestFocus``` call just allows the window to be the active window
+      > The ```requestFocus``` call just allows the window to be the active window
   for both the mouse and the keyboard,
   which will be useful in the future.
   Other than changing the size,
   you should leave the ```init``` method alone.
 
 - **public static void main(String args[])**
-  - Think of this main function that we have as template
+    - Think of this main function that we have as template
   (aka boilerplate)
   code that will be in most graphical programs,
   you should not need to modify the mains for the graphical programs that you create.
 
      ### Please don't spend too much time thinking about or copying Line 20 for your future code.
   
-     > This small function tells java how to start your program.
+    > This small function tells java how to start your program.
   If you notice,
   it just creates a ```new ACMLab```
   (which it does not even save into a variable! :disappointed:).
@@ -182,17 +183,17 @@ public class ACMLab extends GraphicsProgram {
   which we'll discuss next.
 
 - **public void run():**
-   - Lines 15-17 have the method
+    - Lines 15-17 have the method
   that you should consider the starting point for your program,
   as the function calls to the rest of our code.
 
 - **Adding Objects:**
-  - Currently,
+    - Currently,
   there is only one call on line 16, which is,
 
     ```add(new GLabel("Hello World", 300, 300));```
   
-     > ```GraphicsProgram``` follows what one can think of as a *collage model* for making graphics.
+    > ```GraphicsProgram``` follows what one can think of as a *collage model* for making graphics.
   Rather than creating graphics with a pen where you give commands
   to move the pen around the screen to draw things,
   the graphics package allows you to create objects,
@@ -201,18 +202,18 @@ public class ACMLab extends GraphicsProgram {
   you then need to add them to your canvas.
   The ```add``` command at the beginning of the line is reminiscent of that.
   
-  - What's inside the ```add``` command
+    - What's inside the ```add``` command
   ```new GLabel("Hello World", 300, 300)```
   can be thought of as making a shape
   (or label in our case).
 
-     > While the label writes the text given in the label,
+    > While the label writes the text given in the label,
   the 300s specify the x and y coordinates in pixels of where the label will be placed.
   Another thing to know is that in Java,
   **0, 0** is the upper left-hand corner of the screen,
   rather than the lower left-hand corner.
   
-     ### Shown by the picture below is a visual example of coordinates of the Label:
+    ### Shown by the picture below is a visual example of coordinates of the Label:
 
     ![graphics coordinates explained](lab4media/media/image2.png)
 
@@ -222,26 +223,26 @@ public class ACMLab extends GraphicsProgram {
 
 ## Step 2: Modifying our label (Changing font, size and style)
 
- **1. Store the new ```GLabel``` into a variable called ```label```.**
+**1. Store the new ```GLabel``` into a variable called ```label```.**
 
 - Once you have the ```GLabel``` in a variable,
 rather than adding it right away,
 we can make modifications to it by sending the label different messages.
 
-   > If we wanted to make additional changes to the ```GLabel```,
+    > If we wanted to make additional changes to the ```GLabel```,
 it would make
 sense to store that ```GLabel``` into a variable that we could then refer
 to.
 
-  **2. Go ahead and color the label **red**.**
+    **2. Go ahead and color the label **red**.**
 
 - Add
 ```label.setColor(Color.red);```
 in between creating the label and adding it to the screen.
 
-   **3. add ```label.setFont("Arial-Bold-24")```**
+    **3. add ```label.setFont("Arial-Bold-24")```**
 
-   > The font just needs to be a font that is registered on your computer,
+    > The font just needs to be a font that is registered on your computer,
 followed by the style and size,
 separated by hyphens.
 The style is optional
@@ -256,9 +257,9 @@ and the font needs to match a font on your computer for it to work.
 
 ### 3. Go ahead and do another extract constant of the other 300 to separate the x and y
 
-   - _From here on out I will refer to those as ```START_X``` and ```START_Y```._
+- _From here on out I will refer to those as ```START_X``` and ```START_Y```._
 
-   > Remember that when we have numbers that we keep using,
+    > Remember that when we have numbers that we keep using,
 it makes sense to create final variables,
 which are constants in Java.
 Constants are nice because they make the code more readable,
@@ -273,23 +274,24 @@ Other things that folks end up extracting as constants would be things like the 
 
 ## Step 4: Adding Shapes
 
-### Let's move on to work with the three most basic shapes in the ACM library:
+### Let's move on to work with the three most basic shapes in the ACM library
+
 - rectangles
 - ovals
 - lines
 
 ### 1. Rectangles
 
-   1. **To make a rectangle,
+1. **To make a rectangle,
 create a ```GRect``` and then add it to the *canvas* AKA the program window.**
 
-   > ```new GRect``` takes in four arguments,
+    > ```new GRect``` takes in four arguments,
 the ```x``` and ```y```, and its ```width``` and ```height``` all in pixels._
 
-   2. **Let's place a rectangle at ```START_X, START_Y``` with a width of ```200```,
+2. **Let's place a rectangle at ```START_X, START_Y``` with a width of ```200```,
 and a height of ```100```. You can place this code after adding the label.**
 
-   > You can also consider extracting these constants as well
+    > You can also consider extracting these constants as well
 
 ![hello world on top of a box](lab4media/media/image3.png)
 
@@ -297,20 +299,20 @@ and a height of ```100```. You can place this code after adding the label.**
 
 - Notice that while both the label and the rectangle were placed at 300, 300;
 each used it as a different anchor for where to place its object.
-   - In the rectangle, 300, 300;
+    - In the rectangle, 300, 300;
 is the upper left of the rectangle,
-   - while for the text,
+    - while for the text,
 it's the lower left.
 
 ### 2. Ovals
 
-   1. **To understand how the oval works,
+1. **To understand how the oval works,
 let's go ahead and add an oval with the same arguments as the
 rectangle.**
 
-   - ```run``` should look something like what's below… ***but hopefully with more constants!***
+    - ```run``` should look something like what's below… ***but hopefully with more constants!***
 
-     > ```GOval``` works by creating the largest oval
+    > ```GOval``` works by creating the largest oval
 that can fit inside a rectangle with the given dimensions
 (A circumscribed oval).
 It also follows the conventions of using the upper-left as its starting position.
@@ -340,7 +342,7 @@ this is done by calling ```setFilled(true)``` on the ```GOval``` or ```GRect``` 
 ```GLine``` also takes four integers when it's created
 - The ```x``` and ```y``` coordinates of the two endpoints
 
-   > If we were to use the same arguments again,
+    > If we were to use the same arguments again,
 we would notice that we would have a picture like this.
 
 ![Picture with GOval, GLine, GRect, GLabel](lab4media/media/image4.png)
@@ -348,6 +350,7 @@ we would notice that we would have a picture like this.
 ## For Extra Information & Functions of `GOval`, `GLine`, `GRect`, and `GLabel`
 
 _Thankfully, the University of Stanford offers a lot of nicely compiled summaries for them._
+
 - [`GOval`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GOval.html)
 - [`GLine`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/complete/acm/graphics/GLine.html)
 - [`GRect`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GRect.html)
@@ -369,7 +372,7 @@ which lets us add rectangular images.**
 2. an x coordinate
 3. a y coordinate.
 
-   > If you want to learn more about `GImage` remember to take a look at its documentation,
+    > If you want to learn more about `GImage` remember to take a look at its documentation,
 which was linked to at the beginning of this section!
 Documentation like this is handy for reference if you happen to forget anything specific.
 
@@ -384,7 +387,7 @@ Documentation like this is handy for reference if you happen to forget anything 
 since we are loading something other than code,
 **images will need to be inside the media folder**.
 
-   > The media is at the same level as `src` and `bin` folders in your project.
+    > The media is at the same level as `src` and `bin` folders in your project.
 If it's somewhere else or you want an additional folder inside of your media folder,
 you should prefix any image with that folder name.
 
@@ -404,12 +407,13 @@ add(image);
 ## Step 6: Applying Color
 
 **Two Options are available:**
+
 1. ```GLabel```
 2. ```GRect```
 
 - ```GRect``` is interchangeable with ```GOval```
 
-   > Once you have created your shape or image,
+    > Once you have created your shape or image,
 the ACM library gives you the ability to fill it with a wild variety of colors.
 Depending on what you created,
 the process for applying the desired color you want vary between each other.
@@ -422,15 +426,14 @@ the process for applying the desired color you want vary between each other.
 
 - The first column has a ```GLabel``` that changes to blue.
 - The second column has a  ```GRect``` that changes to yellow.
-- ```.setColor``` on a ```GRect```/```GOval```,
-changes the color of the outlines
+- ```.setColor``` on a ```GRect```/```GOval```, changes the color of the outlines
 
 
 ### 1. Use ```.setFilled(true)```
 
 ### 2. Use ```.setFillColor(Color.INSERT_COLOR_HERE)```
 
-   > fill the shape with the color of your choosing.
+    > fill the shape with the color of your choosing.
 
 ### 3. Use ```add()``` and run the program
 
@@ -438,7 +441,7 @@ changes the color of the outlines
 
 - ***The best way to control this is by changing the order in which you add the objects.***
 
-   > As you become more proficient you may want certain shapes to appear in front of others
+    > As you become more proficient you may want certain shapes to appear in front of others
 in case they are overlapping.
 *The latest object that you add will always be added on top of the rest of the objects*.
 You can play around with this by filling some shapes and setting them to different colors
@@ -460,7 +463,7 @@ Substituting the "My Robot Drawing" with your name instead.***
 
 ### Somethings You May Want To Know
 
-   > You should also talk and help your neighbors to make sure they don't get stuck.
+    > You should also talk and help your neighbors to make sure they don't get stuck.
 For those of you that are curious,
 this is not a gradient at all,
 it's just multiple circles on top of one another,
@@ -496,17 +499,19 @@ you should begin to explore some animation._
 
 - All ```GObject```s respond to a `move` call:
 
-  - The parameters are ```deltaX``` and ```deltaY```
-    - _How many pixels you want the object to move in each direction._
+    - The parameters are ```deltaX``` and ```deltaY```
+        - _How many pixels you want the object to move in each direction._
     
 > If you add a pause to be called after each call to move,
 you'll be able to get some form of animation.
 The pause takes an integer which is the number of milliseconds you want to pause.
 So the basic two lines look something like this:
+
 ```java
 sparkysRect.move(2, 1);
 pause(5);
 ```
+
    > Write a ```for``` loop that repeatedly calls one of your objects to move by 2 pixels,
 followed by a ```pause``` of 10 milliseconds,
 and see the magic happen.
@@ -516,6 +521,7 @@ You can spend some additional time making some cool animation.
 
 You can also explore a couple of different types of objects
 that we didn't go over
+
 - like for example ```GArc``` and ```GPolygon```.
 
 ***You can find out more about those and other items in the graphics library here:***
