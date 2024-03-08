@@ -97,9 +97,9 @@ use you.
  compiled and executed correctly. This step helps in maintaining consistency between the working
  project and the changes you've pulled.
    - ***Make sure all unstaged are dragged to staged changes when you commit and push***
- By dragging all unstaged changes to staged and then committing, you are ensuring that your local changes
- are ready to be pushed into the program. Pushing the commit then updates the
- remote repository with the new changes.
+ By dragging all unstaged changes to staged and then committing, your local changes
+ are ready to be pushed into the program.
+ Pushing the commit then updates the remote repository with the new changes.
 6. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
