@@ -36,7 +36,6 @@ You can do this by:
   Select **Apps - Apps & features**
   Select the program to uninstall and then click its Uninstall button.
   Respond to the prompts to complete the uninstall
- 
 
   **Windows 10** - Uninstall Programs
   Click **Start**
@@ -45,33 +44,30 @@ You can do this by:
   Select **Apps & features**
   Select the program to uninstall and then click its Uninstall button.
   Respond to the prompts to complete the uninstall
- 
 
   **Windows 8** - Uninstall Programs
   From the **Start** screen, enter **Control Panel** in the **Search** box. Select the **Control Panel**.
   When the **Control Panel** appears, choose **Uninstall a Program** from the **Programs** category.
-  Select the program to uninstall, and then right-click and select Uninstall or you can click the **Uninstall** option located at the top of the programs list.
+  Select the program to uninstall, and then right-click and select **Uninstall**.
   Click **Yes** to confirm the program uninstall.
- 
 
   **Windows 7 and Vista** - Uninstall Programs
   Click Start
   Select Control Panel
   Select Programs
   Click Programs and Features
-  Select the program you want to uninstall by clicking on it, and then click the Uninstall button.
+  Select the program you want to uninstall by clicking on it, then click the Uninstall button.
   You may need administrator privileges to remove programs.
 
   **Windows XP** - Uninstall Programs
   Click Start
   Select Control Panel
   Click the Add/Remove Programs control panel icon
-  The Add/Remove control panel displays a list of software on your system, including any Java software products that are on your computer. Select any that you want to uninstall by clicking on it, and then click the Remove button
+ Select any that you want to uninstall by clicking on the list, then click the Remove button
   [Windows](https://www.java.com/en/download/help/uninstall_java.html)
   
   b. For **MacOS**
   Uninstall Oracle Java using the **Terminal**
-  Note: To uninstall Java, you must have Administrator privileges and execute the remove command either as root or by using the sudo tool.
   Click on the **Finder** icon located in your dock
   Click on the **Utilities** folder
   Double-click on the **Terminal** icon
