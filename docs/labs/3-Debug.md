@@ -45,7 +45,7 @@ You can work with one other person throughout the lab,
 
 ## Some advice when debugging
 
-### You can do the following:  
+### You can do the following  
 
 ### A) Keep a calm mindset
 
@@ -97,13 +97,24 @@ so you can get a faster way to view important details about an object,
 ```toString``` works both in the console and in the debugger.
 
 ### D) Finding the joy in Debugging
-The developers who excel at fixing problems in their code see debugging as a puzzle to solve and actually like finding and fixing errors more than writing new code.
 
-Debugging is basically about solving problems. It involves figuring out what's wrong, understanding how different parts of the code work together, and making everything work smoothly again. Just like any challenge, debugging has its difficulties, but when you successfully fix the issues, it feels really rewarding. It involves thinking creatively and having a good overall understanding of the code.
+The developers who excel at fixing problems in their code see debugging
+as a puzzle to solve and actually like finding and fixing errors more 
+than writing new code.
 
-Every time developers debug, they have a chance to learn something new. It helps them understand the system better, discover new tools, and improve their problem-solving skills.
+Debugging is basically about solving problems. It involves figuring
+out what's wrong, understanding how different parts of the code work
+together, and making everything work smoothly again. Just like any
+challenge, debugging has its difficulties, but when you 
+successfully fix the issues, it feels really rewarding. It involves 
+thinking creatively and having a good overall understanding of the code.
 
-For more tips for debugging check out this website [Debugging Tips and Tricks: A comprehensive Guide](https://medium.com/javarevisited/debugging-tips-and-tricks-a-comprehensive-guide-8d84a58ca9f2)
+Every time developers debug, they have a chance to learn something new. 
+It helps them understand the system better, discover new tools,
+and improve their problem-solving skills.
+
+For more tips for debugging check out this website:
+[Debugging Tips and Tricks: A comprehensive Guide](https://medium.com/javarevisited/debugging-tips-and-tricks-a-comprehensive-guide-8d84a58ca9f2)
 
 ## Debugging Mechanics
 
