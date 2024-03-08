@@ -31,27 +31,31 @@ You can do this by:
 
 ## How to remove Java from your machine
 
-  a. For **Window OS**:
-  **Windows 10 and 11** - Uninstall Programs
+### Windows OS (Windows 10/11)
+
+  To Uninstall via Programs
     - Click **Start**
     - Select **Settings**
     - Select **System**
     - Select **Apps - Apps & features**
     - Select the program to uninstall and then click its Uninstall button.
     - Respond to the prompts to complete the uninstall
-
+  If you need help, here is
+  [further documentation on uninstalling java on Windows]
   [Windows](https://www.java.com/en/download/help/uninstall_java.html)
   
-  b. For **MacOS**
-    - Uninstall Oracle Java using the **Terminal**
+### MacOS
+  
+  You can uninstall Oracle Java via the ***Terminal***
+  
     - Click on the **Finder** icon located in your dock
     - Click on the **Utilities** folder
     - Double-click on the **Terminal** icon
     - In the Terminal window Copy and Paste the commands below:
-    - **sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin**
-    - **sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane**
-    - **sudo rm -fr ~/Library/Application\ Support/Oracle/Java**
-
+    - **`sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin`**
+    - **`sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`**
+    - **`sudo rm -fr ~/Library/Application\ Support/Oracle/Java`**
+  [further documentation on uninstalling java on Windows]
   [MacOS](https://www.java.com/en/download/help/mac_uninstall_java.html)
 
 ![remove java versions](lab1media/media/image0.gif)
