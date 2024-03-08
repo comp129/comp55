@@ -43,27 +43,36 @@ open **ACMLab.java** in the editor.
 This file contains additional features that we have yet to talk about.
 Here are the contents of the ACMLab.java file.
 
-```java
-import acm.graphics.*;
-import acm.program.*;
-import acm.util.*;
-import java.awt.*;
+```java 
+// Please note: NEVER make comments this lengthy in your projects, these comment are just to explain each line of code
 
+// The next 4 lines are imported necessary libraries for graphics and utilities
+import acm.graphics.*; // This imports classes for drawing graphics
+import acm.program.*; // This imports classes for creating graphical programs
+import acm.util.*; // This imports classes for utility programs
+import java.awt.*; // // This imports classes for Abstract Window Toolkit (AWT) for graphics
+
+// This defines a class named 'ACMLab' and inherits it from another class named 'GraphicsProgram'
+// These are the constants for the program window dimensions
 public class ACMLab extends GraphicsProgram {
-    public static final int PROGRAM_HEIGHT = 600;
-    public static final int PROGRAM_WIDTH = 800;
+    public static final int PROGRAM_HEIGHT = 600; // This sets the Height size of the program window
+    public static final int PROGRAM_WIDTH = 800; // This sets the Width size of the program window
 
+    // The initialization method 'init' is now being called by the GraphicProgram superclass
+   // A superclass(also known as a parent class)inherits properties and behaviors from another class called a subclass(also known as a child class)
     public void init() {
-        setSize(PROGRAM_WIDTH, PROGRAM_HEIGHT);
-        requestFocus();
+        setSize(PROGRAM_WIDTH, PROGRAM_HEIGHT); // This sets the size of the program window to predefined constants
+        requestFocus(); // This ensures the program window receives input focus
     }
 
+    // This is the main entry point of the program
     public void run() {
-        add(new GLabel("Hello World", 300, 300));
+        add(new GLabel("Hello World", 300, 300)); // This adds a GLabel that displays "Hello World" at coordinates (300, 300), the coordinated can be used to set the label at a certain place in the program
     }
 
+    // This is the main method that starts the program
     public static void main(String[] args) {
-        new ACMLab().start();
+        new ACMLab().start(); // This creates a new instance of the ACMLab class, it then calls its start method to begin execution
     }
 }
 ```
