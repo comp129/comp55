@@ -83,6 +83,10 @@ for the flexible use of collections with primitive types.
 
 ### Example Code Demonstrating Autoboxing and Unboxing
 
+This Java program showcases the automatic conversion between primitive int and Integer objects
+through autoboxing and unboxing. It adds a primitive integer to an ArrayList which gets autoboxed
+to an integer object, it then retrieves it, and converts it back to a primitive int for printing.
+
 ```java
 import java.util.ArrayList;
 
