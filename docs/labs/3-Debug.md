@@ -45,7 +45,8 @@ You can work with one other person throughout the lab,
 
 ## Some advice when debugging
 
-### You can do the following:
+### You can do the following:  
+
 ### A) Keep a calm mindset
 
 <img align="right" src="lab3media/media/image1.png" />
