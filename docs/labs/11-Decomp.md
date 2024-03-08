@@ -347,7 +347,7 @@ if you need further assistance.
 
 Good luck!
 
-## Learn about more in general
+## I want to learn more in general
 
 To learn more about self-handicapping,
 here are some references:
