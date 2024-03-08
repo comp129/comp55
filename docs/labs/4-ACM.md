@@ -59,7 +59,7 @@ public class ACMLab extends GraphicsProgram {
     public static final int PROGRAM_WIDTH = 800; // This sets the Width size of the program window
 
     // The initialization method 'init' is now being called by the GraphicProgram superclass
-   // A superclass(also known as a parent class)inherits properties and behaviors from another class called a subclass(also known as a child class)
+   // A superclass(also known as a parent class)inherits properties and behavior from a subclass
     public void init() {
         setSize(PROGRAM_WIDTH, PROGRAM_HEIGHT); // This sets the size of the program window to predefined constants
         requestFocus(); // This ensures the program window receives input focus
@@ -67,12 +67,13 @@ public class ACMLab extends GraphicsProgram {
 
     // This is the main entry point of the program
     public void run() {
-        add(new GLabel("Hello World", 300, 300)); // This adds a GLabel that displays "Hello World" at coordinates (300, 300), the coordinated can be used to set the label at a certain place in the program
-    }
+        // This adds a GLabel that displays "Hello World" at coordinates (300, 300)
+        add(new GLabel("Hello World", 300, 300)); // The coordinates can be altered to change label placement
 
     // This is the main method that starts the program
     public static void main(String[] args) {
-        new ACMLab().start(); // This creates a new instance of the ACMLab class, it then calls its start method to begin execution
+        //This creates a new instance of the ACMLab class,calls its start method to begin execution
+        new ACMLab().start(); 
     }
 }
 ```
