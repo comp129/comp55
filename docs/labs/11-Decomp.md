@@ -344,6 +344,8 @@ Visit this link [GObjects](https://cs.stanford.edu/people/eroberts/jtf/javadoc/s
 to explore further whenever you need assistance.
 Goodluck!
 
+## Learn more in general
+
 To learn more about self-handicapping,
 here are some references:
 
