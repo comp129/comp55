@@ -21,6 +21,8 @@
 - [Advanced reading on multiple timers (Optional)](#advanced-reading-on-multiple-timers-optional)
 - [Bonus](#bonus)
     - [*"Hey! This is almost a game!"*](#hey-this-is-almost-a-game)
+- [Bonus 2](#bonus-2)
+    - [*"Hey! Want to go further?"*](#hey-want-to-go-further)
 
 ## Overview
 
@@ -90,6 +92,23 @@ There are two arguments for a `Timer`:
 
 Setup event handlers - `ActionListener` and `actionPerformed` - in the appropriate class
 
+For setting up and creating event handlers like `ActionListener` and `actionPerformed`
+you want to implement the `implements ActionListener` interface first.
+Then *right-click* the underlined class name to automatically add unimplemented methods.
+That IDE option will add the `actionPerformed` function to the class.
+Here's an example of what Eclipse would add:
+
+```java
+public class SomeClass implements ActionListener {
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+    
+    }
+
+}
+```
+
 Any class that would like to be responsible for
 handling the alarm must implement the `ActionListener` interface.
 `ActionListener` is part of `java.awt.event`, so you may need to `import java.awt.event.*` to use it.
@@ -128,10 +147,27 @@ To start the timer so that it repeatedly calls `actionPerformed`,
 you must tell that particular timer to start,
 by calling its `start` method.
 So to start the Timer,
-you'll see a line like this shortly after creating a `Timer` object.
+it would look like this.
 
 ```java
 someTimerVar.start();
+```
+
+The method would be called shortly after creating a `Timer` object.
+This could all be done in a constructor and an example would look like this.
+
+```java
+public class SomeClass implements ActionListener {
+    private Timer someTimerVar; // typically want access to timer variable across multiple methods
+
+    public SomeClass() {
+        // Set up the timer
+        someTimerVar = new Timer(1000, this);
+        // start the timer
+        someTimerVar.start();
+    }
+    ...
+}
 ```
 
 Here is [Oracle's official documentation on the `Timer` class](https://docs.oracle.com/javase/8/docs/api/javax/swing/Timer.html).
@@ -609,10 +645,42 @@ For example,
 you could add a label that is continually updated or set in `actionPerformed`
 that would update the number of green squares that you have removed from the screen
 (see the version on the left).
+Below is a snippet of code that will act as a way to update the player's score.
+You will need a `GLabel` to display the string on the game window.
+The basic functions of the code will continuously remove and add the players score in real time.
+
+```java
+public void actionPerformed(ActionEvent e) {
+    // ...
+    remove(displayScore);
+    displayScore = new GLabel("Score: " + score,scoreX,scoreY);
+    add(displayScore);
+    // ...
+}
+```
+
+If you are struggling tracking the players score or updating the label,
+try declaring a global variable that is updated when the enemy is killed.
+
+> hint: *when are they removed?*
+
+Remember that the main idea for displaying the score is to constantly display the score being tracked.
 Or you could instead (or in addition)
 add in checks to say if there are more than `MAX_ENEMIES` on the screen,
 then stop the timer,
 remove everything and add a message telling them they lost.
+Here's what an example for losing looks like.
+However, *it will be up to you to choose where to add this code.*
+
+```java
+if (enemies.size() == MAX_ENEMIES) {
+    GLabel lose = new GLabel("you lose",xLoc,yLoc);
+    clear();
+    add(lose);
+    movement.stop();
+}
+```
+
 Lastly,
 it's fairly simple to give them some indicator of progress or score.
 On game over, present them with the `numTimes` variable,
