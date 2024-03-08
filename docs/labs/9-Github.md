@@ -44,26 +44,27 @@ You do not need to do anything for now, *just aim to understand these terms*.
 
 ### Repositories
 
-A repository is a place to store your files or directories.
+A **repository** is a place to store your files or directories.
 Repositories also store a history of the changes made to those files,
 allowing a user to review their changes and revert to old versions in a process
-called *version control*.
+called **version control**.
 Repositories can either be **remote** or **local**,
 and you'll typically link them together so that they share the same content.
 
 **Remote Repositories:** a remote repository is a repository that is hosted on a server
-(such as GitHub, GitLab, or Bitbucket)
+(such as *GitHub*, *GitLab*, or *Bitbucket*)
 and serves as a centralized location for sharing code and collaborating with others.
-If you would like to work on one of your remote repositories on your machine, you can do so by using the `git clone` command.
+If you would like to work on one of your remote repositories on your machine,
+you can do so by using the `git clone` command.
 `git clone` copies the contents or **clone**s the remote repository to your new local repository.
-Now, your ***local repository is a replica of the remote repository***.
+Now, your ***local repository is a replica of the remote repository at that moment in time***.
 
 **Local Repositories:** a repository that is stored right on your local computer. Local
 repositories are typically used as local copies of remote repositories that could be edited locally,
 then using `git push`, the remote repository will be updated with the changes you
 made in the local repo.
 
-> If you would like to create your own local repository on your computer
+> **FYI:** If you would like to create your own local repository on your computer
 > (before setting one up remotely), you can do so via `git init`.
 > `git init` creates a local repository for the file directory that you declared it for.
 > In this course though, we typically create a remote repository first.
@@ -72,13 +73,14 @@ made in the local repo.
 
 **Git Add/Stage:** The `git add` command allows you to specify
 which of the files you changed you want to be added into the **staging area**.
-Think of the **staging area** as a special area where you would propose which changes to your files you would like git to know about.
+Think of the **staging area** as a special area where you would propose
+which changes to your files you would like git to know about.
 
 > **FYI:** There is another synonym for `git add` which is **`git stage`**.
 
 In the next step, when you use the `git commit` command,
 all of the changes in the files that were present when you used
-the `git add` command will be stored permanently or *committed* into your local repository.
+the `git add` command will be stored permanently or ***committed*** into your local repository.
 This does nothing to the remote repository.
 Your remote repository will remain unaffected until you use `git push` in a later step.
 
@@ -95,13 +97,15 @@ local repository (your local copy of the remote repository).
 If some of the changes that you made in your local repository conflict with some
 of those in the remote repository, you will be asked later to resolve these issues manually.
 
-**Git Pull:** The `git pull` command will take the changes in the remote repository and replace your local contents with those changes.
-Should there be differences, git does its best to try to merge them, but this will be discussed further as well.
+**Git Pull:** The `git pull` command will take the changes in the remote repository
+and replace your local contents with those changes.
+Should there be differences, git does its best to try to merge them,
+but this will be discussed further as well.
 
 If the explanation and terms were too much, don't fret.
-The most important thing is to practice and to try to follow along with this lab.
+The most important thing is to ***practice and follow this lab closely***.
 Many programmers did not understand Git and GitHub from simply just from reading it.
-Using Git and GitHub is all a process.
+Using git with a remote repository is a process.
 Once you practice it and continually use it, all of this will start making more sense.
 Then, once you understand it and use it consistently,
 you will begin to see why 90% of Fortune 500 companies use Git for version control
