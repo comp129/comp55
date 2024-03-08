@@ -43,7 +43,8 @@ open **ACMLab.java** in the editor.
 This file contains additional features that we have yet to talk about.
 Here are the contents of the ACMLab.java file.
 
-```java 
+```java
+
 // PLEASE NOTE: NEVER MAKE LENGTHY COMMENTS IN YOUR PROJECTS
 // The lengthy comments below are just to explain each line of code
 
