@@ -336,6 +336,12 @@ if you do this correctly and in the right area,
 you should see a little circle pop up ![breakpoint icon](lab3media/media/breakpoint.png),
 to the left of the line of code where you set it.
 
+Another way to set a break point is by right-clicking on your mouse in between
+two lines where a dropdown box with different options appears as followed:
+![Dropdown](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/breakPoint%20.png)
+Once selected, you can click on the option you want such as **Toggle Breakpoint**
+![SelectToogleBreakpoint](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/selectToggleBreakPoint.png)
+
 Now every time the program runs in debug mode,
 the program will run up until it reaches that point.
 
