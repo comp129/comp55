@@ -43,12 +43,12 @@ then I would encourage you to ask me or others about them or see if you need any
 
 - You can right-click and then say *Source->Correct Indentation* to fix the indentation.
   Alternatively,
-  you can also just *Select All* (***Ctrl-A on Windows, Cmd-A on Mac***)
+  you can also just *Select All* (***Ctrl-A on Windows and Cmd-A on Mac***)
   and then hit ***Ctrl-I*** to fix all the indentation,
   so your code is properly indented at all times.
 
 - You can easily comment and uncomment out a line of code by hitting
-  (***Ctrl-/ on Windows, Cmd-/ on Mac***)
+  (***Ctrl-/ on Windows and Cmd-/ on Mac***)
 
 - Select a method name and use *Navigate->Open Declaration*
   (or just type ***F3***),
@@ -58,21 +58,21 @@ then I would encourage you to ask me or others about them or see if you need any
   you can kind of surf through your sources.
 
 - When navigating with the arrow keys through a document,
-  hold down the ***Ctrl on Windows, Option on Mac*** key when going left and right.
+  hold down the ***Ctrl on Windows and Option on Mac*** key when going left and right.
   It will navigate between words.
   It will save you from having to press the arrow key so many times.
   This keyboard shortcut works in most programs.
-  Pressing ***Home*** and ***End on Windows, Option on Mac*** to navigate to the beginning or end of a line
+  Pressing ***Home*** and ***End on Windows and Option on Mac*** to navigate to the beginning or end of a line
   is what I use the most.
   Holding ***Shift*** while you navigate will allow you to highlight text as well.
 
 - Select a method/variable/class name,
   *right click* and choose *Refactor->Rename*
-  (***Alt-Shift-R on Windows, Alt-Cmd-R on Mac***) -- this is a superficial feature,
+  (***Alt-Shift-R on Windows and Alt-Cmd-R on Mac***) -- this is a superficial feature,
   but it sure is handy to fix up a name choice quickly.
 
 - You can easily make a new method out of any code by selecting a block of code,
-  right-clicking and choosing *Refactor->Extract Method* (***Alt-Shift on Windows, Alt-Cmd-M on Mac***.
+  right-clicking and choosing *Refactor->Extract Method* (***Alt-Shift on Windows and Alt-Cmd-M on Mac***.
 It's smart about what parameters are required.
 
 ### Closing/Removing/Quitting
