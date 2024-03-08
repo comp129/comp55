@@ -90,16 +90,16 @@ use you.
    To get a better understanding of this, you can go to [step 8 of the GitHub Lab](9-Github.html#step-8-martyr--hackslash---commit-and-push-the-same-line).
 5. If you are having project issues after a pull:
    - ***Gradle -> Refresh Gradle***
-Sometimes, after pulling changes from the program, the Gradle configuration might need to be refreshed
-to ensure that the project's dependencies are correctly synchronized.
+ Sometimes, after pulling changes from the program, the Gradle configuration might need to be refreshed
+ to ensure that the project's dependencies are correctly synchronized.
    - ***Build Path -> Use as Source Folder***
-This ensures that the pull is being recognized as source code by the IDE, allowing them to be
-compiled and executed correctly. This step helps in maintaining consistency between the working
-project and the changes you've pulled.
+ This ensures that the pull is being recognized as source code by the IDE, allowing them to be
+ compiled and executed correctly. This step helps in maintaining consistency between the working
+ project and the changes you've pulled.
    - ***Make sure all unstaged are dragged to staged changes when you commit and push***
-By dragging all unstaged changes to staged and then committing, you are ensuring that your local changes
-are ready to be pushed into the program. Pushing the commit then updates the
-remote repository with the new changes.
+ By dragging all unstaged changes to staged and then committing, you are ensuring that your local changes
+ are ready to be pushed into the program. Pushing the commit then updates the
+ remote repository with the new changes.
 6. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
