@@ -73,7 +73,8 @@ then I would encourage you to ask me or others about them or see if you need any
   but it sure is handy to fix up a name choice quickly.
 
 - You can easily make a new method out of any code by selecting a block of code,
-  right-clicking and choosing *Refactor->Extract Method* (***Alt-Shift*** on Windows and ***Alt (⌥)-Cmd (⌘)-M*** on Mac.
+  right-clicking and choosing *Refactor->Extract Method* (***Alt-Shift*** on Windows
+  and ***Alt (⌥)-Cmd (⌘)-M*** on Mac.
 It's smart about what parameters are required.
 
 ### Closing/Removing/Quitting
