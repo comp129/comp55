@@ -132,12 +132,13 @@ to access their information outside of GitHub's website.
 
 Go back to [GitHub](http://github.com) and log in,
 then click on your profile icon in the upper right,
-and then go to *Settings->Developer settings->Personal Access Token->Create New Token*.
-Then give the token a name,
+and then go to
+*Settings->Developer settings->Personal Access Tokens->Tokens(classic)->Generate new token*.
+Then give the token a name, you can put the course title for simplicity.
 set expiration to *No expiration* or *90 days* and select the ```all repos``` checkbox at the top.
 This will be used in place of your password.
 
-![generating a token](lab8media/media/generatetoken.png)
+![generating a token animaton](lab8media/media/generatetoken.gif)
 
 Because you'll need to enter your credentials often,
 it may make sense to just store them in the secure store,
