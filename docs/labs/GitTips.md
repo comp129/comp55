@@ -143,14 +143,29 @@ I will provide the link of where to downlaod the jar file from and how to instal
    
    Then you would want to scroll down until you see the Downlaods section and click on hyperlink which says "acm.jar"
    
-   ![](docs/labs/gittips/media/FindACM.png)
+   ![](gittips/media/FindACM.png)
    
    If the webiste does not work, I have posted the download link below. It will automatically download the acm.jar file for you.
    https://cs.stanford.edu/people/eroberts/jtf/acm.jar
 
-   
 
-3. Adding acm.jar file
+2. Adding acm.jar file
 
-4. Check to see if it is running
+   Now you would want to open your eclipse project and right click the project you want to add the acm.jar to.
+   After right clicking on it, you would want to click on BuiildPath.
+   If that is not avaliable make sure it is a java project.
+   ADD IMAGE
+
+   Then you would want to click on classpath and add external jar.
+
+   ADD IMAGE
+
+   Depending on where you store your downloads on Mac or Windows, click on the downloaded acm.jar file and it should automatically appear under the classpath as the image below.
+
+   ADD IMAGE
+
+   Then all you have to do is apply and close and it should be in your project under the Referenced Libraries folder.
+
+   ADD IMAGE 
+
 
