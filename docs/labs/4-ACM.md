@@ -42,8 +42,8 @@ download **IntroACMLab.zip**
 from canvas and then import that file as an existing project into Eclipse,
 as we did in the [*Intro to Java*](2-JavaIntro.html) lab.
 
-2. Once imported,
-open **ACMLab.java** in the editor.
+2. Once imported, open **ACMLab.java** in the editor.
+
 > _This file contains additional features that we have yet to talk about._
 
 ### Here are the contents of the ACMLab.java file.
@@ -253,6 +253,7 @@ and the font needs to match a font on your computer for it to work.
 ### 2. Name it something in caps, for exmaple ```START_X```
 
 ### 3. Go ahead and do another extract constant of the other 300 to separate the x and y
+
    - _From here on out I will refer to those as ```START_X``` and ```START_Y```._
 
    > Remember that when we have numbers that we keep using,
@@ -279,11 +280,13 @@ Other things that folks end up extracting as constants would be things like the 
 
    1. **To make a rectangle,
 create a ```GRect``` and then add it to the *canvas* AKA the program window.**
+
    > ```new GRect``` takes in four arguments,
 the ```x``` and ```y```, and its ```width``` and ```height``` all in pixels._
 
    2. **Let's place a rectangle at ```START_X, START_Y``` with a width of ```200```,
 and a height of ```100```. You can place this code after adding the label.**
+
    > You can also consider extracting these constants as well
 
 ![hello world on top of a box](lab4media/media/image3.png)
@@ -302,6 +305,7 @@ it's the lower left.
    1. **To understand how the oval works,
 let's go ahead and add an oval with the same arguments as the
 rectangle.**
+
    - ```run``` should look something like what's below… ***but hopefully with more constants!***
 
      > ```GOval``` works by creating the largest oval
@@ -400,6 +404,7 @@ add(image);
 **Two Options are available:**
 1. ```GLabel```
 2. ```GRect```
+
 - ```GRect``` is interchangeable with ```GOval```
 
    > Once you have created your shape or image,
