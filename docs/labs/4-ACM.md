@@ -1,14 +1,41 @@
 # Intro to ACM Lab
 
 - [Introduction](#introduction)
-- [Modifying our label (Changing font, size and style)](#modifying-our-label-changing-font-size-and-style)
-    - [Extracting constants](#extracting-constants)
-- [Adding Shapes](#adding-shapes)
-- [GImage](#gimage)
-- [Applying Color](#applying-color)
-- [Overlapping Objects](#overlapping-objects)
-- [Making a robot (Upload your robot picture as your deliverable)](#making-a-robot-upload-your-robot-picture-as-your-deliverable)
-- [Ready to go beyond?](#ready-to-go-beyond)
+- [Step 1: Download](#step-1-download)
+    - [Here are the contents of the ACMLab.java file](#here-are-the-contents-of-the-acmlabjava-file)
+    - [Once you get into the activity, please make new constants](#once-you-get-into-the-activity-please-make-new-constants)
+    - [You also may be able to fix this by visiting this URL](#you-also-may-be-able-to-fix-this-by-visiting-this-url)
+    - [Please don't spend too much time thinking about or copying Line 20 for your future code](#please-dont-spend-too-much-time-thinking-about-or-copying-line-20-for-your-future-code)
+    - [Shown by the picture below is a visual example of coordinates of the Label](#shown-by-the-picture-below-is-a-visual-example-of-coordinates-of-the-label)
+- [Step 2: Modifying our label (Changing font, size and style)](#step-2-modifying-our-label-changing-font-size-and-style)
+- [Step 3: Extracting constants](#step-3-extracting-constants)
+    - [1. Click anywhere on the first 300 your label, right click and choose ```refactor->extract constant``` or ```source->extract constant```](#1-click-anywhere-on-the-first-300-your-label-right-click-and-choose-refactor-extract-constant-or-source-extract-constant)
+    - [2. Name it something in caps, for exmaple ```START_X```](#2-name-it-something-in-caps-for-exmaple-start_x)
+    - [3. Go ahead and do another extract constant of the other 300 to separate the x and y](#3-go-ahead-and-do-another-extract-constant-of-the-other-300-to-separate-the-x-and-y)
+- [Step 4: Adding Shapes](#step-4-adding-shapes)
+    - [Let's move on to work with the three most basic shapes in the ACM library](#lets-move-on-to-work-with-the-three-most-basic-shapes-in-the-acm-library)
+    - [1. Rectangles](#1-rectangles)
+    - [If you didn't get a rectangle, double-check that you added it to the screen](#if-you-didnt-get-a-rectangle-double-check-that-you-added-it-to-the-screen)
+    - [2. Ovals](#2-ovals)
+    - [Additional Information About GRect, GOval, and GLabel](#additional-information-about-grect-goval-and-glabel)
+    - [3. GLine](#3-gline)
+- [For Extra Information \& Functions of `GOval`, `GLine`, `GRect`, and `GLabel`](#for-extra-information--functions-of-goval-gline-grect-and-glabel)
+- [Step 5. Adding GImages](#step-5-adding-gimages)
+    - [```GImage```s take three parameters](#gimages-take-three-parameters)
+    - [1. First Parameter - Filename](#1-first-parameter---filename)
+    - [Something to Note](#something-to-note)
+    - [2. Second \& Third Parameter - X \& Y Corrdinates](#2-second--third-parameter---x--y-corrdinates)
+- [Step 6: Applying Color](#step-6-applying-color)
+    - [If you want to apply color to a ```GLabel```](#if-you-want-to-apply-color-to-a-glabel)
+    - [1. Use ```.setFilled(true)```](#1-use-setfilledtrue)
+    - [2. Use ```.setFillColor(Color.INSERT_COLOR_HERE)```](#2-use-setfillcolorcolorinsert_color_here)
+    - [3. Use ```add()``` and run the program](#3-use-add-and-run-the-program)
+- [Something to Note: Overlapping Objects](#something-to-note-overlapping-objects)
+- [Step 7: Making a robot (Upload your robot picture as your deliverable)](#step-7-making-a-robot-upload-your-robot-picture-as-your-deliverable)
+    - [Somethings You May Want To Know](#somethings-you-may-want-to-know)
+- [(Optional) Step 8: Extra Material](#optional-step-8-extra-material)
+    - [If you're done with that and what to create more complicated drawings](#if-youre-done-with-that-and-what-to-create-more-complicated-drawings)
+
 
 ## Introduction
 
@@ -33,8 +60,6 @@ We are going to use this library because:
 2. Its structure follows OOP programming well
 3. The way it's laid out will well prepare you to learn other languages and libraries in the future
 
-## Start Here
-
 ## Step 1: Download
 
 1. First,
@@ -44,7 +69,7 @@ as we did in the [*Intro to Java*](2-JavaIntro.html) lab.
 
 2. Once imported, open **ACMLab.java** in the editor.
 
-> _This file contains additional features that we have yet to talk about._
+> *This file contains additional features that we have yet to talk about.*
 
 ### Here are the contents of the ACMLab.java file
 
@@ -73,9 +98,7 @@ public class ACMLab extends GraphicsProgram {
 }
 ```
 
-## To Explain What Is Going On
-
-***the following is not neccessary but is important to know***
+To explain what is going on, ***the following is not neccessary but is important to know***
 
 - **Imports:**
     - Lines 1-4 contain ```import``` statements:
@@ -259,7 +282,7 @@ and the font needs to match a font on your computer for it to work.
 
 ### 3. Go ahead and do another extract constant of the other 300 to separate the x and y
 
-- _From here on out I will refer to those as ```START_X``` and ```START_Y```._
+- *From here on out I will refer to those as ```START_X``` and ```START_Y```.*
 
     > Remember that when we have numbers that we keep using,
 it makes sense to create final variables,
@@ -353,7 +376,7 @@ we would notice that we would have a picture like this.
 
 ## For Extra Information & Functions of `GOval`, `GLine`, `GRect`, and `GLabel`
 
-_Thankfully, the University of Stanford offers a lot of nicely compiled summaries for them._
+*Thankfully, the University of Stanford offers a lot of nicely compiled summaries for them.*
 
 - [`GOval`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GOval.html)
 - [`GLine`](https://cs.stanford.edu/people/eroberts/jtf/javadoc/complete/acm/graphics/GLine.html)
@@ -463,11 +486,11 @@ lines and images,
 you'll be tasked with creating a robot like the one shown above for this lab,
 Substituting the "My Robot Drawing" with your name instead.***
 
-   - _It doesn't have to be exactly like the one here but try to make it
-   centered and use the different components you've learned here._
-   - _I would encourage you to not have a bunch of numbers in your file,
-   but rather to use constants and some arithmetic to place the robot correctly._
-   - _You don't have to worry about doing the gradient color for the circle_
+   - *It doesn't have to be exactly like the one here but try to make it
+   centered and use the different components you've learned here.*
+   - *I would encourage you to not have a bunch of numbers in your file,
+   but rather to use constants and some arithmetic to place the robot correctly.*
+   - *You don't have to worry about doing the gradient color for the circle*
 
 ### Somethings You May Want To Know
 
@@ -498,15 +521,15 @@ just like you did in C++.
 
 ## (Optional) Step 8: Extra Material
 
-_You should spend your time making an awesome robot so that you feel comfortable with objects.
+*You should spend your time making an awesome robot so that you feel comfortable with objects.
 However,
 if you feel like you have a robot that is awesome,
 rather than leaving,
-you should begin to explore some animation._
+you should begin to explore some animation.*
 
 - All ```GObject```s respond to a `move` call:
     - The parameters are ```deltaX``` and ```deltaY```
-        - _How many pixels you want the object to move in each direction._
+        - *How many pixels you want the object to move in each direction.*
 
 > If you add a pause to be called after each call to move,
 you'll be able to get some form of animation.
