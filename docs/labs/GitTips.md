@@ -142,7 +142,9 @@ I will provide the link of where to downlaod the jar file from and how to instal
    First go to this website: https://cs.stanford.edu/people/eroberts/jtf/
    
    Then you would want to scroll down until you see the Downlaods section and click on hyperlink which says "acm.jar"
-   ADD IMAGE HERE
+   
+   ![](docs/labs/gittips/media/FindACM.png)
+   
    If the webiste does not work, I have posted the download link below. It will automatically download the acm.jar file for you.
    https://cs.stanford.edu/people/eroberts/jtf/acm.jar
 
