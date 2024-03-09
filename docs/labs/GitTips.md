@@ -138,14 +138,14 @@ To solve this issue, you will need to download jar files.
 I will provide the link of where to downlaod the jar file from and how to install onto your
 Eclipse project to use.
 
-1. Download the acm.jar file
+### 1. Download the acm.jar file
    You can go to this link to download the acm jar file:
    [DropBox ACM Jar](https://www.dropbox.com/scl/fi/pq2vj3eh6kjt3hq0jcckw/acm.jar?rlkey=4vuat5s13i8xv1be7lac3aeap&dl=0)
 
    Then you would want to click on download. You can choose to sign up but I recommend
    to just to click *"Or continue with download only"*
-   
-2. Adding acm.jar file
+
+### 2. Adding acm.jar file
 
    Now you would want to open your eclipse project and right click the project
    you want to add the acm.jar to.
@@ -168,27 +168,27 @@ Eclipse project to use.
 
    ![Finished-Adding](gittips/media/FinishedAdding.png)
 
-3. Alternative
+### 3. Alternative
 
    There is an alternative from downloading the acm.jar and then putting it in your project.
    Just make an empty gradle project and start from there.
    Before we do all of that work, you need to understand what a gradle project is.
-   
+
    An example is like a carpenter. He has all of these tools. These tools make doing the
    job faster, easier, and more efficent. Think of build tools as the same thing but for
    software development.
-   
+
    Some examples of these build tools are Apache Ant, Apache Maven, but
    the one we will be using or intergrating today is Gradle. Gradle is an-open source build
    automation tool. It is known as the successor for Apache Ant and Maven. To learn more about
    Gradle just click on this link [Gradle UserGuide](https://docs.gradle.org/current/userguide/userguide.html)
 
-   1. Checking if you have Gradle
+   ### Checking if you have Gradle
    I will show you now how to create the Gradle project onto your project.
    On Eclipse and depending on your previous
    tasks you cna have Gradle already installed. So go to File and New. Then go down to Other.
 
-   3. Install Gradle 
+   ### Install Gradle
    You should see a window. In the search bar, you want to search up Gradle.
    That shows you do have gradle installed.
    If not go to Help and then Eclipse Marketplace.
@@ -210,7 +210,4 @@ Eclipse project to use.
    onto the project you made. After that, what you want to do is go to ***settings.gradle***
    in the folder name you created and delete the ***include('lib')***.
    Then you want to save and refresh gradle project. Now you can delete the lib project off disk and
-   you should be good to go.  
-
-   
-   
+   you should be good to go.
