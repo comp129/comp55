@@ -88,7 +88,7 @@ use you.
    your changes or the changes from the branch you're merging with.
    Typically, you'll select one set of changes but on occasion you may need to select changes from both.
    To get a better understanding of this, you can go to [step 8 of the GitHub Lab](9-Github.html#step-8-martyr--hackslash---commit-and-push-the-same-line).
-5. If you are having project issues after a pull:
+5. If you're having project issues after a pull, try:
    - ***Gradle -> Refresh Gradle***
  Sometimes, after pulling changes from the program, the Gradle configuration might need to be refreshed
  to ensure that the project's dependencies are correctly synchronized.
