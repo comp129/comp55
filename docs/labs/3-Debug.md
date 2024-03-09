@@ -45,7 +45,6 @@ You can work with one other person throughout the lab,
 
 ## Some advice when debugging
 
-### You can do the following  
 
 ### Keep a calm mindset
 
@@ -102,7 +101,8 @@ The developers who excel at fixing problems in their code see debugging
 as a puzzle to solve and actually like finding and fixing errors more
 than writing new code.
 
-Debugging is basically about solving problems. It involves figuring out what's wrong,
+Debugging is basically about solving problems. 
+It involves figuring out what's wrong,
 understanding how different parts of the code work together,
 and making everything work smoothly again. Just like any challenge,
 debugging has its difficulties, but when you successfully fix the issues,
@@ -112,9 +112,6 @@ It involves thinking creatively and having a good overall understanding of the c
 Every time developers debug, they have a chance to learn something new.
 It helps them understand the system better, discover new tools,
 and improve their problem-solving skills.
-
-For more tips for debugging check out this website:
-[Debugging Tips and Tricks: A comprehensive Guide](https://medium.com/javarevisited/debugging-tips-and-tricks-a-comprehensive-guide-8d84a58ca9f2)
 
 ## Debugging Mechanics
 
@@ -339,10 +336,10 @@ to the left of the line of code where you set it.
 
 Another way to set a break point is by right-clicking on your mouse in between
 two lines where a dropdown box with different options appears as followed:
-![Dropdown](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/breakPoint%20.png)
+![Toogle Breakpoint Dropdown Menu](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/breakPoint%20.png)
 
-Once selected, you can click on the option you want such as **Toggle Breakpoint**
-![SelectToogleBreakpoint](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/selectToggleBreakPoint.png)
+Once selected, you can click on the option you want such as toogle breakpoint
+![Toogle Breakpoint Dropdown Menu with Toogle Breakpoint Selected](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/selectToggleBreakPoint.png)
 
 Now every time the program runs in debug mode,
 the program will run up until it reaches that point.
