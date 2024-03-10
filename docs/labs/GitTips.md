@@ -140,7 +140,7 @@ and how to install it onto your Eclipse project to use.
 
 ### 1. Download the acm.jar file
 
-   [Download this specific ACM Jar](acm(5).jar).
+   [Download this specific ACM Jar](acm.jar).
    This jar has been modified from the original ACM jar to work with later versions of Java.
 
 ### 2. Adding acm.jar file
