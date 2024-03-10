@@ -184,13 +184,13 @@ and how to install it onto your Eclipse project to use.
    To learn more about Gradle, visit its
    [Office User Guide](https://docs.gradle.org/current/userguide/userguide.html)
 
-   ### Checking if you have Gradle
+### Checking if you have Gradle
 
    I will show you now how to create the Gradle project onto your project.
    On Eclipse and depending on your previous
    tasks you cna have Gradle already installed. So go to File and New. Then go down to Other.
 
-   ### Install Gradle
+### Install Gradle
 
    You should see a window. In the search bar, you want to search up Gradle.
    That shows you do have gradle installed.
@@ -203,7 +203,7 @@ and how to install it onto your Eclipse project to use.
    Then when you import any project such as the labs for comp 55,
    you will have access to creating a Gradle project.
 
-   ### Creating Gradle Project
+### Creating Gradle Project
 
    All you have to do now is click on ***File -> New -> Project***
    Then in the search bar, you will enter `gradle`.
