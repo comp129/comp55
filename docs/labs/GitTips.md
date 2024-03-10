@@ -225,11 +225,11 @@ and how to install it onto your Eclipse project to use.
    with having a central place to download libraries and versions.
    This allows you to merely specify as a list what you need in *build.gradle*
    and gradle will fetch the right library.
-   
+
    As one final example, if you want to use javaFx (which is needed for the AudioPlayer class).
    You don't need to download any libraries, you merely add this line to the `plugins` section:
    `id 'org.openjfx.javafxplugin' version '0.0.13'`
-   
+
    And then add this other set of options (shown in picture below)
    outside of any section and as its own independent section in *build.gradle*
    ![image](https://github.com/comp129/comp55/assets/239024/05289d85-1639-4993-af08-c523c6ab7521)
