@@ -135,8 +135,8 @@ where you can check the folder you want to include and you are done!
 Creating your own project in Eclipse can be pretty easy to do.
 But what if you wanted to use certain libraries such as ACM.
 To solve this issue, you will need to download jar files.
-I will provide the link of where to downlaod the jar file from and how to install onto your
-Eclipse project to use.
+I will provide the link of where to downlaod the jar file Pacific uses
+and how to install it onto your Eclipse project to use.
 
 ### 1. Download the acm.jar file
 
