@@ -43,12 +43,12 @@ then I would encourage you to ask me or others about them or see if you need any
 
 - You can right-click and then say *Source->Correct Indentation* to fix the indentation.
   Alternatively,
-  you can also just *Select All* (***Ctrl-A***)
+  you can also just *Select All* (***Ctrl-A*** on Windows or ***Cmd (⌘)-A*** on Mac)
   and then hit ***Ctrl-I*** to fix all the indentation,
   so your code is properly indented at all times.
 
 - You can easily comment and uncomment out a line of code by hitting
-  (***Ctrl-/***)
+  ***Ctrl-/*** on Windows or ***Cmd (⌘)-/*** on Mac
 
 - Select a method name and use *Navigate->Open Declaration*
   (or just type ***F3***),
@@ -57,22 +57,24 @@ then I would encourage you to ask me or others about them or see if you need any
   In this way,
   you can kind of surf through your sources.
 
-- When navigating with the arrow keys through a document,
-  hold down the ***Ctrl*** key when going left and right.
+- When navigating with the arrow keys through a document, hold down ***Ctrl*** on Windows
+  or ***Option (⌥)*** on Mac when going left and right.
   It will navigate between words.
   It will save you from having to press the arrow key so many times.
   This keyboard shortcut works in most programs.
-  Pressing ***Home*** and ***End*** to navigate to the beginning or end of a line
+  Pressing ***Home*** and ***End*** on Windows or ***Option (⌥)*** on Mac to
+  navigate to the beginning or end of a line
   is what I use the most.
   Holding ***Shift*** while you navigate will allow you to highlight text as well.
 
 - Select a method/variable/class name,
   *right click* and choose *Refactor->Rename*
-  (***Alt-Shift-R***) -- this is a superficial feature,
+  (***Alt-Shift-R*** on Windows or ***Option (⌥)-Cmd (⌘)-R*** on Mac) -- this is a superficial feature,
   but it sure is handy to fix up a name choice quickly.
 
 - You can easily make a new method out of any code by selecting a block of code,
-  right-clicking and choosing *Refactor->Extract Method* (***Alt-Shift-M***).
+  right-clicking and choosing *Refactor->Extract Method* (***Alt-Shift*** on Windows
+  or ***Alt (⌥)-Cmd (⌘)-M*** on Mac).
 It's smart about what parameters are required.
 
 ### Closing/Removing/Quitting
@@ -189,29 +191,29 @@ To debug in eclipse
   
   | Shortcut Key Mac | Shortcut Key Windows | Description |
   | ---------------- | -------------------- | ----------- |
-  | Command + 3 | Ctrl + 3 | It puts the focus into Quick Access search box |
-  | Command + S | Ctrl + S | Save current editor |
-  | Command + 1 | Ctrl + 1 | Quickfix for errors and warnings, depends on the cursor position |
-  | Control + Space | Ctrl + Space | Content assist and code completion |
-  | Command + Shift + F | Ctrl + Shift + F | Format source code |
-  | Control + Q | Ctrl + Q | Moves cursor to the last edited position |
-  | Command + D | Ctrl + D | Deletes current line in the editor |
-  | Command + Shift + O | Ctrl + Shift + O | Organize imports in the current java file |
-  | Command + 2 + L | Ctrl +2 + L | Assign statement to new local variable |
-  | Command + 2 + F | Ctrl + 2 + F | Assign statement to a field |
-  | Command + O | Ctrl + O | Shows quick outline of the java class |
-  | Command + fn + F11 | Ctrl + F11 | Runs the current opened java class if main method exists or else run the last launched application |
-  | Command + Shift + R | Ctrl + Shift + R | Open / Search for resources |
-  | Command + Shift + T | Ctrl + Shift + T | Open / Search for types, very useful in finding classes |
-  | Command + E | Ctrl + E | To select an editor from the currently open editors |
-  | Command + fn + F8 | Ctrl + F8 | Shortcut for switching perspectives |
-  | Command + Shift + P | Ctrl + Shift + P | Move cursor to the matching bracket |
-  | Command + K | Ctrl + K | Find next for search text in the opened editor |
-  | Command + Shift + G | Ctrl + Shift + G | Search for references in the workspace |
-  | Command + T | Ctrl + T | Shows type hierarchy of the current java class |
-  | Command + M | Ctrl + M | Maximize Java editor |
-  | Command + Option + R | Alt + Shift + R | Rename of package, class etc |
-  | Command + Option + T | Alt + Shift + T | Opens the quick refactoring menu |
+  | Command (⌘) + 3 | Ctrl + 3 | It puts the focus into Quick Access search box |
+  | Command (⌘) + S | Ctrl + S | Save current editor |
+  | Command (⌘) + 1 | Ctrl + 1 | Quickfix for errors and warnings, depends on the cursor position |
+  | Control (⌘) + Space | Ctrl + Space | Content assist and code completion |
+  | Command (⌘) + Shift + F | Ctrl + Shift + F | Format source code |
+  | Control (⌘) + Q | Ctrl + Q | Moves cursor to the last edited position |
+  | Command (⌘) + D | Ctrl + D | Deletes current line in the editor |
+  | Command (⌘) + Shift + O | Ctrl + Shift + O | Organize imports in the current java file |
+  | Command (⌘) + 2 + L | Ctrl +2 + L | Assign statement to new local variable |
+  | Command (⌘) + 2 + F | Ctrl + 2 + F | Assign statement to a field |
+  | Command (⌘) + O | Ctrl + O | Shows quick outline of the java class |
+  | Command (⌘) + fn + F11 | Ctrl + F11 | Runs the current opened java class if main method exists or else run the last launched application |
+  | Command (⌘) + Shift + R | Ctrl + Shift + R | Open / Search for resources |
+  | Command (⌘) + Shift + T | Ctrl + Shift + T | Open / Search for types, very useful in finding classes |
+  | Command (⌘) + E | Ctrl + E | To select an editor from the currently open editors |
+  | Command (⌘) + fn + F8 | Ctrl + F8 | Shortcut for switching perspectives |
+  | Command (⌘) + Shift + P | Ctrl + Shift + P | Move cursor to the matching bracket |
+  | Command (⌘) + K | Ctrl + K | Find next for search text in the opened editor |
+  | Command (⌘) + Shift + G | Ctrl + Shift + G | Search for references in the workspace |
+  | Command (⌘) + T | Ctrl + T | Shows type hierarchy of the current java class |
+  | Command (⌘) + M | Ctrl + M | Maximize Java editor |
+  | Command (⌘) + Option (⌥) + R | Alt + Shift + R | Rename of package, class etc |
+  | Command (⌘) + Option (⌥) + T | Alt + Shift + T | Opens the quick refactoring menu |
   
   This table was built using [Digital Ocean](https://www.digitalocean.com/community/tutorials/eclipse-shortcuts)
 
