@@ -139,6 +139,7 @@ I will provide the link of where to downlaod the jar file from and how to instal
 Eclipse project to use.
 
 ### 1. Download the acm.jar file
+
    You can go to this link to download the acm jar file:
    [DropBox ACM Jar](https://www.dropbox.com/scl/fi/pq2vj3eh6kjt3hq0jcckw/acm.jar?rlkey=4vuat5s13i8xv1be7lac3aeap&dl=0)
 
@@ -184,11 +185,13 @@ Eclipse project to use.
    Gradle just click on this link [Gradle UserGuide](https://docs.gradle.org/current/userguide/userguide.html)
 
    ### Checking if you have Gradle
+   
    I will show you now how to create the Gradle project onto your project.
    On Eclipse and depending on your previous
    tasks you cna have Gradle already installed. So go to File and New. Then go down to Other.
 
    ### Install Gradle
+   
    You should see a window. In the search bar, you want to search up Gradle.
    That shows you do have gradle installed.
    If not go to Help and then Eclipse Marketplace.
@@ -201,7 +204,8 @@ Eclipse project to use.
    have access to Gradle. Then when you import any project such as the
    labs for comp 55, you will have access to creating a Gradle project.
 
-   3. Creating Gradle Project
+   ### Creating Gradle Project
+   
    All you have to do now is click on ***File -> New -> Project*** Then in the search bar,
    you will enter gradle. Click on gradle project. Then enter your project name and click next.
    No need to change any override any settings and click next. It should start to load in now.
