@@ -57,24 +57,24 @@ import java.awt.*; // // This imports classes for Abstract Window Toolkit (AWT) 
 // This defines a class named 'ACMLab' and inherits it from another class named 'GraphicsProgram'
 // These are the constants for the program window dimensions
 public class ACMLab extends GraphicsProgram {
-    public static final int PROGRAM_HEIGHT = 600; // This sets the Height size of the program window
-    public static final int PROGRAM_WIDTH = 800; // This sets the Width size of the program window
+    public static final int PROGRAM_HEIGHT = 600; // Sets the Height of the program window in pixels
+    public static final int PROGRAM_WIDTH = 800; // does the same for the Width
 
-    // The initialization method 'init' is about changing the sizes
+    // The method 'init' should not be changed; it is only for setting the window size
     public void init() {
         setSize(PROGRAM_WIDTH, PROGRAM_HEIGHT); // This sets the size of the program window to predefined constants
         requestFocus(); // This ensures the program window receives input focus
     }
 
-    // This part of the program is about adding GLabels to the program
+    // run is your starting point for your program; the code here adds GLabels to the program
     public void run() {
         // This adds a GLabel that displays "Hello World" at coordinates (300, 300)
         add(new GLabel("Hello World", 300, 300)); // The coordinates can be altered to change label placement
 
-    // This is the main method that starts the program
-    // It is recommended to leave this part of the program alone
+    // To abide by java's rules, we have the main method that starts the program
+    // Leave this part alone; start is another method that calls init and run.
     public static void main(String[] args) {
-        //This creates a new instance of the ACMLab class, it then calls its start method to begin execution
+        // Because it is static, it creates a new instance of the ACMLab class, then calls start on it
         new ACMLab().start(); 
     }
 }
