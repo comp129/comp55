@@ -48,11 +48,11 @@ The lengthy comments below are just to explain each line of code.
 
 ```java
 
-// The next 4 lines are imported necessary libraries for graphics and utilities
-import acm.graphics.*; // This imports classes for drawing graphics
-import acm.program.*; // This imports classes for creating graphical programs
-import acm.util.*; // This imports classes for utility programs
-import java.awt.*; // // This imports classes for Abstract Window Toolkit (AWT) for graphics
+// These 4 lines import necessary libraries for graphics and utilities
+import acm.graphics.*; // imports classes for drawing graphics
+import acm.program.*;  // imports classes for creating graphical programs
+import acm.util.*;     // imports classes made to make writing programs easier
+import java.awt.*;     // imports classes for Abstract Window Toolkit (AWT) for graphics
 
 // This defines a class named 'ACMLab' and inherits it from another class named 'GraphicsProgram'
 // These are the constants for the program window dimensions
