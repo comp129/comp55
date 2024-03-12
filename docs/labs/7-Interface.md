@@ -22,8 +22,7 @@ and enhancing code flexibility in Java programming.
 Interfaces provide benefits that make them extremely important in programming.
 
 Let's explore some of the concrete examples of using intefaces
-Decoupling Implementation from Interface
-Loose coupling and modularity.
+Decoupling Implementation with Interfaces
 For instance, the Runnable interface in Java defines
 a single method run() for executing code in a separate thread.
 By implementing the Runnable interface,
@@ -37,8 +36,7 @@ public class MyTask implements Runnable {
     }
 ```
 
-Polymorphism and Code Reusability
-Promotes polymorphic behavior and code reusability.
+Interfaces promote polymorphic behavior and code reusability.
 Consider the List interface in Java,
 which defines common operations for sequences of elements.
 Implementations such as ArrayList and LinkedList
