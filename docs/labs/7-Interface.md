@@ -29,14 +29,12 @@ a single method run() for executing code in a separate thread.
 By implementing the Runnable interface,
 classes can encapsulate runnable tasks independently.
 
-```
-
+```java
 public class MyTask implements Runnable {
     @Override
     public void run() {
         // Task execution logic here
     }
-
 ```
 
 Polymorphism and Code Reusability
@@ -47,12 +45,10 @@ Implementations such as ArrayList and LinkedList
 provide different underlying data structures while adhering to the List interface,
 allowing for interchangeable usage based on performance requirements.
 
-```
-
+```java
 List<String> myList = new ArrayList<>(); // or LinkedList
 myList.add("Hello");
 myList.add("World");
-
 ```
 
 While inheritance has its uses,
