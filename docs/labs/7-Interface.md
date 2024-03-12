@@ -28,7 +28,7 @@ interface called "Emotional". You will then implement this interface
 in multiple classes. This will demonstrate polymorphic
 behavior, allowing different objects to exhibit
 the same "emotional state".
-   
+
 While inheritance has its uses,
 one of its biggest disadvantages comes when you want to borrow multiple abilities
 from different classes.
