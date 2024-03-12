@@ -15,27 +15,28 @@
         - [***Run the program***](#run-the-program)
     - [Step 6: Add your own class that implements Emotional in a different way](#step-6-add-your-own-class-that-implements-emotional-in-a-different-way)
 
-# Why Interfaces?
-
+Why Interfaces?
 This lab serves to introduce interfaces,
 providing you with a technique for achieving polymorphism
 and enhancing code flexibility in Java programming.
 Interfaces provide benefits that make them extremely important in programming.
 
-# Let's explore some of the concrete examples of using intefaces
-
+Let's explore some of the concrete examples of using intefaces
 Decoupling Implementation from Interface
 Loose coupling and modularity.
 For instance, the Runnable interface in Java defines
 a single method run() for executing code in a separate thread.
 By implementing the Runnable interface,
 classes can encapsulate runnable tasks independently.
+
 ```
+
 public class MyTask implements Runnable {
     @Override
     public void run() {
         // Task execution logic here
     }
+
 ```
 
 Polymorphism and Code Reusability
@@ -45,10 +46,13 @@ which defines common operations for sequences of elements.
 Implementations such as ArrayList and LinkedList
 provide different underlying data structures while adhering to the List interface,
 allowing for interchangeable usage based on performance requirements.
+
 ```
+
 List<String> myList = new ArrayList<>(); // or LinkedList
 myList.add("Hello");
 myList.add("World");
+
 ```
 
 While inheritance has its uses,
