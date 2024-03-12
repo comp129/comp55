@@ -15,36 +15,21 @@
         - [***Run the program***](#run-the-program)
     - [Step 6: Add your own class that implements Emotional in a different way](#step-6-add-your-own-class-that-implements-emotional-in-a-different-way)
 
+# Why Interfaces?
 
-## Why Interfaces?
+This lab serves to introduce interfaces,
+providing you with a technique for achieving polymorphism
+and enhancing code flexibility in Java programming.
+Interfaces provide benefits that make them extremely important in programming.
 
-The purpose of this lab is to introduce you to interfaces, which provide a powerful mechanism for achieving polymorphism and code flexibility in Java programming. While inheritance has its uses, interfaces offer distinct advantages that make them valuable in software design.
+# Let's explore some of the concrete examples of using intefaces
 
-### Flexibility in Multiple Implementations
-
-Interfaces allow classes to implement multiple interfaces, enabling them to inherit different sets of behaviors. Unlike inheritance, where a class can only inherit from one superclass, interfaces provide a more flexible way to incorporate various functionalities from different sources. This flexibility is particularly useful when dealing with complex class hierarchies or when a class needs to exhibit diverse behaviors.
-
-### Decoupling Implementation from Interface
-
-Interfaces separate the declaration of methods from their implementation. This decoupling allows classes to define their own specific behaviors while adhering to a common interface contract. By separating concerns, interfaces promote code modularity and make it easier to change implementations without affecting other parts of the codebase. This encourages a clean separation of concerns and enhances code maintainability.
-
-### Polymorphism and Code Reusability
-
-Programming to interfaces rather than concrete implementations promotes polymorphic behavior and enhances code reusability. Different implementations of the same interface can be used interchangeably, allowing for more flexible and adaptable code structures. This approach simplifies unit testing, promotes modular design, and reduces code duplication, leading to more efficient and maintainable codebases.
-
-### Enabling Composition over Inheritance
-
-Interfaces encourage a design principle known as "composition over inheritance." By defining contracts through interfaces, classes can be composed of multiple smaller components (interfaces) rather than relying solely on inheritance. This approach leads to more flexible and maintainable code structures, as classes can be composed and configured dynamically based on the required functionality.
-
-### Promoting Design by Contract
-
-Interfaces serve as contracts that specify a set of methods that implementing classes must adhere to. This promotes a clear understanding of class responsibilities and interactions, facilitating better code organization and collaboration among developers. By defining contracts through interfaces, developers can communicate class requirements effectively and ensure consistent behavior across implementations.
-
-In summary, interfaces offer a powerful mechanism for achieving flexibility, polymorphism, and code reuse in Java programming. By leveraging interfaces effectively, developers can build modular, maintainable, and extensible software systems that are adaptable to evolving requirements.
-
-# Let's explore some of the concrete examples of using intefaces:
 Decoupling Implementation from Interface
-Interfaces separate the declaration of methods from their implementation, promoting loose coupling and modularity. For instance, the Runnable interface in Java defines a single method run() for executing code in a separate thread. By implementing the Runnable interface, classes can encapsulate runnable tasks independently of their execution context.
+Loose coupling and modularity.
+For instance, the Runnable interface in Java defines
+a single method run() for executing code in a separate thread.
+By implementing the Runnable interface,
+classes can encapsulate runnable tasks independently.
 ```
 public class MyTask implements Runnable {
     @Override
@@ -54,24 +39,17 @@ public class MyTask implements Runnable {
 ```
 
 Polymorphism and Code Reusability
-Programming to interfaces rather than concrete implementations promotes polymorphic behavior and code reusability. Consider the List interface in Java, which defines common operations for sequences of elements. Implementations such as ArrayList and LinkedList provide different underlying data structures while adhering to the List interface, allowing for interchangeable usage based on performance requirements.
+Promotes polymorphic behavior and code reusability.
+Consider the List interface in Java,
+which defines common operations for sequences of elements.
+Implementations such as ArrayList and LinkedList
+provide different underlying data structures while adhering to the List interface,
+allowing for interchangeable usage based on performance requirements.
 ```
 List<String> myList = new ArrayList<>(); // or LinkedList
 myList.add("Hello");
 myList.add("World");
 ```
-
-
-Enabling Composition over Inheritance
-Interfaces encourage composition over inheritance, allowing classes to define contracts for behavior without being tied to specific inheritance hierarchies. For example, the Serializable interface in Java enables objects to be serialized and deserialized without imposing a common superclass. This approach promotes flexibility and avoids the limitations of single inheritance.
-```
-public class MyObject implements Serializable {
-    // Serializable implementation
-}
-```
-
-
-
 
 While inheritance has its uses,
 one of its biggest disadvantages comes when you want to borrow multiple abilities
