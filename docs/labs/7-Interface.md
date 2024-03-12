@@ -15,6 +15,7 @@
         - [***Run the program***](#run-the-program)
     - [Step 6: Add your own class that implements Emotional in a different way](#step-6-add-your-own-class-that-implements-emotional-in-a-different-way)
 
+
 ## Why Interfaces?
 
 The purpose of this lab is to introduce you to interfaces, which provide a powerful mechanism for achieving polymorphism and code flexibility in Java programming. While inheritance has its uses, interfaces offer distinct advantages that make them valuable in software design.
@@ -34,10 +35,6 @@ Programming to interfaces rather than concrete implementations promotes polymorp
 ### Enabling Composition over Inheritance
 
 Interfaces encourage a design principle known as "composition over inheritance." By defining contracts through interfaces, classes can be composed of multiple smaller components (interfaces) rather than relying solely on inheritance. This approach leads to more flexible and maintainable code structures, as classes can be composed and configured dynamically based on the required functionality.
-
-### Support for Multiple Behaviors
-
-Interfaces allow classes to exhibit multiple behaviors by implementing multiple interfaces. This is particularly useful in scenarios where a class needs to fulfill various roles or functionalities without being tightly coupled to a specific inheritance hierarchy. By providing a way to incorporate multiple behaviors, interfaces enable classes to be more versatile and adaptable to changing requirements.
 
 ### Promoting Design by Contract
 
@@ -73,16 +70,7 @@ public class MyObject implements Serializable {
 }
 ```
 
-Promoting Design by Contract
-Interfaces serve as contracts that specify a set of methods that implementing classes must adhere to. For example, the Closeable interface in Java defines a single method close() for releasing resources. By adhering to the Closeable interface, classes guarantee proper resource management, promoting robust and reliable code.
-```
-public class MyResource implements Closeable {
-    @Override
-    public void close() throws IOException {
-        // Resource cleanup logic here
-    }
-}
-```
+
 
 
 While inheritance has its uses,
