@@ -43,27 +43,39 @@ open **ACMLab.java** in the editor.
 This file contains additional features that we have yet to talk about.
 Here are the contents of the ACMLab.java file.
 
+**Please Note: Never make lengthy comments in your projects.**
+The lengthy comments below are just to explain each line of code.
+
 ```java
-import acm.graphics.*;
-import acm.program.*;
-import acm.util.*;
-import java.awt.*;
 
+// These 4 lines import necessary libraries for graphics and utilities
+import acm.graphics.*; // imports classes for drawing graphics
+import acm.program.*;  // imports classes for creating graphical programs
+import acm.util.*;     // imports classes made to make writing programs easier
+import java.awt.*;     // imports classes for Abstract Window Toolkit (AWT) for graphics
+
+// This defines a class named 'ACMLab' and inherits it from another class named 'GraphicsProgram'
+// These are the constants for the program window dimensions
 public class ACMLab extends GraphicsProgram {
-    public static final int PROGRAM_HEIGHT = 600;
-    public static final int PROGRAM_WIDTH = 800;
+    public static final int PROGRAM_HEIGHT = 600; // Sets the Height of the program window in pixels
+    public static final int PROGRAM_WIDTH = 800; // does the same for the Width
 
+    // The method 'init' should not be changed; it is only for setting the window size
     public void init() {
-        setSize(PROGRAM_WIDTH, PROGRAM_HEIGHT);
-        requestFocus();
+        setSize(PROGRAM_WIDTH, PROGRAM_HEIGHT); // This sets the size of the program window to predefined constants
+        requestFocus(); // This ensures the program window receives input focus
     }
 
+    // run is your starting point for your program; the code here adds GLabels to the program
     public void run() {
-        add(new GLabel("Hello World", 300, 300));
-    }
+        // This adds a GLabel that displays "Hello World" at coordinates (300, 300)
+        add(new GLabel("Hello World", 300, 300)); // The coordinates can be altered to change label placement
 
+    // To abide by java's rules, we have the main method that starts the program
+    // Leave this part alone; start is another method that calls init and run.
     public static void main(String[] args) {
-        new ACMLab().start();
+        // Because it is static, it creates a new instance of the ACMLab class, then calls start on it
+        new ACMLab().start(); 
     }
 }
 ```
