@@ -280,7 +280,7 @@ Let's move on to work with the three most basic shapes in the ACM library
 
 ### Rectangles
 
-1. *To make a rectangle, create a ```GRect``` and then add it to the *canvas* AKA the program window.*
+1. *To make a rectangle, create a ```GRect``` and then add it to the **canvas** AKA the program window.*
 
     > ```new GRect``` takes in four arguments,
     > the ```x``` and ```y```, and its ```width``` and ```height``` all in pixels.
