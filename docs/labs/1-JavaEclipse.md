@@ -31,7 +31,7 @@ You can do this by:
 
 ### Windows OS (Windows 10/11)
 
-To uninstall Java via Windows Settings:
+To uninstall Java via ***Window's Settings***:
 
 - Click **Start**
 - Select **Settings**
@@ -45,7 +45,7 @@ If you need help, here is
   
 ### MacOS
   
-To uninstall Java via Mac's ***Terminal***:
+To uninstall Java via ***Mac's Terminal***:
 
 - Click on the **Finder** icon located in your dock
 - Click on the **Utilities** folder
