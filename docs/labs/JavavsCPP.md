@@ -159,11 +159,9 @@ The object type stores references to actual data in memory, not actual data valu
 
 ### Summary
 
-Due to the similarity in syntax and usage of the Java language, beginners may confuse primitive types and object types.
-Additionally, the autoboxing and unboxing mechanisms in Java also increase the likelihood of such confusion.
-Autoboxing allows primitive types to be automatically converted to corresponding object types, while automatic unboxing allows object types to be automatically converted to corresponding primitive types.
-These features make conversions between primitive types and object types implicit and confusing in some cases.
-
+Java's syntax and usage are similar, causing beginners to confuse basic types and object types.
+Java's autoboxing and unboxing mechanisms also increase the potential for confusion.
+These properties make the conversion between the two cryptic and confusing in some cases.
 
 ## In Java, there is no pointer notation. Or is there?
 
