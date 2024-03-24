@@ -145,20 +145,6 @@ You can have many objects that follow the same class blueprints.
 
 ## Misunderstandings that are easy to fall into
 
-### Primitives
-
-These are the basic data types in the Java language, such as int, char, double, boolean, etc.
-They store data values directly instead of referencing other objects.
-Primitive types store the actual value in memory, not a reference to the value.
-
-### Object types (Objects)
-
-These are reference types in Java language, such as String, ArrayList, etc.
-The object type stores a reference to the data, not the data value itself.
-The object type stores references to actual data in memory, not actual data values.
-
-### Summary
-
 Java's syntax and usage are similar, causing beginners to confuse basic types and object types.
 Java's autoboxing and unboxing mechanisms also increase the potential for confusion.
 These properties make the conversion between the two cryptic and confusing in some cases.
