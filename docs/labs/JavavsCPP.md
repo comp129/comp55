@@ -145,7 +145,6 @@ You can have many objects that follow the same class blueprints.
 
 ## Misunderstandings that are easy to fall into
 
-Java's syntax and usage are similar, causing beginners to confuse basic types and object types.
 Java's autoboxing and unboxing mechanisms also increase the potential for confusion.
 These properties make the conversion between the two cryptic and confusing in some cases.
 
