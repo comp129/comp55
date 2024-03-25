@@ -88,8 +88,20 @@ use you.
    your changes or the changes from the branch you're merging with.
    Typically, you'll select one set of changes but on occasion you may need to select changes from both.
    To get a better understanding of this, you can go to [step 8 of the GitHub Lab](9-Github.html#step-8-martyr--hackslash---commit-and-push-the-same-line).
-
-5. If you're having issues with the repository,
+5. If you're having project issues after a pull, try:
+   - ***Gradle -> Refresh Gradle***
+     Sometimes, after pulling changes from the program, the Gradle configuration might need to be refreshed
+     to ensure that the project's dependencies are correctly synchronized.
+   - ***Build Path -> Use as Source Folder***
+     This ensures that the pull is being recognized as source code by the IDE,
+     allowing them to be compiled and executed correctly.
+     This step helps in maintaining consistency between the working project
+     and the changes you've pulled.
+   - ***Make sure all unstaged are dragged to staged changes when you commit and push***
+     By dragging all unstaged changes to staged and then committing, your local changes
+     are ready to be pushed into the program.
+     Pushing the commit then updates the remote repository with the new changes.
+6. If you're having issues with the repository,
    you can always reset your folder to match the latest version.
    To do this,
    right-click on the project,
@@ -129,3 +141,112 @@ Now you are met with the Source Folder Selection
 where you can check the folder you want to include and you are done!
 
 ![eclipse source folder selection](gittips/media/sourceFolderSelection.png)
+
+## Adding ACM Library
+
+Creating your own project in Eclipse can be pretty easy to do.
+But what if you wanted to use certain libraries such as ACM.
+To solve this issue, you will need to download jar files.
+I will provide the link of where to downlaod the jar file Pacific uses
+and how to install it onto your Eclipse project to use.
+
+### 1. Download the acm.jar file
+
+   [Download this specific ACM Jar](acm.jar).
+   This jar has been modified from the original ACM jar to work with later versions of Java.
+
+### 2. Adding acm.jar file
+
+   Now, open the eclipse project you want to add *acm.jar* to
+   and ***right click*** directly on the project from the *Project Explorer*.
+   Then, select ***Build Path->Configure Build Path***.
+   If that is not available make sure it is a java project.
+
+   ![Context Menu showing Configure Build Path Option in Eclipse](gittips/media/ClickBuildPath.png)
+
+   Then you would want to click on classpath and add external jar.
+
+   ![Eclipse Build Path Window showing options for adding Jar Buttons](gittips/media/AddingJarButtons.png)
+
+   Depending on where you store your downloads on Mac or Windows,
+   click on the downloaded *acm.jar* file and it should
+   automatically appear under the classpath as the image below.
+   Then all you have to do is apply and close
+   and it should be in your project under the *Referenced Libraries* folder.
+
+   ![Eclipse Build path window showing acm jar added](gittips/media/AddedJar.png)
+
+   ![Eclipse Project Explorer showing acm.jar in list](gittips/media/FinishedAdding.png)
+
+### 3. Alternative
+
+   There is an alternative from downloading the acm.jar and then putting it in your project.
+   Just make an empty gradle project and start from there.
+   Before we do all of that work, you need to understand what a gradle project is.
+
+   An example is like a carpenter.
+   He has all of these tools.
+   These tools make doing the job faster, easier, and more efficient.
+   Think of **build tools** as the same thing but for software development.
+
+   Some examples of these build tools are *Apache Ant*, *Apache Maven*,
+   but the one we will be using or integrating today is *Gradle*.
+   **Gradle** is an open-source build automation tool.
+   It is known as the successor to Apache Ant and Maven.
+   To learn more about Gradle, visit its
+   [Office User Guide](https://docs.gradle.org/current/userguide/userguide.html)
+
+### Checking if you have Gradle
+
+   I will show you now how to create the Gradle project onto your project.
+   On Eclipse and depending on your previous
+   tasks you cna have Gradle already installed. So go to File and New. Then go down to Other.
+
+### Install Gradle
+
+   You should see a window. In the search bar, you want to search up Gradle.
+   That shows you do have gradle installed.
+   If not go to Help and then Eclipse Marketplace.
+
+![Help Menu Option from Eclipse showing Eclipse Marketplace](https://github.com/comp129/comp55/assets/239024/9a7baa1e-9b0c-424a-be4c-242af0a9abad)
+
+   Then search `gradle` in the top search bar and download ***Buildship Gradle 3.0***.
+   Once installed, you should be able to use Gradle.
+   Then when you import any project such as the labs for comp 55,
+   you will have access to creating a Gradle project.
+
+### Creating Gradle Project
+
+   All you have to do now is click on ***File -> New -> Project***
+   Then in the search bar, you will enter `gradle`.
+   Click on ***Gradle project***.
+   Then ***enter your project name*** and click ***Next***.
+   No need to override any settings, just click ***Next***.
+   The project should start to load in now.
+   All you need to press is ***Finish***.
+   One problem that occurs is that your project at first appears inside of a lib folder,
+   which makes things more complicated.
+   We will leave it for now.
+   However, what we will want to do is include the acm library in our *build.gradle* file.
+   Using the *Project Explorer* pane, copy and paste *acm.jar*
+   into your new Gradle Project's folder to the same directory as your *build.gradle* file.
+   Now, add this line to the dependencies section of your *build.gradle*:
+   `implementation files('acm.jar')`
+   That's all that is needed for gradle to know about that file.
+   Many of a build tool's benefits occur
+   with having a central place to download libraries and versions.
+   This allows you to merely specify as a list what you need in *build.gradle*
+   and gradle will fetch the right library.
+
+   As one final example, if you want to use javaFx (which is needed for the AudioPlayer class).
+   You don't need to download any libraries, you merely add this line to the `plugins` section:
+   `id 'org.openjfx.javafxplugin' version '0.0.13'`
+
+   And then add this other set of options (shown in picture below)
+   outside of any section and as its own independent section in *build.gradle*
+   ![image](https://github.com/comp129/comp55/assets/239024/05289d85-1639-4993-af08-c523c6ab7521)
+   Any time you make changes to your gradle project,
+   Just save and ***refresh gradle project***, and wait a little bit and watch libraries
+   magically appear!
+   Build tools are a modern way to develop large applications
+   and are good tool to know about as you code more in the future!
