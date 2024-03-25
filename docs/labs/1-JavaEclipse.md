@@ -15,7 +15,7 @@ If you are using a school computer skip down to Step 5.
 
 ## STEP 1: Remove any previous installations of Java that you have
 
-Uninstall any previous Java versions from your computer to avoid version conflicts.
+*Uninstall any previous Java versions from your computer to avoid version conflicts.*
 We all benefit when we use the same version of java.
 .
 To avoid confusion,
@@ -27,16 +27,17 @@ You can do this by:
 1. Visiting your add and remove programs setting in windows (or applications on a mac)
 2. Searching for any java programs
 3. **Removing** any existing java installations.
-4. Or you can check out these instruction.
+
+Or you can check out these instructions.
 
 ### Windows OS (Windows 10/11)
 
-To uninstall Java via ***Window's Settings***:
+To uninstall Java via *Window's Settings*:
 
-- Click **Start**
-- Select **Settings**
-- Select **System**
-- Select **Apps - Apps & features**
+- Click ***Start***
+- Select ***Settings***
+- Select ***System***
+- Select ***Apps - Apps & features***
 - Select the program to uninstall and then click its Uninstall button.
 - Respond to the prompts to complete the uninstall
 
@@ -45,11 +46,11 @@ If you need help, here is
   
 ### MacOS
   
-To uninstall Java via ***Mac's Terminal***:
+To uninstall Java via *Mac's Terminal*:
 
-- Click on the **Finder** icon located in your dock
-- Click on the **Utilities** folder
-- Double-click on the **Terminal** icon
+- Click on the ***Finder*** icon located in your dock
+- Click on the ***Utilities*** folder
+- Double-click on the ***Terminal*** icon
 - In the Terminal window Copy and Paste the commands below:
 - **`sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin`**
 - **`sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane`**
