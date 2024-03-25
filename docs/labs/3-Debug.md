@@ -100,7 +100,7 @@ The developers who excel at fixing problems in their code see debugging
 as a puzzle to solve and actually like finding and fixing errors more
 than writing new code.
 
-Debugging is basically about solving problems. 
+Debugging is basically about solving problems.
 It involves figuring out what's wrong,
 understanding how different parts of the code work together,
 and making everything work smoothly again.
