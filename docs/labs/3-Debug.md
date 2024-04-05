@@ -19,7 +19,7 @@
 ## Introduction
 
 Today you working on a topic often overlooked –
-how to Debug effectively.
+how to **DEBUG** effectively.
 It's where you spend most of your time,
 and often there's little training on it. 😞
 
@@ -45,7 +45,7 @@ You can work with one other person throughout the lab,
 
 ## Some advice when debugging
 
-### You can do this - Keep a calm mindset
+### Keep a calm mindset
 
 <img align="right" src="lab3media/media/image1.png" />
 
@@ -93,6 +93,24 @@ For a complex object,
 take a minute to override ```toString()```
 so you can get a faster way to view important details about an object,
 ```toString``` works both in the console and in the debugger.
+
+### Finding the Joy in Debugging
+
+The developers who excel at fixing problems in their code see debugging
+as a puzzle to solve and actually like finding and fixing errors more
+than writing new code.
+
+Debugging is basically about solving problems.
+It involves figuring out what's wrong,
+understanding how different parts of the code work together,
+and making everything work smoothly again.
+Just like any challenge, debugging has its difficulties,
+but when you successfully fix the issues, it feels really rewarding.
+
+It involves thinking creatively and having a good overall understanding of the code.
+Every time you debug, *you have a chance to learn something new*.
+Debugging helps you understand the system better, discover new tools,
+and improve your problem-solving skills.
 
 ## Debugging Mechanics
 
@@ -314,6 +332,13 @@ Double-click on the left bar just to the left of the line numbers in eclipse
 if you do this correctly and in the right area,
 you should see a little circle pop up ![breakpoint icon](lab3media/media/breakpoint.png),
 to the left of the line of code where you set it.
+
+Another way to set a break point is by right-clicking on your mouse in between
+two lines where a dropdown box with different options appears as followed:
+![Toogle Breakpoint Dropdown Menu](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/breakPoint%20.png)
+
+Once selected, you can click on the option you want such as toogle breakpoint
+![Toogle Breakpoint Dropdown Menu with Toogle Breakpoint Selected](https://github.com/comp129/comp55/blob/koby-izunaso-githubMiscellany/docs/labs/eclipseloot/media/selectToggleBreakPoint.png)
 
 Now every time the program runs in debug mode,
 the program will run up until it reaches that point.

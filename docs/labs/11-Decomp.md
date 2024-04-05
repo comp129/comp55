@@ -335,6 +335,19 @@ some are just to protect yourself
 but other times it happens because you don't know where to start,
 which decomposition may help you to get started on your project.
 
+### More about GObjects
+
+Curious about what you can do with `GObject`s?
+Eric Roberts (who helped create ACM) has created some great resources
+with practical explanations and examples.
+As an example,
+[see the API reference GObjects and movePolar](https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/GObject.html#:~:text=move(double%20dx%2C%20double%20dy,displacements%20given%20in%20polar%20coordinates))
+if you need further assistance.
+
+Good luck!
+
+## I want to learn more in general
+
 To learn more about self-handicapping,
 here are some references:
 
