@@ -47,11 +47,10 @@ We are going to use this library because:
 2. Its structure follows OOP programming well
 3. The way it's laid out will well prepare you to learn other languages and libraries in the future
 
-## Step 1: Download
+## Step 1: Download the zip
 
-1. First,
-download **IntroACMLab.zip**
-from canvas and then import that file as an existing project into Eclipse,
+1. First, download **IntroACMLab.zip** from canvas
+and then import that file as an existing project into Eclipse,
 as we did in the [*Intro to Java*](2-JavaIntro.html) lab.
 
 2. Once imported, open **ACMLab.java** in the editor.
@@ -91,7 +90,7 @@ To explain what is going on, ***the following is not neccessary but is important
     - Lines 1-4 contain ```import``` statements:
   ```import``` calls are similar to ```#include```s that we had in C++
   in that they help Java figure out what libraries you will be using.
-    - **The majority of imports we'll use start with "java." or "acm."**
+    - **The majority of imports we'll use start with `java.` or `acm.`**
 
     > One of the nice features of Java
     > is that it allows you to reference a folder of classes all at once,
@@ -136,9 +135,9 @@ To explain what is going on, ***the following is not neccessary but is important
   ***Once you get into the activity, please make new constants***
 
   > Constants make your program easier to change in the future and easier to read.
-     While there are a couple of extra keywords here that I don't want you to worry about too much yet,
-     the ```final``` keyword is the one that is telling Java
-     that a particular variable can no longer be changed.
+  > While there are a couple of extra keywords here that I don't want you to worry about too much yet,
+  > the ```final``` keyword is the one that is telling Java
+  > that a particular variable can no longer be changed.
   >
   > Constants can be formulas based on other constants like this:
   >  
@@ -285,7 +284,7 @@ Let's move on to work with the three most basic shapes in the ACM library
     > ```new GRect``` takes in four arguments,
     > the ```x``` and ```y```, and its ```width``` and ```height``` all in pixels.
 
-1. *Let's place a rectangle at ```START_X, START_Y``` with a width of ```200```,
+2. *Let's place a rectangle at ```START_X, START_Y``` with a width of ```200```,
    and a height of ```100```. You can place this code after adding the label.*
 
     > You can also consider extracting these constants as well
