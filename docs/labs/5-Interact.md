@@ -115,10 +115,10 @@ Enter the line:
 ```
 
 in your ```run()``` method,
-but **BEFORE the ```animateBall()``` function**,
-which is an infinite loop that is taking care of moving the ball.
-If we make the call to ```addMouseListeners``` after ```animateBall```,
-it will never be called.
+**BEFORE the ```animateBall()``` function**.
+If placed after,
+the program will enter the animateBall(); infinite loop before registering mouse events.
+If we add it after, it will never be called.
 Think of ```addMouseListeners``` as setting you up to get notified in case anything happens.
 
 ## The Five Mouse Events
