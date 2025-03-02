@@ -143,6 +143,11 @@ will be called an
 **<span class="smallcaps">object</span>**.
 You can have many objects that follow the same class blueprints.
 
+## Misunderstandings that are easy to fall into
+
+Java's autoboxing and unboxing mechanisms also increase the potential for confusion.
+These properties make the conversion between the two cryptic and confusing in some cases.
+
 ## In Java, there is no pointer notation. Or is there?
 
 Remember this?
