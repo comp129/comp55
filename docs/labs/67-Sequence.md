@@ -9,29 +9,14 @@ sequence diagrams tell us who called what and when.
 ## Why are Sequence Diagrams Useful
 
 Sequence diagrams be useful in desigining, debugging, or documenting complex systems.
-For more information you can visit the following Spiceworks Article:
-
+For more information you can visit the following:
 [Spiceworks Article](https://www.spiceworks.com/tech/devops/articles/sequence-diagram/)
 
 ## Real-World Example
 
-To better understand sequence diagrams, let's consider a real-world example such as checking out
-on an online store:
-
-- The customer (actor) adds items to the cart and proceeds to checkout
-- The shopping cart system (participant) sends a cart summary to the customer to review
-- The customer confirms the order, initiates the payment and goes to the payment gateway (participant)
-- The payment gateway processes the payment and sends a confirmation to the shopping cart system
-- The shopping cart system confirms the order
-- The shopping cart system sends the details to the order processing system (participant)
-- The order processing system prepares the order for shipment and sends a confirmation to the customer.
-
-This real-world example along with another one can be found on the following Spiceworks Article:
-
+To better understand sequence diagrams, you can look at a real-world example such as checking out
+on an online store in the following:
 [Spiceworks Article](https://www.spiceworks.com/tech/devops/articles/sequence-diagram/)
-
-In this lab, you'll learn how to create sequence diagrams using PlantUML
-starting with the basics and gradually building more compelx interactions.
 
 - [plantUML Starter](#plantuml-starter)
 - [Sequence Diagram basics](#sequence-diagram-basics)
