@@ -60,13 +60,13 @@ On the PlantUML site, remember to click on the **online server** option on the l
 For now,
 replace the line:
 
-```PlantUML
+```plantuml
 Bob -> Alice : hello
 ```
 
 with these two lines:
 
-```PlantUML
+```plantuml
 class Location {
 }
 ```
@@ -102,7 +102,7 @@ This is not standard UML which uses the (```-```) as part of the diagram.
 Let's change that -
 add the line:
 
-```PlantUML
+```plantuml
 skinparam classAttributeIconSize 0
 ```
 
