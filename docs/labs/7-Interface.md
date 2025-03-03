@@ -40,7 +40,7 @@ However:
 
 ![No stairway to heaven sign](lab7media/media/nostairway.png)
 <br>
-*Source: [Giphy](https://giphy.com/gifs/fxLuTQsx3zQKk/media)*
+*Source: [Giphy](https://giphy.com/gifs/fxLuTQsx3zQKk)*
 
 In this case,
 which version of ```timesPlayed``` should ```ToyGuitar```
