@@ -59,8 +59,10 @@ ArrayList<String> ids = new ArrayList<>();
 ```
 
 This would create an empty list called ```ids``` that can hold Strings.
+In this case, the type doesn't have to be declared in the second set of angle brackets because it's
+inferred to be ```String``` by the Java compiler.
 If you wanted that list to hold ```GOval```s instead,
-you would have to change the type inside the angle brackets to be a ```GOval``` on both ends.
+you would have to change the type inside the first set of angle brackets to be a ```GOval```.
 
 The other drawback is that they don't work directly with primitives like ```int``` and ```double```.
 
