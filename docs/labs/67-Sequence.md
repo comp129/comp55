@@ -6,6 +6,23 @@ Sequence diagrams allow us to think more about how objects are dynamically relat
 or more succinctly,
 sequence diagrams tell us who called what and when.
 
+## Why are Sequence Diagrams Useful
+
+Sequence diagrams help visualize how objects interact in a system over time. Helping us by giving a better undertsanding of the flow between messages and objects. This is proven to be useful in desigining, debugging, or documenting complex systems. By creating sequence diagrams, you can
+- Visualize the order of interactions between objects.
+- Identify potential issues in the flow of messages.
+- Communicate the dynamic behavior of a system to others.
+
+## Real-World Example
+
+To better understand sequence diagrams, let's consider a real-world example such as ordering food at a restaurant:
+- The customer (actor) interacts with the waiter (participant) to place an order
+- The waiter then sends the order to the kitchen (participant)
+- The kitchen prepares the food and returns it to the waiter
+- The waiter delivers the food to the customer
+This scenario includes interactions represented as messages between the customer, waiter, and kitchen, showing the order of execution in which they occur.
+
+In this lab, you'll learn how to create sequence diagrams using PlantUML starting with the basics and gradually building more compelx interactions.
 - [plantUML Starter](#plantuml-starter)
 - [Sequence Diagram basics](#sequence-diagram-basics)
     - [Actors and Participant Objects](#actors-and-participant-objects)
