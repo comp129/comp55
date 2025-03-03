@@ -54,7 +54,7 @@ which allows us to create diagrams using text and symbols.
 
 ### Defining Classes in PlantUML
 
-Open the [PlantUML online editor](http://PlantUML.com) in a new window. 
+Open the [PlantUML online editor](http://PlantUML.com) in a new window.
 If you're using Windows, you can arrange it side-by-side by pressing Windows + Left Arrow.
 On the PlantUML site, remember to click on the **online server** option on the left sidebar.
 
