@@ -4,15 +4,19 @@ For today,
 we are going to continue using PlantUML to develop class diagrams,
 which detail how classes and their methods interact.
 Creating models helps us better understand how the software we plan to build will work.
+
+This lab will not only help you visualize how different components of a system interact
+but also enhance your ability to design and organize complex systems
+by defining clear class structures and relationships.
+
 Let's start by first discussing what the class diagrams will look like
 (and how to draw them on a piece of paper) first.
 
-## Drawing a class in UML on a piece of paper
+## Drawing a UML on paper
 
 Representing a class in UML is one of the basic building blocks for designing a system.
-To do so in a paper drawing for UML you just end up providing a name for the class
-and place it inside a rectangle,
-like so:
+To do this in a paper drawing, you simply write the class name and place it inside a rectangle,
+like this:
 
 ![Rectangle for UML diagram](lab65media/rectangle.png)
 
@@ -32,8 +36,9 @@ this is meant to be able to be used in any language,
 so we will not question it and continue.
 
 For methods,
-they look a little closer to what we do in C++ but use the same reverse syntax for specifying types,
-so functions would follow this format:
+the syntax is similar to languages like C++,
+but the return type appears after the method parameters
+rather than before the method name.
 
 *```methodName(arg1:type, arg2:type):returntype```*
 
@@ -139,8 +144,8 @@ is merely by drawing a line or arrow from one class to another.
 This can be done very simply in PlantUML as well,
 through the use of hyphens and some ASCII-type art
 (just like we did with the use case diagrams).
-After all of the class definitions
-(but again, before the ```@enduml``` line),
+Once you've defined the classes,
+(before the ```@enduml``` line),
 we can represent simple relationships between the classes on separate lines.
 To create associations between classes we merely follow this format.
 
