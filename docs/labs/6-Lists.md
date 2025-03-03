@@ -60,7 +60,8 @@ ArrayList<String> ids = new ArrayList<>();
 
 This would create an empty list called ```ids``` that can hold Strings.
 In this case, the type doesn't have to be declared in the second set of angle brackets because it's
-inferred to be ```String``` by the Java compiler.
+inferred to be ```String``` by the Java compiler. This has been the case since
+[Java 7](https://docs.oracle.com/javase/7/docs/technotes/guides/language/type-inference-generic-instance-creation.html).
 If you wanted that list to hold ```GOval```s instead,
 you would have to change the type inside the first set of angle brackets to be a ```GOval```.
 
