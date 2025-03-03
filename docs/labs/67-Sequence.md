@@ -16,6 +16,8 @@ desigining, debugging, or documenting complex systems. By creating sequence diag
 - Identify potential issues in the flow of messages.
 - Communicate the dynamic behavior of a system to others.
 
+https://www.spiceworks.com/tech/devops/articles/sequence-diagram/
+
 ## Real-World Example
 
 To better understand sequence diagrams, let's consider a real-world example such as ordering food
