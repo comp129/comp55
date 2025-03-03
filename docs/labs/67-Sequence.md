@@ -10,7 +10,7 @@ sequence diagrams tell us who called what and when.
 
 Sequence diagrams help visualize how objects interact in a system over time. Helping us by giving a
 better undertsanding of the flow between messages and objects. This is proven to be useful in
-desigining, debugging, or documenting complex systems. By creating sequence diagrams, you can
+desigining, debugging, or documenting complex systems. By creating sequence diagrams, you can:
 
 - Visualize the order of interactions between objects.
 - Identify potential issues in the flow of messages.
