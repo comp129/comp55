@@ -18,8 +18,8 @@ desigining, debugging, or documenting complex systems. By creating sequence diag
 
 ## Real-World Example
 
-To better understand sequence diagrams, let's consider a real-world example such as ordering food at a
-restaurant:
+To better understand sequence diagrams, let's consider a real-world example such as ordering food
+at a restaurant:
 
 - The customer (actor) interacts with the waiter (participant) to place an order
 - The waiter then sends the order to the kitchen (participant)
