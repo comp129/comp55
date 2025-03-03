@@ -46,15 +46,16 @@ we can begin each variable/method with a prefix
 to detail its accessibility across classes by using ```+``` for public,
 ````-```` for private and ```#``` for protected.
 
-An easy way to start with UML diagrams is by drawing them. 
-However, since some may prefer not to draw manually, we will use *PlantUML* again, 
+An easy way to start with UML diagrams is by drawing them.
+However, since some may prefer not to draw manually, we will use *PlantUML* again,
 which allows us to create diagrams using text and symbols.
 
 ## Class Diagrams in PlantUML
 
 ### Defining Classes in PlantUML
 
-Open the [PlantUML online editor](http://PlantUML.com) in a new window. If you're using Windows, you can arrange it side-by-side by pressing Windows + Left Arrow.
+Open the [PlantUML online editor](http://PlantUML.com) in a new window. 
+If you're using Windows, you can arrange it side-by-side by pressing Windows + Left Arrow.
 On the PlantUML site, remember to click on the **online server** option on the left sidebar.
 
 For now,
@@ -89,7 +90,7 @@ You should now see the two classes side-by-side.
 
 Let's add two variables to ```Location```,
 which would be the latitude and longitude (which we'll refer to as ```lat``` and ```long```).
-Follow the UML format outlined earlier, 
+Follow the UML format outlined earlier,
 ensuring that these declarations are placed inside the curly braces.
 If you did this correctly,
 you'll get something that looks like this:
