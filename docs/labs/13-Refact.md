@@ -13,6 +13,9 @@
         - [8. Make constants for repeating values](#8-make-constants-for-repeating-values)
 - [Refactoring Lab Directions](#refactoring-lab-directions)
 
+## Summary
+This refactoring lab introduces refactoring techniques on improving code readability, maintainability, and flexibility by applying some tips/techniques that will reduce redundancy and simplify logic, mainly when there’s an excessive use of if statements. Overusing conditionals often leads to duplicate code which brings forth unnecessary complexity, making it harder to read, test, and modify code. This covers key principles such as removing unnecessary boolean comparisons, avoiding negations, simplifying return statements, removing duplicate code, using variables that have meaning, leveraging data structures, encapsulating logic in methods, and defining constants for repeated values.
+
 ## Rationale
 
 By this point, you should have a feeling that there are many different ways for someone to write code,
