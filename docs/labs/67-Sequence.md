@@ -8,7 +8,7 @@ sequence diagrams tell us who called what and when.
 
 ## Why are Sequence Diagrams Useful
 
-Sequence diagrams be useful in desigining, debugging, or documenting complex systems.
+Sequence diagrams are useful in desigining, debugging, or documenting complex systems.
 For more information you can visit the following:
 [Spiceworks Article](https://www.spiceworks.com/tech/devops/articles/sequence-diagram/)
 
