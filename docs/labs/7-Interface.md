@@ -15,11 +15,20 @@
         - [***Run the program***](#run-the-program)
     - [Step 6: Add your own class that implements Emotional in a different way](#step-6-add-your-own-class-that-implements-emotional-in-a-different-way)
 
-## Why Interfaces?
+By the end of this lab, you will learn:
 
-The purpose of this lab is to introduce you to interfaces,
-which is a neat way to be able to use some of the benefits of polymorphism
-without having the headaches of inheritance.
+1. You will be introduced to important OOP concept of interfaces in Java,
+understanding their role in polymorphism and their advantages.
+2. You will be able to create and implement interfaces,
+defining functions without implementations, and implementing those
+functions in various classes that use common Inteface.
+3. In lab activity, you will apply the knowledge of interfaces by
+refractoring existing code to separate emotional behaviors into an
+interface called "Emotional". You will then implement this interface
+in multiple classes. This will demonstrate polymorphic
+behavior, allowing different objects to exhibit
+the same "emotional state".
+
 While inheritance has its uses,
 one of its biggest disadvantages comes when you want to borrow multiple abilities
 from different classes.
