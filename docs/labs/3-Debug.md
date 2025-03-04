@@ -361,6 +361,13 @@ and then debug the program.
 
 Now your program will stop when it reaches that line.
 
+In addition to simple and conditional breakpoints, Eclipse provides:
+
+- Exception Breakpoints – pause execution whenever a specific exception is thrown, 
+even if no explicit breakpoint is set. This is useful for debugging unexpected errors.
+- Watchpoints – break when a specific variable is read or modified. 
+To set a watchpoint, right-click a variable declaration and select Toggle Watchpoint.
+
 **Problem 3) Provide a full eclipse screenshot
 that shows the program stopped at the line ```takeAction(option);```
 which is in the ```infiniteMenu``` method.**
