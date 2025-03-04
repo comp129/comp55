@@ -55,12 +55,15 @@ So to make an ```ArrayList``` of type ```String```,
 you would do:
 
 ```java
-ArrayList<String> ids = new ArrayList<String>();
+ArrayList<String> ids = new ArrayList<>();
 ```
 
 This would create an empty list called ```ids``` that can hold Strings.
+In this case, the type doesn't have to be declared in the second set of angle brackets because it's
+inferred to be ```String``` by the Java compiler. This has been the case since
+[Java 7](https://docs.oracle.com/javase/7/docs/technotes/guides/language/type-inference-generic-instance-creation.html).
 If you wanted that list to hold ```GOval```s instead,
-you would have to change the type inside the angle brackets to be a ```GOval``` on both ends.
+you would have to change the type inside the first set of angle brackets to be a ```GOval```.
 
 The other drawback is that they don't work directly with primitives like ```int``` and ```double```.
 
@@ -95,7 +98,7 @@ import java.util.ArrayList;
 public class AutoboxingExample {
     public static void main(String[] args) {
         // Need to specify "Integer" even though we will store values of type int.
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
 
         // Autoboxing: Java compiler automatically converts the primitive int to an Integer object
         int number = 10;
@@ -136,7 +139,7 @@ Here is some sample ArrayList code.
 
 ```java
 void foo() {
-    ArrayList<String> names = new ArrayList<String>();
+    ArrayList<String> names = new ArrayList<>();
     names.add("Osvaldo");
     names.add("David");
     printList(names);
@@ -185,7 +188,7 @@ Next at the beginning of ```run()```,
 create the ```ArrayList``` object by saying:
 
 ```java
-balls = new ArrayList<GOval>();
+balls = new ArrayList<>();
 ```
 
 Then, you will change the code where you created your original ```GOval``` ball,
