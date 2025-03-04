@@ -351,7 +351,8 @@ This view allows you to enable/disable breakpoints without removing them.
 You can also set conditional breakpoints, which will only trigger if a specific condition is met
 (e.g., when a variable reaches a certain value).
 To do this, right-click a breakpoint, select Breakpoint Properties, and enter your condition.
-If your program stops at an unexpected location, reviewing breakpoints in this view can help identify why.
+If your program stops at an unexpected location, 
+reviewing breakpoints in this view can help identify why.
 
 In this buggy fractions program,
 think about a particular place
