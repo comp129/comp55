@@ -126,6 +126,8 @@ Usually, the exception will list the file and line number where the exception oc
 The lines also show a stack trace of who called which method,
 *so that a function on a lower line will be directly responsible
 for calling the line above it in that particular exception's case.*
+The stack trace acts as a roadmap, showing the sequence of method calls leading to the error.
+Examining each line can help trace the execution path and find where the problem started.
 Anything blue and underlined in the printout acts like hyperlinks,
 so clicking on them will immediately jump your editor to that file and line.
 Look at that top line of code in the stack trace at the top and identify what could be wrong.
