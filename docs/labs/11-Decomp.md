@@ -19,7 +19,7 @@ If you multiply 7 × 17, do you break it down into 7 × 7 and 7 × 10?
 If so, that's _decomposition_!
 
 Decomposition is a skill thats applicable to many aspects of life,
-but it's an _especially important skill in programming_.
+but it's an *especially important skill in programming*.
 It can help us break down larger functions or programs into pieces
 and approach them one at a time.
 It can make larger problems simpler and easier to solve.
