@@ -14,7 +14,7 @@
 **Decomposition** is the act of taking a large problem and
 breaking it down into smaller parts.
 You probably do this all the time without thinking about it.
-If you multiply 7 \* 17, do you do 7 \* 7 then add 7 \* 10?
+If you multiply 7 × 17, do you break it down into 7 × 7 and 7 × 10?
 
 If so, that's _decomposition_!
 
