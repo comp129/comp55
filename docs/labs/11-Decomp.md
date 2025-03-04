@@ -24,11 +24,12 @@ It can help us break down larger functions or programs into pieces
 and approach them one at a time.
 It can make larger problems simpler and easier to solve.
 
-In this lab we will discuss how to use decomposition to break a
-large problem into **approachable** chunks. The techniques we learn here
-can be applied to problems of any scale, whether its multiplication
-or long term projects. If you are interested in exploring decomposition
-in more detail I encourage you to check out these links:
+In this lab we will discuss how to use decomposition
+to break a large problem into **approachable** chunks.
+The techniques we learn here can be applied to problems of any scale,
+whether it's multiplication or long-term projects.
+If you are interested in exploring decomposition in more detail,
+I encourage you to check out these links:
 
 - [Decomposition in Product Development](https://medium.com/@KonstantinPM/methods-and-examples-of-task-decomposition-in-product-development-ed578816e4cc)
 
@@ -42,12 +43,13 @@ Today you are going to recreate this animation and behavior:
 
 To achieve this,
 today we're going to provide advice on how to figure out
-where to start with a large problem. It comes down decomposition.
+where to start with a large problem.
+It comes down decomposition.
 
 **Take a minute and try to decompose this problem.**
 
-What are parts that can be seperated?
-Can you start with a simpler version and expand on it?
+- *What are parts that can be separated?*
+- *Can you start with a simpler version and expand on it?*
 
 If you're not sure how many pieces to break it into,
 start with breaking it down into two or three that seem to be nice and separate sub-problems.
