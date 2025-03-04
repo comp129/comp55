@@ -345,6 +345,14 @@ Once selected, you can click on the option you want such as toogle breakpoint
 Now every time the program runs in debug mode,
 the program will run up until it reaches that point.
 
+Once you've set a breakpoint, you can manage it using the Breakpoints View in Eclipse.
+
+This view allows you to enable/disable breakpoints without removing them.
+You can also set conditional breakpoints, which will only trigger if a specific condition is met 
+(e.g., when a variable reaches a certain value). 
+To do this, right-click a breakpoint, select Breakpoint Properties, and enter your condition.
+If your program stops at an unexpected location, reviewing breakpoints in this view can help identify why.
+
 In this buggy fractions program,
 think about a particular place
 that would be good to set a breakpoint for where you think a bug is occurring,
