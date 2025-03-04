@@ -9,6 +9,32 @@
     - [Polar coordinates](#polar-coordinates)
 - [Changing colors](#changing-colors)
 
+## Decomposition
+
+**Decomposition** is the act of taking a large problem and
+breaking it down into smaller parts.
+You probably do this all the time without thinking about it.
+If you multiply 7 × 17, do you break it down into 7 × 7 and 7 × 10?
+
+If so, that's _decomposition_!
+
+Decomposition is a skill thats applicable to many aspects of life,
+but it's an *especially important skill in programming*.
+It can help us break down larger functions or programs into pieces
+and approach them one at a time.
+It can make larger problems simpler and easier to solve.
+
+In this lab we will discuss how to use decomposition
+to break a large problem into **approachable** chunks.
+The techniques we learn here can be applied to problems of any scale,
+whether it's multiplication or long-term projects.
+If you are interested in exploring decomposition in more detail,
+I encourage you to check out these links:
+
+- [Decomposition in Product Development](https://medium.com/@KonstantinPM/methods-and-examples-of-task-decomposition-in-product-development-ed578816e4cc)
+
+- [Decomposing Problems](https://n2parko.com/p/decompose-problems)
+
 ## Overview
 
 Today you are going to recreate this animation and behavior:
@@ -16,11 +42,16 @@ Today you are going to recreate this animation and behavior:
 ![Final animation color-changing swirl](lab11media/media/swirl.gif)
 
 To achieve this,
-today we're going to provide advice on how to figure out where to start with a large problem.
-It comes down to a technique called **decomposition**.
+today we're going to provide advice on how to figure out
+where to start with a large problem.
+It comes down decomposition.
 
-**Decomposition** is the act of taking a large problem and breaking it down into smaller parts.
-If you're not sure how many pieces to break it down to,
+**Take a minute and try to decompose this problem.**
+
+- *What are parts that can be separated?*
+- *Can you start with a simpler version and expand on it?*
+
+If you're not sure how many pieces to break it into,
 start with breaking it down into two or three that seem to be nice and separate sub-problems.
 From there you can take each of those parts and if they seem complicated,
 break those down into smaller pieces too.
