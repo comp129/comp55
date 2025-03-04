@@ -7,7 +7,7 @@ Creating models helps us better understand how the software we plan to build wil
 
 This lab will not only help you visualize how different components of a system interact
 but also enhance your ability to design and organize complex systems
-by defining clear class structures and relationships.
+by defining class structures and their relationships.
 
 Let's start by first discussing what the class diagrams will look like
 (and how to draw them on a piece of paper) first.
