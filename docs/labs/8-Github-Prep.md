@@ -94,17 +94,18 @@ Otherwise, if you close it,
 you'll need to navigate back through it
 by going to the classroom.github.com link provided and logging in.
 
-## Importing your new GitHub Repository into eclipse
+## Importing your new GitHub Repository into Eclipse
 
-Now once Eclipse is open,
-go ahead and do a *File->Import->Git->Projects from Git with Smart Import*.
-On the next screen choose the Clone URI button as shown in the image below.
+1. Open Eclipse
+2. Go to 'File -> Import -> Git -> Projects from Git with Smart Import'
 
 ![Cloning from eclipse animation](lab8media/media/importrepo.gif)
 
-Enter your GitHub URL that you created from the classroom assignment.
-(Eclipse may have also automagically filled it in for you.)
-**Do not press Enter just yet or fill in your password**.
+3. Enter the GitHub URL that you created from the classroom assignment
+    - Eclipse may have already filled this in for you
+
+4. **IMPORTANT: Do not press Enter just yet or fill in your password.**
+    - This step is crucial to avoid setup issues. Wait until the next step before proceeding 
 
 ### Help! I lost my GitHub URL
 
