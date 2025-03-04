@@ -8,15 +8,15 @@ sequence diagrams tell us who called what and when.
 
 ## Why are Sequence Diagrams Useful
 
-Sequence diagrams are useful in desigining, debugging, or documenting complex systems.
-For more information you can visit the following:
-[Spiceworks Article](https://www.spiceworks.com/tech/devops/articles/sequence-diagram/)
+Sequence diagrams are useful in designing, debugging, or documenting complex systems.
+For more information you can visit the following
+[Spiceworks article](https://www.spiceworks.com/tech/devops/articles/sequence-diagram/).
 
 ## Real-World Example
 
-To better understand sequence diagrams, you can look at a real-world example such as checking out
-on an online store in the following:
-[Spiceworks Article](https://www.spiceworks.com/tech/devops/articles/sequence-diagram/)
+To better understand sequence diagrams, you can look at a
+[real-world example from Spiceworks](https://www.spiceworks.com/tech/devops/articles/sequence-diagram/)
+about how checking out from an online store would work.
 
 - [plantUML Starter](#plantuml-starter)
 - [Sequence Diagram basics](#sequence-diagram-basics)
