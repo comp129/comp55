@@ -15,15 +15,11 @@
 
 ## Summary
 
-This refactoring lab introduces techniques to improve code readability, maintainability, and
-flexibility. By applying refactoring strategies, we can reduce redundancy and simplify logic,
-especially when there is excessive use of `if` statements.
-
-Overusing conditionals often leads to duplicate code, increasing complexity and making it harder
-to read, test, and modify. This lab covers key principles such as removing unnecessary boolean
-comparisons, avoiding negations, simplifying return statements, eliminating duplicate code,
-using meaningful variables, leveraging data structures, encapsulating logic in methods, and
-defining constants for repeated values.
+This lab goes over key strategies to give students a sense of
+how they can go about making their code more concise and functional.
+It also gives students some key examples of how they can go about
+doing this by showing some places where refactoring is very much
+needed and/or possible.
 
 ## Rationale
 
