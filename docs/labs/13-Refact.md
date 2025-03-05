@@ -15,9 +15,9 @@
 
 ## Summary
 
-This lab goes over key strategies to give students a sense of
+This lab goes over useful strategies to give students a sense of
 how they can go about making their code more concise and functional.
-It also gives students some key examples of how they can go about
+It also gives students some code block examples of how they can go about
 doing this by showing some places where refactoring is very much
 needed and/or possible.
 
