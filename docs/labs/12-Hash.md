@@ -87,6 +87,18 @@ the value will be
 For a ```HashMap```,
 what you would do is put the key and value pairs into a map and then retrieve them in the future.
 
+## How do Hashmaps interact with immutable and mutable objects?
+
+In most Java contexts, mutability, immutability and hashability are related in the following ways:
+
+1. Like mentioned above, “hashable” in Java simply means that an object properly implements ```hashCode()``` and ```equals()``` in a way that is consistent (two objects that are ```equals()``` must have the same ```hashCode()```). Any Java class can be hashable if it fulfills this contract, whether it is immutable or mutable.
+
+2. Immutable objects are typically better for use as ```HashMap``` keys because their ```hashCode()``` and ```equals()``` results cannot change over time. This consistency guarantees that if an object is placed in a hash-based structure (like a ```HashMap``` or ```HashSet```), you can still retrieve it later. If the object’s internal state can change (mutable objects), and that change affects ```equals()``` or ```hashCode()```, the object becomes difficult or even impossible to retrieve correctly.
+
+3. Not all immutable objects automatically have a well-implemented ```hashCode()``` and ```equals()```. An immutable object could, for instance, leave the default Object methods in place (where ```equals()``` basically compares references). To be truly “hashable” in the sense needed for a ```HashMap```, the immutable class still needs consistent overrides of ```equals()``` and ```hashCode()```.
+
+4. Not all hashable objects are immutable. Some mutable classes still implement consistent ```hashCode()``` and ```equals()```. Technically, they can serve as map keys, but it’s risky if their internal state changes while they are being used as a key in a ```HashMap```. This can break lookups.
+
 ## Basic HashMap Usage
 
 Like an ```ArrayList```,
@@ -140,7 +152,7 @@ import java.util.Map.Entry;
 
 String def = "the abnormal fear of work";
 for(Entry<String, String> entry : phobias.entrySet()){
-    if(entry.getValue() == def){
+    if(entry.getValue().equals(def)){
         String key = entry.getKey());
         // key now has the value "ergophobia"
     }
@@ -313,16 +325,16 @@ that I think can be done more nicely by using hashmaps.
 First study the code below.
 
 ```java
-if(state == "up") {
+if(state.equals("up")) {
     upOval.move(0, -5);
     sendMessage("north");
-}else if(state == "down") {
+}else if(state.equals("down")) {
     downOval.move(0, 3):
     sendMessage("south");
-}else if(state == "left") {
+}else if(state.equals("left")) {
     leftOval.move(-7, 0);
     sendMessage("west");
-}else if(state == "right") {
+}else if(state.equals("right")) {
     rightOval.move(8, 0);
     sendMessage("east");
 }
