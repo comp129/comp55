@@ -97,6 +97,8 @@ In most Java contexts, mutability, immutability and hashability are related in t
 
 3. Even if an object is immutable, it isn’t automatically suitable as a key in a ```HashMap```. By default, ```Java``` compares objects by reference. An immutable class must still explicitly override ```equals()``` and ```hashCode()``` in a way that properly represents its content.
 
+4. A mutable class can still be “hashable” if it consistently implements ```equals()``` and ```hashCode()```. However, if its state changes while it’s being used as a key, lookups can fail because the hash value (or equality check) might no longer match the stored entry.
+
 ## Basic HashMap Usage
 
 Like an ```ArrayList```,
