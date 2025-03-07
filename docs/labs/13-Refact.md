@@ -13,6 +13,14 @@
         - [8. Make constants for repeating values](#8-make-constants-for-repeating-values)
 - [Refactoring Lab Directions](#refactoring-lab-directions)
 
+## Summary
+
+This lab goes over useful strategies to give students a sense of
+how they can go about making their code more concise and functional.
+It also gives students some code block examples of how they can go about
+doing this by showing some places where refactoring is very much
+needed.
+
 ## Rationale
 
 By this point, you should have a feeling that there are many different ways for someone to write code,
