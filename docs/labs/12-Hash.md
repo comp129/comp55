@@ -90,13 +90,13 @@ what you would do is put the key and value pairs into a map and then retrieve th
 ## How do HashMaps handle mutable vs. immutable objects?
 
 In Java, any object you use as a key for a ```HashMap``` needs to have an ```equals()``` and
-```hashCode()``` that match up correctly—this is called being “hashable.” Immutable objects
+```hashCode()``` that match up correctly--this is called being “hashable.” Immutable objects
 (like ```Strings```) are usually better as keys because they don’t change once created, so
 their ```equals()``` and ```hashCode()``` never change either. If you use objects that can
-change (mutable) like an ```ArrayList```, be careful not to modify the parts that affect
+change (mutable) like an ```ArrayList```, make sure not to modify the parts that affect
 ```equals()``` or ```hashCode()```, or the ```HashMap``` might not find your key anymore!
 
-Just keep in mind: no matter if your object is immutable or mutable, you must override
+So keep in mind: no matter if your object is immutable or mutable, you must override
 ```equals()``` and ```hashCode()``` in a consistent way.
 
 ## Basic HashMap Usage
@@ -163,6 +163,8 @@ Resources:
 
 [^1]: https://docs.oracle.com/javase/8/docs/api/java/util/Map.Entry.html
 [^2]: https://tecadmin.net/java-hashmap-get-value-from-key/
+[^3]: https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
+[^4]: https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html
 
 If you try to get a phobia
 that has not been introduced into this particular phobias map
