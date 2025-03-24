@@ -90,10 +90,10 @@ what you would do is put the key and value pairs into a map and then retrieve th
 ## How do HashMaps handle mutable vs. immutable objects?
 
 In Java, any object you use as a key for a ```HashMap``` needs to have an ```equals()```
-and ```hashCode()``` that match up correctly--this is called being **hashable**.
+and ```hashCode()``` that match up correctly--this is called being **hashable** [^3].
 Immutable objects (like ```Strings```)
 are usually better as keys because they don’t change once created,
-so their ```equals()``` and ```hashCode()``` never change either.
+so their ```equals()``` and ```hashCode()``` never change either [^4].
 If you use objects that can change (*mutable*) like an ```ArrayList```,
 make sure not to modify the parts that affect ```equals()``` or ```hashCode()```,
 or the ```HashMap``` might not find your key anymore!
