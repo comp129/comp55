@@ -90,7 +90,7 @@ what you would do is put the key and value pairs into a map and then retrieve th
 ## How do HashMaps handle mutable vs. immutable objects?
 
 In Java, any object you use as a key for a ```HashMap``` needs to have an ```equals()```
-and ```hashCode()``` that match up correctly--this is called being **hashable** [^3].
+and ```hashCode()``` that match up correctly—this is called being **hashable** [^3].
 Immutable objects (like ```Strings```)
 are usually better as keys because they don’t change once created,
 so their ```equals()``` and ```hashCode()``` never change either [^4].
