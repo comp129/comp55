@@ -154,7 +154,7 @@ void printList(ArrayList<String> list) {
 }
 ```
 
-To learn more in-depth about the differences between Arrays and ArrayLists, [click here](https://www.geeksforgeeks.org/java/array-vs-arraylist-in-java/).
+To learn more in-depth about the differences between Arrays and ArrayLists, [click here](https://ruby-doc.org/blog/difference-between-array-and-arraylist-in-java/).
 
 ## **Completing this mini-lab**
 
