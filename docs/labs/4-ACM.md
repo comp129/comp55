@@ -521,3 +521,72 @@ that we didn't go over
 
 You can find out more about those and other items in the graphics library by visiting:
 <https://cs.stanford.edu/people/eroberts/jtf/javadoc/student/acm/graphics/package-summary.html>
+
+## Some Tips and Tricks
+How to get the program window to fill the screen size:
+``` java
+// Get the maximum usable screen space (so excluding the taskbar/dock or other unusable screen space)
+GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+Rectangle bounds = ge.getMaximumWindowBounds();
+
+ // These should be used instead of PROG_WIDTH and PROG_HEIGHT
+WINDOW_WIDTH = bounds.width;
+WINDOW_HEIGHT = bounds.height; 
+```
+
+This can be done in the a `static` block at the top of your class, and then you can use `WINDOW_WIDTH` and `WINDOW_HEIGHT` instead of the constants for the program width and height.
+
+```java
+public class ACMLab extends GraphicsProgram {
+    public static final int WINDOW_WIDTH;
+    public static final int WINDOW_HEIGHT;
+
+    static {
+        // Get the maximum usable screen space (so excluding the taskbar/dock or other unusable screen space)
+        GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+        Rectangle bounds = ge.getMaximumWindowBounds();
+
+        // These should be used instead of PROG_WIDTH and PROG_HEIGHT
+        WINDOW_WIDTH = bounds.width;
+        WINDOW_HEIGHT = bounds.height; 
+    }
+    
+    public  void init() {
+        setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+        // rest of your code...
+    }
+
+    // rest of your code...
+}
+```
+
+You can then access `WINDOW_WIDTH` and `WINDOW_HEIGHT` anywhere in your code to get the dimensions of the program window.
+This would be useful to have your objects be dynamically positioned so the layout will be consistent.
+Depending on the system you are on the top bar of the program window may take up some of the screen space, so you may want to add some additional y padding to make sure your objects don't get cut off.
+
+Example of positioning a label in the center and corners of the screen:
+```java
+int padding = 20; // The default padding from the edges
+int yPadding = 30; // May need to slightly increase the padding for vertical paddings
+GLabel centerLabel = new GLabel("Center", 0, 0);
+        centerLabel.setLocation((WINDOW_WIDTH - centerLabel.getWidth()) / 2, (WINDOW_HEIGHT + centerLabel.getHeight()) / 2);
+add(centerLabel);
+
+GLabel topLeftLabel = new GLabel("Top Left", 0, 0);
+        topLeftLabel.setLocation(padding, yPadding);
+add(topLeftLabel);
+
+GLabel topRightLabel = new GLabel("Top Right", 0, 0);
+        topRightLabel.setLocation(WINDOW_WIDTH - topRightLabel.getWidth() - padding, yPadding);
+add(topRightLabel);
+
+GLabel bottomLeftLabel = new GLabel("Bottom Left", 0, 0);
+        bottomLeftLabel.setLocation(padding, WINDOW_HEIGHT - bottomLeftLabel.getHeight() - yPadding);
+add(bottomLeftLabel);
+
+GLabel bottomRightLabel = new GLabel("Bottom Right", 0, 0);
+        bottomRightLabel.setLocation(WINDOW_WIDTH - bottomRightLabel.getWidth() - padding, WINDOW_HEIGHT - bottomRightLabel.getHeight() - yPadding);
+add(bottomRightLabel);
+```
+
+![Example of dynamic positioning](docs/labs/lab4media/media/image6.png)
