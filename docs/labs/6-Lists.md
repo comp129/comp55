@@ -154,7 +154,7 @@ void printList(ArrayList<String> list) {
 }
 ```
 
-For more in-dpeth information about the differences between Arrays and ArrayLists, [click here](https://www.w3schools.blog/difference-between-array-and-arraylist-in-java).
+To learn more in-depth about the differences between Arrays and ArrayLists, [click here](https://www.w3schools.blog/difference-between-array-and-arraylist-in-java).
 
 ## **Completing this mini-lab**
 
@@ -242,8 +242,8 @@ Just like you did in creating multiple GOvals,
 the trick with making all the balls move is to go through the list and call ```move``` on each one.
 You can do this
 **by surrounding the code that moves ```ball``` and changes the direction inside of a for loop**.
-Because it's very common to iterate through a list,
-Java has provided an alternate loop syntax for cycling through a list.
+Since iterating through a list is so common in Java,
+an alternative loop syntax is provided for cycling through one.
 
 ```java
 for(Elem e:list) {
@@ -290,7 +290,7 @@ Once you do that,
 you may notice other errors that pop up.
 Those should be indications of places where you should work with the local variable.
 For example,
-one such error that you should come in is from outOfBounds()
+one such error you'll encounter comes from outOfBounds()
 
 When you run the program,
 you'll notice that the balls are all moving in the same direction and don't work independently.
