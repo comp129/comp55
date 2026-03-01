@@ -533,11 +533,11 @@ Rectangle bounds = ge.getMaximumWindowBounds();
 
 // These should be used instead of PROG_WIDTH and PROG_HEIGHT
 WINDOW_WIDTH = bounds.width;
-WINDOW_HEIGHT = bounds.height; 
+WINDOW_HEIGHT = bounds.height;
 ```
 
-This can be done in the a `static` block at the top of your class, 
-and then you can use `WINDOW_WIDTH` and `WINDOW_HEIGHT` instead of the constants 
+This can be done in the a `static` block at the top of your class,
+and then you can use `WINDOW_WIDTH` and `WINDOW_HEIGHT` instead of the constants
 for the program width and height.
 
 ```java
@@ -598,4 +598,4 @@ bottomRightLabel.setLocation(WINDOW_WIDTH - bottomRightLabel.getWidth() - paddin
 add(bottomRightLabel);
 ```
 
-![Example of dynamic positioning](docs/labs/lab4media/media/image6.png)
+![Example of dynamic positioning](lab4media/media/image6.png)
