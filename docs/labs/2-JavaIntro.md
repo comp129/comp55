@@ -156,11 +156,13 @@ to see what the error the program is mentioning, which is the
 Remember that **constructors** are a special set of instructions (like a method)
 that one could use to help set up a fraction.
 Below is a visualization of what this would look like:
+
 ```java
     public Fraction(int value, int value2) { /*<-- Parameters*/
         //Code to set up fraction creation
     }
 ```
+
 In this case, when we would like to say something like ```new Fraction(3, 4)```,
 it should use the 3 and the 4 passed in and set the numerator and denominator to those int values.
 The fact that we will represent a fraction as two numbers
