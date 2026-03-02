@@ -409,6 +409,11 @@ image.setSize(400, 400);
 add(image);
 ```
 
+> When referenecing image paths, you can copy them from you Resources folder.
+> With the image selected pres Alt and Enter and selcted the path manually.
+> As with simple Copy and Paste you wont get the full path.
+> ![Clara Salazar Edit Issue #124](https://github.com/user-attachments/assets/f6a91f21-2b0e-443d-9ee8-1fbff3901762)
+
 ## Step 6: Applying Color
 
 Once you have created your shape or image,
