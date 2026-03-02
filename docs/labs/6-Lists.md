@@ -324,7 +324,7 @@ into ```outOfBounds``` called ```ball```,
 then you should be good to go.
 
 Now, if you want the balls to move with random velocities, you can use a ```RandomGenerator```.
-Similar to how you used ```nextColor()``` to return a random color, 
+Similar to how you used ```nextColor()``` to return a random color,
 you can use a method called ```nextInt(low, high)```
 to generate a random number between a low and high.
 So you could use this for the x and y velocities of each ball.
