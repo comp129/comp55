@@ -330,4 +330,5 @@ you can use a method called ```nextInt(low, high)```
 to generate a random number between a low and high.
 So you could use this for the x and y velocities of each ball.
 
-Let me know if you have any questions. Good luck!
+Let me know if you have any questions.
+Good luck!
