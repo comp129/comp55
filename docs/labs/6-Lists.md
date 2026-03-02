@@ -311,7 +311,7 @@ that means that each ball will need its own ```xVelocity``` and ```yVelocity```.
 
 Your intuition might say to create a ```Ball```
 class that contains a ```x``` and ```y```
-velocity, as well as a ```GOval```, and that would be correct.
+velocity as well as a ```GOval```, and that would be correct.
 But for this lab,
 you could just use parallel ```ArrayLists``` for ```xVelocities```
 and ```yVelocities```.
