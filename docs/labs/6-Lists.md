@@ -229,7 +229,9 @@ you would replace the ```3``` in the previous line with ```NUM_BALLS + 1```*.
 Then we need to have the ```for``` loop start at one and go to three
 (which is ```NUM_BALLS + 1```).
 
-- ```(i*(WINDOW_WIDTH/NUM_BALLS + 1)) – BALL_SIZE/2```
+```java
+(i*(WINDOW_WIDTH/NUM_BALLS + 1)) – BALL_SIZE/2
+```
 
 By doing this,
 When we change the x position using the loop, the balls are placed in different locations.
