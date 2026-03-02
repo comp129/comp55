@@ -228,9 +228,14 @@ to:
 you would replace the ```3``` in the previous line with ```NUM_BALLS + 1```*.
 Then we need to have the ```for``` loop start at one and go to three
 (which is ```NUM_BALLS + 1```).
+
+- ```(i*(WINDOW_WIDTH/NUM_BALLS + 1)) – BALL_SIZE/2```
+
 By doing this,
-it would place the first ball at 1/3 of the width of the window
-and the second ball and 2/3 of the width of the window.
+When we change the x position using the loop, the balls are placed in different locations.
+
+For example, if there are two balls. The first ball starts at 1/3 of the window width, whereas the second ball starts at 2/3 of the window width.
+Now the balls should not start on top of each other.
 Run the program again and the two balls should now start at different positions.
 However, only one ball is moving and eventually for a little bit they overlap.
 If we make all balls move however now that they are spread out,
