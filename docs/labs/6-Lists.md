@@ -318,7 +318,8 @@ and ```yVelocities```.
 
 With that approach, you'll likely want to use the generalized version of a ```for```
 loop that tracks an index variable (```i```)
-so that you can link a particular ```GOval``` with a ```xVelocity``` and ```yVelocity``` pair.
+so that you can link a particular ```GOval```
+with a ```xVelocity``` and ```yVelocity``` pair.
 If you do this while passing in a ```Goval```
 into ```outOfBounds``` called ```ball```,
 then you should be good to go.
