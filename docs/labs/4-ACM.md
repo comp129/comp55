@@ -23,6 +23,7 @@
     - [Some things You May Want To Know](#some-things-you-may-want-to-know)
 - [(Optional) Step 8: Extra Material](#optional-step-8-extra-material)
     - [If you're done with that and what to create more complicated drawings](#if-youre-done-with-that-and-what-to-create-more-complicated-drawings)
+- [Some Tips and Tricks](#some-tips-and-tricks)
 
 ## Introduction
 
