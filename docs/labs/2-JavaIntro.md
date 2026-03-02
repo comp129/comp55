@@ -164,7 +164,8 @@ Below is a visualization of what this would look like:
 ```
 
 In this case, when we would like to say something like ```new Fraction(3, 4)```,
-it should use the 3 and the 4 passed in and set the numerator and denominator to those int values.
+it should use the `3` and the `4` passed in
+and set the numerator and denominator to those `int` values.
 The fact that we will represent a fraction as two numbers
 (even though it is a single number)
 is an example of the object-oriented principle **abstraction**.
