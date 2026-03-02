@@ -234,8 +234,8 @@ Then we need to have the ```for``` loop start at one and go to three
 By doing this,
 When we change the x position using the loop, the balls are placed in different locations.
 
-For example, if there are two balls. The first ball starts 
-at 1/3 of the window width, whereas the second ball starts at 
+For example, if there are two balls. The first ball starts
+at 1/3 of the window width, whereas the second ball starts at
 2/3 of the window width.
 Now the balls should not start on top of each other.
 Run the program again, and the two balls should now start at different positions.
