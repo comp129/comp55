@@ -526,16 +526,6 @@ You can find out more about those and other items in the graphics library by vis
 
 How to get the program window to fill the screen size:
 
-``` java
-// Get the maximum usable screen space (so excluding the taskbar/dock or other unusable screen space)
-GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-Rectangle bounds = ge.getMaximumWindowBounds();
-
-// These should be used instead of PROG_WIDTH and PROG_HEIGHT
-WINDOW_WIDTH = bounds.width;
-WINDOW_HEIGHT = bounds.height;
-```
-
 This can be done in the a `static` block at the top of your class,
 and then you can use `WINDOW_WIDTH` and `WINDOW_HEIGHT` instead of the constants
 for the program width and height.
@@ -564,13 +554,13 @@ public class ACMLab extends GraphicsProgram {
 }
 ```
 
-You can then access `WINDOW_WIDTH` and `WINDOW_HEIGHT` anywhere in your code to get
-the dimensions of the program window.
-This would be useful to have your objects be dynamically positioned so the layout will
-be consistent.
-Depending on the system you are on the top bar of the program window may take up some
-of the screen space, so you may want to add some additional y padding to make sure your
-objects don't get cut off.
+You can then access `WINDOW_WIDTH` and `WINDOW_HEIGHT` anywhere in your code
+to get the dimensions of the program window.
+This would be useful to have your objects be dynamically positioned
+so the layout will be consistent.
+Depending on the system you are on,
+the top bar of the program window may take up some of the screen space,
+so you may want to add some additional `y` padding to make sure your objects don't get cut off.
 
 Example of positioning a label in the center and corners of the screen:
 
