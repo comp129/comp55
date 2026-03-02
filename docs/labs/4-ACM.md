@@ -562,7 +562,7 @@ Depending on the system you are on,
 the top bar of the program window may take up some of the screen space,
 so you may want to add some additional `y` padding to make sure your objects don't get cut off.
 
-Example of positioning a label in the center and corners of the screen:
+### Example of positioning a label in the center and corners of the screen:
 
 ```java
 int padding = 20; // The default padding from the edges
