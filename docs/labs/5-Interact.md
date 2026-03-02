@@ -588,7 +588,7 @@ but in this situation it's not needed.
 At this point you can submit the project,
 by submitting just the java files via canvas.
 
-## Bonus: Getting the object to bounce correctly
+## Bonus: Getting the object to bounce correctly / object spawns and continuation paths
 
 ---
 
@@ -623,4 +623,20 @@ Similar to the figure below.
 You should have enough now to make something somewhat interesting.
 Use the ```mouseMoved``` event handler to move a rectangle like a paddle,
 and then use ```getElementAt``` to see if you ever hit that other object.
+
+Another thing we must be aware of when creating movement is the path is takes,
+when it is no longer in the screen resolution.
+Some default libraies continue movement from one side of the map to the other,
+but in ACM this is not assumed. 
+To define this action you must include a couple things in your code.
+ 
+ if (ball.getX() > getWidth()) {
+            ball.setLocation(-BALL_SIZE, ball.getY()); 
+        }
+This code example creates a function that when a ball exits on the right side, 
+the ball spawns on the left side with the same trajectory.
+To explain other bonus simple movements check out this video,
+https://www.youtube.com/watch?v=70VuSGvcH78 
+(video time stamp 5:09-6:50)
+
 Good luck!
