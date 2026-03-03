@@ -139,7 +139,8 @@ public void run() {
     ball = new GOval(300, 300, BALL_SIZE, BALL_SIZE);
     add(ball);
 }
-``` 
+```
+
 ![Just a black ball](lab11media/media/step1ball.png)
 
 ### Animating the oval to move in a straight line
