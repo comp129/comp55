@@ -87,6 +87,20 @@ the value will be
 For a ```HashMap```,
 what you would do is put the key and value pairs into a map and then retrieve them in the future.
 
+## How do HashMaps handle mutable vs. immutable objects?
+
+In Java, any object you use as a key for a ```HashMap``` needs to have an ```equals()```
+and ```hashCode()``` that match up correctly—this is called being **hashable** [^3].
+Immutable objects (like ```Strings```)
+are usually better as keys because they don’t change once created,
+so their ```equals()``` and ```hashCode()``` never change either [^4].
+If you use objects that can change (*mutable*) like an ```ArrayList```,
+make sure not to modify the parts that affect ```equals()``` or ```hashCode()```,
+or the ```HashMap``` might not find your key anymore!
+
+So keep in mind: no matter if your object is immutable or mutable,
+***you must override ```equals()``` and ```hashCode()``` in a consistent way***.
+
 ## Basic HashMap Usage
 
 Like an ```ArrayList```,
@@ -140,7 +154,7 @@ import java.util.Map.Entry;
 
 String def = "the abnormal fear of work";
 for(Entry<String, String> entry : phobias.entrySet()){
-    if(entry.getValue() == def){
+    if(entry.getValue().equals(def)){
         String key = entry.getKey());
         // key now has the value "ergophobia"
     }
@@ -151,6 +165,8 @@ Resources:
 
 [^1]: https://docs.oracle.com/javase/8/docs/api/java/util/Map.Entry.html
 [^2]: https://tecadmin.net/java-hashmap-get-value-from-key/
+[^3]: https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
+[^4]: https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html
 
 If you try to get a phobia
 that has not been introduced into this particular phobias map
@@ -313,16 +329,16 @@ that I think can be done more nicely by using hashmaps.
 First study the code below.
 
 ```java
-if(state == "up") {
+if(state.equals("up")) {
     upOval.move(0, -5);
     sendMessage("north");
-}else if(state == "down") {
+}else if(state.equals("down")) {
     downOval.move(0, 3):
     sendMessage("south");
-}else if(state == "left") {
+}else if(state.equals("left")) {
     leftOval.move(-7, 0);
     sendMessage("west");
-}else if(state == "right") {
+}else if(state.equals("right")) {
     rightOval.move(8, 0);
     sendMessage("east");
 }
