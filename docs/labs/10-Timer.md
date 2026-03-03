@@ -20,7 +20,7 @@
 - [Final required addition](#final-required-addition)
 - [Advanced reading on multiple timers (Optional)](#advanced-reading-on-multiple-timers-optional)
 - [Bonus](#bonus)
-    - [*"Hey! This is almost a game!"*](#hey-this-is-almost-a-game)
+    - ["Hey! This is almost a game!"](#hey-this-is-almost-a-game)
 - [Bonus 2](#bonus-2)
     - [*"Hey! Want to go further?"*](#hey-want-to-go-further)
 
@@ -635,12 +635,15 @@ If you're curious,
 Read this at your own risk.
 
 ## Bonus
+
 ### *"Hey! This is almost a game!"*
+
 While this does not yet have the polish of some of the games you may
 tend to play,
 there are many things you can do to make it more polished.
 
 #### Cleaning Up Off-Screen Balls
+
 Right now, every ball that is launched continues to exist in the `balls` ArrayList
 even after it has flown off the right side of the screen.
 If you play the game for a long time,
@@ -733,7 +736,7 @@ in making your programs more dynamic and expressive.
 
 ## Bonus 2
 
-### *"Hey! Want to go further?"*
+### "Hey! Want to go further?"
 
 What if we want to create a ball launcher and
 move the location from which the balls are being launched up and down?
