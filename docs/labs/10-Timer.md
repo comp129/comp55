@@ -635,13 +635,50 @@ If you're curious,
 Read this at your own risk.
 
 ## Bonus
-
 ### *"Hey! This is almost a game!"*
-
 While this does not yet have the polish of some of the games you may
 tend to play,
 there are many things you can do to make it more polished.
-For example,
+
+#### Cleaning Up Off-Screen Balls
+Right now, every ball that is launched continues to exist in the `balls` ArrayList
+even after it has flown off the right side of the screen.
+If you play the game for a long time,
+this list grows indefinitely,
+and the program loops through and moves balls that aren't even visible anymore.
+This is wasteful and could eventually slow down your program.
+
+To fix this, after moving each ball,
+check if the ball's x coordinate is greater than `getWidth()`.
+If it is, the ball is off-screen
+and should be removed from both the screen (using `remove()`) and the `balls` ArrayList.
+
+**Important:** Remember that you cannot remove elements from an ArrayList
+while iterating over it with a for-each (`:`) loop —
+this will cause a `ConcurrentModificationException`,
+just like we discussed in the `pause()` note earlier.
+Instead, you can use a standard for loop and iterate **backwards** through the list,
+or collect the off-screen balls into a separate list first and remove them after the loop.
+
+Once you have this working, run the program
+and confirm that balls still move and disappear as expected.
+You won't see a visible difference,
+but behind the scenes your program is now cleaning up after itself.
+
+> **A Note on Object Pooling:**
+> What we just did, removing objects we no longer need, is a basic form of resource management.
+> In professional game development, there is a common design pattern called **object pooling**.
+> Instead of constantly creating new ball objects and throwing them away when they go off-screen,
+> an object pool keeps a fixed set of reusable objects.
+> When a ball flies off-screen, rather than being deleted,
+> it gets "recycled" back into the pool and is ready to be reused
+> the next time the player launches a ball.
+> This avoids the overhead of repeatedly creating and destroying objects,
+> which can matter a lot in performance-sensitive applications like games.
+> You don't need to implement this for the lab,
+> but it's a useful concept to be aware of as you continue building more complex programs.
+
+Continuing,
 you could add a label that is continually updated or set in `actionPerformed`
 that would update the number of green squares that you have removed from the screen
 (see the version on the left).
