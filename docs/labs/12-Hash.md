@@ -282,8 +282,8 @@ Let's create the ```ArrayList``` first.
 
 ```java
 ArrayList<String> dustDefs = new ArrayList<String>();
-dustDefs.add("To take away fine particles");
-dustDefs.add("To add particles");
+dustDefs.constants.add("To take away fine particles");
+dustDefs.constants.add("To add particles");
 ```
 
 Now to create this linkage in a map,
