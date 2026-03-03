@@ -129,6 +129,17 @@ or anywhere and use ```BALL_SIZE``` as the width and height),
 make sure to ```add``` the ball to the screen.
 Run the program and make sure that you get a ball on the screen.
 
+### Example Code,
+```java
+    private static final int BALL_SIZE = 50;
+    private GOval ball;
+
+    public void run() {
+        ball = new GOval(300, 300, BALL_SIZE, BALL_SIZE);
+        add(ball);
+    }
+}
+``` 
 ![Just a black ball](lab11media/media/step1ball.png)
 
 ### Animating the oval to move in a straight line
@@ -267,6 +278,8 @@ which represents the fully intense blue component of the color)
 
 ![HTML Color picker with blue selected](lab11media/media/image3.png)
 
+
+
 Click on a couple more of the colors and you'll notice that they will
 all end up being some combination of *red*, *green*, and *blue* values.
 This also happens with LED lighting,
@@ -292,7 +305,14 @@ some ideas are.
    You can then call ```setColor```
    on the ball with that new Color variable.
 
-2. In ```actionPerformed()```,
+   ### Code Example
+
+```java
+ball.setFilled(true);
+ball.setFillColor(new Color(128, 0, 128));  // Custom purple color
+```
+
+3. In ```actionPerformed()```,
    change the value slightly for the first value (red),
    so that it gradually increments from black to red.
    If you get an ```IllegalArgumentException```,
@@ -300,13 +320,13 @@ some ideas are.
    we will change that in the next part.
    Remember baby steps!
 
-3. Have it so that you cycle back to zero to get out of the ```IllegalArgumentException```
+4. Have it so that you cycle back to zero to get out of the ```IllegalArgumentException```
    (this happens when you provide a value outside of the 255 range)
 
-4. Comment out the ```setColor``` call and introduce a ```println``` statement
+5. Comment out the ```setColor``` call and introduce a ```println``` statement
     where you print out the one value and comment out the ```setColor``` statement
 
-5. Get the program to print out values from 0 to 3 and then back down to 0 in a zig-zag format
+6. Get the program to print out values from 0 to 3 and then back down to 0 in a zig-zag format
     (if you want to be fancy,
     you can do this without an if statement at all
     - to try this,
@@ -323,10 +343,10 @@ some ideas are.
     It doesn't matter what it starts with,
     just as long as it keeps moving back and forth between 3 and 0 and doesn't go past that.
 
-6. Change your ```println``` statements so that they go from 0 to 255 and then back down to 0.
+7. Change your ```println``` statements so that they go from 0 to 255 and then back down to 0.
     Run it long enough that you can check to make sure that you don't go past 0 or 255.
 
-7. Use the calculation or value that you have
+8. Use the calculation or value that you have
    that is being printed and place that in your ```setColor``` instead,
    which you may comment out now.
    This should have it now move back and forth
@@ -334,10 +354,10 @@ some ideas are.
    Running the program again should have it move between black and red
    and black and red continuously without crashing.
 
-8. Do that with the green and blue values,
+9. Do that with the green and blue values,
    which will have it move from black to white to black
 
-9. Change the values in green and blue so that they start at a different starting point.
+10. Change the values in green and blue so that they start at a different starting point.
     Since it's a collection of red green and blue values,
     have them all independently move,
     but have them start at different starting points for the colors
