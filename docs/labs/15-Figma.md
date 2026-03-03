@@ -150,7 +150,7 @@ make them look different.
 
 After clicking on the rectangle you can access the properties on the right side.
 
-![Figma Properties panel showing Constrains, Layer and Design Properties](lab15media/figma-lab-properties-panel2.png)
+![Figma Properties panel showing Constrains, Layer and Design Properties](lab15media/figma-lab-properties-panel2.png) 
 
 For the corners option, you can select the option to the right of the
 curved line and switch that to *`20`*.
