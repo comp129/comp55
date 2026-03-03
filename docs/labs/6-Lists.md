@@ -27,7 +27,7 @@ You've been warned.
 ```ArrayList``` is a special Java collection that makes keeping track of multiple items
 (what we normally use Arrays for)
 much *MUCH* easier.
-```ArrayList```s are similar to ```Vector``` in C++ in that they:
+`ArrayList`s behave similarly to dynamic arrays (such as C++'s `std::vector`) in that they:
 
 - Don't have some absolute size limit like arrays,
   they just keep growing as you add more items.
