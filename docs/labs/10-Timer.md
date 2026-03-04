@@ -757,3 +757,6 @@ based on the keys input given by the player.
 (Hint: `keyCode` for up arrow key is `VK_UP` and for down arrow key is `VK_DOWN`)
 
 ![keyListener](https://user-images.githubusercontent.com/114448502/223673022-b43d3418-bede-46af-973a-29a0965b9f06.gif)
+(Hint: `keyCode` for up arrow key is `VK_UP` and for down arrow key is `VK_DOWN`)
+
+![keyListener](https://user-images.githubusercontent.com/114448502/223673022-b43d3418-bede-46af-973a-29a0965b9f06.gif)
