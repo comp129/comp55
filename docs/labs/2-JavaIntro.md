@@ -112,13 +112,15 @@ that would be relevant are including the main method stub (1<sup>st</sup> checkb
 Unlike in C++,
 where you can have just one main class,
 *Java allows each class to have its own ```main``` method*.
-Then rather than just saying that you want to run the project,
+
+So, instead of having to run the entire project for testing,
 you can run any class that has a ```main``` method.
 This is useful when you want to test a particular class.
 In our scenario,
 the entire ```main``` method *could* be copied into the **Fraction** class
 and then we would eliminate the need for **TestFraction**
 (but we won't copy it over there for this lab).
+
 When you do have more than one ```main``` method in a project,
 to run a particular ```main``` you can just right-click on the java file
 whose ```main``` method you want to run and then go to -
@@ -137,23 +139,37 @@ While normally I would have you write out the code.
 In this situation,
 I'm going to provide you with a little bit of help initially
 so that you feel more comfortable getting started with Java.
+
 Eclipse is extremely powerful in helping you generate Java code
 so you don't have to worry about the syntax as much.
 As long as you understand the concepts,
 you will be able to go to any problem in the problems window,
 right-click on it,
 and then hit the *Quick fix* to see if any of the fixes make sense.
+
 For example,
 let's go back down to the Problems Pane
 to see what the error the program is mentioning, which is the
+
 *constructor Fraction(int, int) is undefined*.
+
 Remember that **constructors** are a special set of instructions (like a method)
 that one could use to help set up a fraction.
+Below is a visualization of what this would look like:
+
+```java
+    public Fraction(int value, int value2) { /*<-- Parameters*/
+        //Code to set up fraction creation
+    }
+```
+
 In this case, when we would like to say something like ```new Fraction(3, 4)```,
-it should use the 3 and the 4 passed in and set the numerator and denominator to those values.
+it should use the `3` and the `4` passed in
+and set the numerator and denominator to those `int` values.
 The fact that we will represent a fraction as two numbers
 (even though it is a single number)
 is an example of the object-oriented principle **abstraction**.
+
 In this scenario,
 we are finding a way of representing some data
 and working with it in a general
@@ -191,6 +207,7 @@ notice that any comments with ```TODO``` will have a blue checkbox on the left s
 ![blue checkmark](lab2media/media/bluecheckleft.png) and a blue box on the right side of the file
 ![blue box](lab2media/media/blueboxright.png),
 so you can quickly scan a file and see what's left for you to complete.
+
 We know that as a constructor,
 we want to store the parameters into *instance variables* (AKA member variables).
 It makes sense to change the parameters **```i```** and **```j```**
