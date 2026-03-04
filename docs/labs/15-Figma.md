@@ -150,10 +150,10 @@ make them look different.
 
 After clicking on the rectangle you can access the properties on the right side.
 
-![Figma Properties panel showing Constrains, Layer and Design Properties](lab15media/figma-lab-properties-panel.png)
+![Figma Properties panel showing Constrains, Layer and Design Properties](lab15media/figma-lab-properties-panel2.png)
 
-For the corners option, you can select the option to the right of the
-curved line and switch that to *`20`*.
+For the corners option,
+select the *"Corner Radius"* option in Appearance and switch that to *`20`*.
 
 You'll immediately be able to see that the rectangle is now nicely
 rounded and not as sharp.

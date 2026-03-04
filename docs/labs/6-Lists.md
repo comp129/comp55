@@ -228,12 +228,21 @@ to:
 you would replace the ```3``` in the previous line with ```NUM_BALLS + 1```*.
 Then we need to have the ```for``` loop start at one and go to three
 (which is ```NUM_BALLS + 1```).
+
+```java
+(i*(WINDOW_WIDTH/NUM_BALLS + 1)) – BALL_SIZE/2
+```
+
 By doing this,
-it would place the first ball at 1/3 of the width of the window
-and the second ball and 2/3 of the width of the window.
-Run the program again and the two balls should now start at different positions.
-However, only one ball is moving and eventually for a little bit they overlap.
-If we make all balls move however now that they are spread out,
+When we change the x position using the loop, the balls are placed in different locations.
+
+For example, if there are two balls.
+The first ball starts at 1/3 of the window width,
+whereas the second ball starts at 2/3 of the window width.
+Now the balls should not start on top of each other.
+Run the program again, and the two balls should now start at different positions.
+However, only one ball is moving, and eventually, for a little bit, they overlap.
+If we make all balls move, however, now that they are spread out,
 we won't have them overlap anymore.
 
 ## **Making all balls move**
@@ -305,28 +314,30 @@ Just copy and paste the code into the editor into the canvas submission page for
 
 ## **Bonus: What? The balls don't move independently?! I gotta make them all bounce around the screen!!!**
 
-Well that's outside of the scope of learning about Arraylists for this lab.
-But to get each one to bounce around the screen,
+Well, that's outside of the scope of ArrayLists for this lab.
+But to get each ball to bounce around the screen,
 that means that each ball will need its own ```xVelocity``` and ```yVelocity```.
-One way to ensure that is to create a ```Ball```
-class so that each ball can store its own ```x``` and ```y```
-velocity as well as a ```GOval```,
-but for this lab,
-you could just make a parallel ```ArrayList``` for ```xVelocities```
-and another parallel ```ArrayList``` for ```yVelocities```.
-Doing so would probably mean
-that you would want to use the more generalized version of the ```for```
-loop that uses an ```i``` variable,
-so that you can use the same index (```i```)
-to link a particular ```GOval``` with an ```xVelocity``` and ```yVelocity``` if you'd want.
+
+Your intuition might say to create a ```Ball```
+class that contains a ```x``` and ```y```
+velocity as well as a ```GOval```, and that would be correct.
+But for this lab,
+you could just use parallel ```ArrayLists``` for ```xVelocities```
+and ```yVelocities```.
+
+With that approach, you'll likely want to use the generalized version of a ```for```
+loop that tracks an index variable (```i```)
+so that you can link a particular ```GOval```
+with a ```xVelocity``` and ```yVelocity``` pair.
 If you do this while passing in a ```Goval```
 into ```outOfBounds``` called ```ball```,
 then you should be good to go.
-You can also have them move in random locations by using a ```RandomGenerator```.
-This is the same as you have in this lab for asking for colors,
-but instead we'll use a method called ```nextInt(low, high)```
-to generate a random number between a low and high.
-This random generation could be used for the x and y velocity for each ball.
-Let me know if you have any questions.
 
+Now, if you want the balls to move with random velocities, you can use a ```RandomGenerator```.
+Similar to how you used ```nextColor()``` to return a random color,
+you can use a method called ```nextInt(low, high)```
+to generate a random number between a low and high.
+So you could use this for the x and y velocities of each ball.
+
+Let me know if you have any questions.
 Good luck!
