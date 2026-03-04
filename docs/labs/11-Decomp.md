@@ -368,7 +368,8 @@ some ideas are.
 
 ```java
 ball.setFilled(true);
-ball.setFillColor(new Color(128, 0, 128));  // Custom purple color
+Color purple = new Color(128, 0, 128);
+ball.setFillColor(purple);
 ```
 
 Programming projects can get quite large and unwieldy,
