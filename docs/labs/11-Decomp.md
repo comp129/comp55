@@ -129,6 +129,18 @@ or anywhere and use ```BALL_SIZE``` as the width and height),
 make sure to ```add``` the ball to the screen.
 Run the program and make sure that you get a ball on the screen.
 
+### Example Code
+
+```java
+private static final int BALL_SIZE = 50;
+private GOval ball;
+
+public void run() {
+    ball = new GOval(300, 300, BALL_SIZE, BALL_SIZE);
+    add(ball);
+}
+```
+
 ![Just a black ball](lab11media/media/step1ball.png)
 
 ### Animating the oval to move in a straight line
@@ -351,6 +363,14 @@ some ideas are.
     Good luck!
 
     ![console output of all the values alternating](lab11media/media/image5.png)
+
+### Code Example Custom Color
+
+```java
+ball.setFilled(true);
+Color purple = new Color(128, 0, 128);
+ball.setFillColor(purple);
+```
 
 Programming projects can get quite large and unwieldy,
 so much to the point that you may feel *frozen* as to where to begin.
