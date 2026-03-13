@@ -126,6 +126,8 @@ Usually, the exception will list the file and line number where the exception oc
 The lines also show a stack trace of who called which method,
 *so that a function on a lower line will be directly responsible
 for calling the line above it in that particular exception's case.*
+The stack trace acts as a roadmap, showing the sequence of method calls leading to the error.
+Examining each line can help trace the execution path and find where the problem started.
 Anything blue and underlined in the printout acts like hyperlinks,
 so clicking on them will immediately jump your editor to that file and line.
 Look at that top line of code in the stack trace at the top and identify what could be wrong.
@@ -343,6 +345,15 @@ Once selected, you can click on the option you want such as toogle breakpoint
 Now every time the program runs in debug mode,
 the program will run up until it reaches that point.
 
+Once you've set a breakpoint, you can manage it using the Breakpoints View in Eclipse.
+
+This view allows you to enable/disable breakpoints without removing them.
+You can also set conditional breakpoints, which will only trigger if a specific condition is met
+(e.g., when a variable reaches a certain value).
+To do this, right-click a breakpoint, select Breakpoint Properties, and enter your condition.
+If your program stops at an unexpected location,
+reviewing breakpoints in this view can help identify why.
+
 In this buggy fractions program,
 think about a particular place
 that would be good to set a breakpoint for where you think a bug is occurring,
@@ -350,6 +361,13 @@ go ahead and set that breakpoint,
 and then debug the program.
 
 Now your program will stop when it reaches that line.
+
+In addition to simple and conditional breakpoints, Eclipse provides:
+
+- Exception Breakpoints – pause execution whenever a specific exception is thrown,
+even if no explicit breakpoint is set. This is useful for debugging unexpected errors.
+- Watchpoints – break when a specific variable is read or modified.
+To set a watchpoint, right-click a variable declaration and select Toggle Watchpoint.
 
 **Problem 3) Provide a full eclipse screenshot
 that shows the program stopped at the line ```takeAction(option);```
